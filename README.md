@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Cipher
-=======
 [![Slack Status](https://join-cipher.herokuapp.com/badge.svg)](http://join-cipher.herokuapp.com)
 
 ------------------------------------------------------------------------------
@@ -19,13 +16,15 @@
 
 Cipher is a code-oriented community in the  [Peel Region](https://www.peelregion.ca). We run Circles, a weekly meetup for selected high schoolers, workshops across Peel, and [Campfire](http://campfire.projectcipher.io).
 
-We plan to do some dope stuff in the future with our content, but right now we're mostly focussed on building out and testing a ton of stuff this first year.
+Right now, we're focussed on building out and testing a ton of stuff this first year.
 
 ## Guides
 
 We have a ton of step-by-step guides we are working on adding/creating to help you create some sweet things.
 
-The plan is to create playlists with several guides to create a sort of curriculum. We want to take a modular approach to this. Our goals is to make this as well-documented as possible.
+Each of Cipher's guides will be follow a similar style. The main body is kept relevantly short for a focus on project-based learning. Detailed explanations, examples, and practice exercises can be found in [`DOCUMENTATION`](../guides/DOCUMENTATION.md), where a focus is put on the fundamental concepts.
+
+The plan is to create playlists with several guides to create a sort of curriculum. We will be taking a modular approach to this.
 
 ## Want to Help?
 
@@ -52,4 +51,3 @@ Our friends over at [Hack Club](https://hackclub.io) are building tools to ship 
 ## License
 
 Read [`LICENSE`](LICENSE.md).
->>>>>>> foundation
