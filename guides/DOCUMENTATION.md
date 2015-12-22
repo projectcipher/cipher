@@ -1,8 +1,8 @@
 # Documentation
 
-This is a documentation of key words used throughout Cipher's guides. It contains explanations, examples, and practice exercises.
+This is a documentation of keywords used throughout Cipher's guides. It contains explanations, examples, and practice exercises.
 
-Practice exercises are meant to test your newfound power after completing a guide. Run through them after completing one to nail concepts.
+Practice exercises are meant to test your newfound power after completing a guide. Run through them to nail concepts.
 
 ## Table of Contents
 
@@ -13,11 +13,13 @@ Practice exercises are meant to test your newfound power after completing a guid
   - [Integrated Development Environment](#integrated-development-environment-ide)
   - [Markdown](#markdown)
 
-# [Workspace Setup](workspace_setup/README.md)
+# Workspace Setup
+
+This [guide](workspace_setup/README.md) takes us through the setup process of our workspace!
 
 ## Version Control System (VCS)
 
-There are many _VCSs, short for Version Control System._ However, [Git](https://git.com) is the mostly widely used. [GitHub](https://github.com) plays a role in why it is so popular in programming culture.
+There are many _VCSs_, However, [Git](https://git.com) is the mostly widely used. [GitHub](https://github.com) plays a role in popularity. It has [this very cute mascot](http://spinnakr.com/blog/wp-content/uploads/2013/02/Original-Octocat.jpg).
 
 ### Explanation
 
