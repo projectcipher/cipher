@@ -1,19 +1,19 @@
 # Guides
 
-Welcome to Cipher's collection of guides! The community is constantly building new guides and polishing our existing content. Jump right in!
+Welcome to Cipher's collection of guides! The community is constantly building and polishing content. Jump right in!
 
 ## Playlists
 
-**Getting Started**
+**Getting Started** *get everything ready to roll*
 
-1. [Workspace Setup](workspace_setup/README.md)
+1. [Workspace Setup](workspace_setup/README.md) *setting up your coding enviroment*
 
 Many more coming soon.
 
 ## Errors?
 
-If you find any errors, let us know by filing it [here](https://github.com/projectcipher/cipher/issues/new).
+If you find any errors, let us know [here](https://github.com/projectcipher/cipher/issues/new).
 
 ## Want to Help?
 
-Checkout [`CONTRIBUTING`](../CONTRIBUTING) for details on how to help!
+Checkout [`CONTRIBUTING`](../CONTRIBUTING.md) for details on how to help!
