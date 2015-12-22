@@ -11,7 +11,7 @@ Note: When you see: **[GIF]**, this means the image below is a GIF -- a looping 
 ### Table of Contents
 
 1. [Git + GitHub](#git--github)
-2. [Cloud 9](#cloud-9-c9)
+2. [Cloud 9](#cloud-9)
 
 ## Git + GitHub
 
