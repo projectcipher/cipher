@@ -6,8 +6,8 @@ This guide will take you through the setup of two crucial tools that we need in 
 
 All of the guides will require the use of a workspace! The workspace consists of leveraging two tools:
 
-- [Git + GitHub](https://github.com)
-- [Cloud 9](https://c9/io)
+- [Git + GitHub](#git--github)
+- [Cloud 9](#cloud-9-c9)
 
 ## Git + GitHub
 
@@ -15,11 +15,11 @@ These two work in conjunction to allow our content to be posted online. This wil
 
 #### What is Git?
 
-[Git](https://git.com) is a [version control system](../guides/DOCUMENTATION.md).
+[Git](https://git.com) is a [version control system](../cipher/guides/DOCUMENTATION.md#version-control-system-vcs).
 
 #### What is GitHub?
 
-[GitHub](https://github.com/) is a [repository](../guides/DOCUMENTATION.md) hosting service. It provides a friendly way to manage [repositories](../guides/DOCUMENTATION.md) and [branches](../guides/DOCUMENTATION.MD) with an organized interface).
+[GitHub](https://github.com/) is a [repository](../cipher/guides/DOCUMENTATION.md#version-control-system-vcs) hosting service. It provides a friendly way to manage [repositories](../cipher/guides/DOCUMENTATION.md#repository) and [branches](../cipher/guides/DOCUMENTATION.md#branch) with an organized interface).
 
 ### How to Sign Up for a Github Account
 
@@ -51,7 +51,7 @@ This tool will enable us to write code in an appropriate enviroment.
 
 ### What is C9?
 
-C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment](../guides/DOCUMENTATION.md).
+C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment](../cipher/guides/DOCUMENTATION.md#integrated-development-environment-ide).
 
 Part of what makes C9 great is that it enables you to start programming with simply the internet and a browser. No installing software required!
 
@@ -61,7 +61,7 @@ This process is even faster than GitHub's because Cloud 9, _also known as C9,_ a
 
 #### 1. Navigate to http://c9.io
 
-  ![C9 page](img/C9.png)
+  ![C9 page](img/c9.png)
 
 #### 2. Log in using your GitHub account
 
@@ -83,7 +83,7 @@ Workspaces are where we will write our code! It is important to know how to crea
 
 #### 4. Delete default files
 
-C9 generates one file by default when we create a workspace. This file is a [markdown file](../guides/DOCUMENTATION.md).
+C9 generates one file by default when we create a workspace. This file is a [markdown file](../cipher/guides/DOCUMENTATION.md#markdown).
 
 We don’t need this file, so let's delete it:
 
@@ -99,10 +99,10 @@ We don’t need this file, so let's delete it:
 
 Congrats! You're set-up with the tools and knowledge to tackle our upcoming guides.
 
-Be sure to check out [`DOCUMENTATION`](../guides/DOCUMENTATION.md)for extended explanations, examples and practice on the content covered here.
+Be sure to check out [`DOCUMENTATION`](../cipher/guides/DOCUMENTATION.md)for extended explanations, examples and practice on the content covered here.
 
 Tweet us [@projectcipher](https://twitter.com/projectcipher) telling us how awesome you are for completing this!
 
-Constantly making this guide better is our priority, and you can help! If you found any problems or think something can be done better, [open an issue](https://github.com/projectcipher/cipher/issues/new). You could even read [`CONTRIBUTING`](../CONTRIBUTING.md) if you want to add something yourself!
+Constantly making this guide better is our priority, and you can help! If you found any problems or think something can be done better, [open an issue](https://github.com/projectcipher/cipher/issues/new). You could even read [`CONTRIBUTING`](../cipher/CONTRIBUTING.md) if you want to add something yourself!
 
 ![Kanye clapping](img/kanye_clapping.gif)
