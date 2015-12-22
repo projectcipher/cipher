@@ -45,7 +45,7 @@ Good news! This is a super easy process that wouldn't take too long.
 
 ## Cloud 9
 
-This tool will enable us to write code in an appropriate enviroment. The short-form for Cloud 9 is _C9_.
+This tool will enable us to write code in an appropriate enviroment. The short form for Cloud 9 is _C9_.
 
 ### What is Cloud 9?
 
@@ -89,7 +89,7 @@ We don’t need this file, so let's delete it:
     - The left bar is called the "directory"
   2. Click “Delete” on the pop-up menu
   3. Click “Yes” on the dialog box to confirm your deletion
-  4. Near the top of the page, click the "x" on the tab named "README.MD" to close the document
+  4. Near the top of the page, click the "x" on the tab named "README.md" to close the document
 
 ![C9 deletion](img/c9_deleting.gif)
 
