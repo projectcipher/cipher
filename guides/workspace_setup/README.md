@@ -1,14 +1,12 @@
 # Workspace Setup
 
-This guide will take you through the setup of two crucial tools that we need in order to take advantage of the rest of Cipher's guides.
+This guide will take us through the setup process of our workspace!
 
-## Introduction
-
-All of the guides will require the use of a workspace! The workspace consists of leveraging two tools: Github and Cloud 9.
+The workspace consists of two tools: Github and Cloud 9. These crucial tools are required to take advantage of the rest of Cipher's guides.
 
 Note: When you see: **[GIF]**, this means the image below is a GIF -- a looping video!
 
-### Table of Contents
+## Table of Contents
 
 1. [Git + GitHub](#git--github)
 2. [Cloud 9](#cloud-9)
@@ -103,7 +101,7 @@ We don’t need this file, so let's delete it:
 
 Congrats! You're setup with the tools and knowledge to tackle our upcoming guides.
 
-Be sure to check out [`DOCUMENTATION`](../DOCUMENTATION.md)for extended explanations, examples and practice on the content covered here.
+Be sure to check out [`DOCUMENTATION`](../DOCUMENTATION.md)for extended explanations, examples, and practice on the content covered here.
 
 Tweet us [@projectcipher](https://twitter.com/projectcipher) telling us how awesome you are for completing this!
 
