@@ -19,7 +19,7 @@ Practice exercises are meant to test your newfound power after completing a guid
 
 There are many _VSCs, short for Version Control System._ However, [Git](https://git.com) is one that is mostly widely used. [GitHub](https://github.com) plays a role in why Git is so popular in programming culture.
 
-## Explanation
+### Explanation
 
 A VCS tracks and manages changes to our code.
 
