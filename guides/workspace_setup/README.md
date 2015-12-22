@@ -4,10 +4,14 @@ This guide will take you through the setup of two crucial tools that we need in 
 
 ## Introduction
 
-All of the guides will require the use of a workspace! The workspace consists of leveraging two tools:
+All of the guides will require the use of a workspace! The workspace consists of leveraging two tools: Github and Cloud 9.
 
-- [Git + GitHub](#git--github)
-- [Cloud 9](#cloud-9-c9)
+When you see: **[GIF]**, this means the image below is a GIF -- a looping video!
+
+### Table of Contents
+
+1. [Git + GitHub](#git--github)
+2. [Cloud 9](#cloud-9-c9)
 
 ## Git + GitHub
 
@@ -45,25 +49,25 @@ Good news! This is a super easy process that wouldn't take too long.
 
   ![Github email](img/github_email.png)
 
-## Cloud 9 (C9)
+## Cloud 9
 
-This tool will enable us to write code in an appropriate enviroment.
+This tool will enable us to write code in an appropriate enviroment. The short-form for Cloud 9 is _C9_.
 
-### What is C9?
+### What is Cloud 9?
 
 C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment](../DOCUMENTATION.md#integrated-development-environment-ide).
 
 Part of what makes C9 great is that it enables you to start programming with simply the internet and a browser. No installing software required!
 
-### How to Sign Up for a C9 Account
+### How to Sign Up for a Cloud 9 Account
 
-This process is even faster than GitHub's because Cloud 9, _also known as C9,_ allows you to sign in via your GitHub account!
+This process is even faster than GitHub's because C9 allows you to sign in via your GitHub account!
 
 #### 1. Navigate to http://c9.io
 
   ![C9 page](img/c9.png)
 
-#### 2. Log in using your GitHub account
+#### 2. Log in using your GitHub account [GIF]
 
 ![C9 logging in](img/c9_logging_in.gif)
 
@@ -81,7 +85,7 @@ Workspaces are where we will write our code! It is important to know how to crea
 
 ![C9 creation 2](img/c9_workspace_creation_2.png)
 
-#### 4. Delete default files
+#### 4. Delete default files [GIF]
 
 C9 generates one file by default when we create a workspace. This file is a [markdown file](../DOCUMENTATION.md#markdown).
 
