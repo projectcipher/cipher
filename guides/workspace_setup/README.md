@@ -17,7 +17,7 @@ GitHub leverages [Git](https://git.com), a [version control system](../DOCUMENTA
 
 ### What is GitHub?
 
-[GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md#repository) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md#branch) with an organized interface).
+[GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md#repository) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md#branch) with an organized interface.
 
 ### How to Sign Up for a GitHub Account
 
