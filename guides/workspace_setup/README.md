@@ -6,7 +6,7 @@ This guide will take you through the setup of two crucial tools that we need in 
 
 All of the guides will require the use of a workspace! The workspace consists of leveraging two tools: Github and Cloud 9.
 
-When you see: **[GIF]**, this means the image below is a GIF -- a looping video!
+Note: When you see: **[GIF]**, this means the image below is a GIF -- a looping video!
 
 ### Table of Contents
 
