@@ -15,11 +15,11 @@ These two work in conjunction to allow our content to be posted online. This wil
 
 #### What is Git?
 
-[Git](https://git.com) is a [version control system](../cipher/guides/DOCUMENTATION.md#version-control-system-vcs).
+[Git](https://git.com) is a [version control system](../DOCUMENTATION.md.md#version-control-system-vcs).
 
 #### What is GitHub?
 
-[GitHub](https://github.com/) is a [repository](../cipher/guides/DOCUMENTATION.md#version-control-system-vcs) hosting service. It provides a friendly way to manage [repositories](../cipher/guides/DOCUMENTATION.md#repository) and [branches](../cipher/guides/DOCUMENTATION.md#branch) with an organized interface).
+[GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md.md#version-control-system-vcs) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md.md#branch) with an organized interface).
 
 ### How to Sign Up for a Github Account
 
@@ -51,7 +51,7 @@ This tool will enable us to write code in an appropriate enviroment.
 
 ### What is C9?
 
-C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment](../cipher/guides/DOCUMENTATION.md#integrated-development-environment-ide).
+C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment](../DOCUMENTATION.md.md#integrated-development-environment-ide).
 
 Part of what makes C9 great is that it enables you to start programming with simply the internet and a browser. No installing software required!
 
@@ -83,7 +83,7 @@ Workspaces are where we will write our code! It is important to know how to crea
 
 #### 4. Delete default files
 
-C9 generates one file by default when we create a workspace. This file is a [markdown file](../cipher/guides/DOCUMENTATION.md#markdown).
+C9 generates one file by default when we create a workspace. This file is a [markdown file](../DOCUMENTATION.md.md#markdown).
 
 We don’t need this file, so let's delete it:
 
@@ -99,7 +99,7 @@ We don’t need this file, so let's delete it:
 
 Congrats! You're set-up with the tools and knowledge to tackle our upcoming guides.
 
-Be sure to check out [`DOCUMENTATION`](../cipher/guides/DOCUMENTATION.md)for extended explanations, examples and practice on the content covered here.
+Be sure to check out [`DOCUMENTATION`](../DOCUMENTATION.md.md)for extended explanations, examples and practice on the content covered here.
 
 Tweet us [@projectcipher](https://twitter.com/projectcipher) telling us how awesome you are for completing this!
 
