@@ -22,7 +22,7 @@ Right now, we're focussed on building out and testing a ton of stuff this first 
 
 We have a ton of step-by-step guides we are working on adding/creating to help you create some sweet things.
 
-Each of Cipher's guides will be follow a similar style. The main body is kept relevantly short for a focus on project-based learning. Detailed explanations, examples, and practice exercises can be found in [`DOCUMENTATION`](../guides/DOCUMENTATION.md), where a focus is put on the fundamental concepts.
+Each of Cipher's guides will be follow a similar style. The main body is kept relevantly short for a focus on project-based learning. Detailed explanations, examples, and practice exercises can be found in [`DOCUMENTATION`](guides/DOCUMENTATION.md), where a focus is put on the fundamental concepts.
 
 The plan is to create playlists with several guides to create a sort of curriculum. We will be taking a modular approach to this.
 
