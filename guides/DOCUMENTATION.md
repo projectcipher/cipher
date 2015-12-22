@@ -17,7 +17,7 @@ Practice exercises are meant to test your newfound power after completing a guid
 
 ## Version Control System (VCS)
 
-There are many _VSCs, short for Version Control System._ However, [Git](https://git.com) is one that is mostly widely used. [GitHub](https://github.com) plays a role in why Git is so popular in programming culture.
+There are many _VCSs, short for Version Control System._ However, [Git](https://git.com) is the mostly widely used. [GitHub](https://github.com) plays a role in why it is so popular in programming culture.
 
 ### Explanation
 
@@ -27,7 +27,7 @@ A VCS tracks and manages changes to our code.
 
 Git has tools to show that it has detected a change in the file. Changes consist of anything we've added or removed from the file.
 
-Git also allows us to save the same files at different points in time. This enables us to look at our code's history from start to finish.
+Git also allows us to save the same files at different points in time. This enables us to look at our document's history from start to finish.
 
 If we make a mistake and it seems irreversible, we are capable of selecting a version of the file from back in time.
 
@@ -37,9 +37,9 @@ Let's say we are using Git with a Microsoft Word document.
 
 We have a file named story.doc.
 
-We write for 5 hours and save each hour. Each time we save, this overwrites our copy.
+We write for 5 hours and save each hour.
 
-With Git, it would instead create another version of the file in that point of time.
+Typically, each time we save, we would overwrite our document. Though, with Git, it would create another version of the file in that point of time.
 
 - Git hides these other versions so your folder doesn't get messy, but we can call on the others if need be.
   - Git treats every version of code as a "snapshot" that we can look back/
@@ -47,13 +47,15 @@ With Git, it would instead create another version of the file in that point of t
 
 ## Repository
 
-The short form is _"repo"_.
+The short form is _"repo"_ and is widely used. Coders don't have time for six extra letters.
 
 ### Explanation
 
 A repo is where project folders are stored. It can be compared to a master folder.
 
-It marks the beginning of the hierarchy. The repo never has a file within the first step -- files are always enclosed within a subfolder, sometimes multiple, called a branch.
+It marks the beginning of the hierarchy. The repo never has a file within its first step. Rather, there is a subfolder called a branch that encloses files.
+
+![Repo depiction](workspace_setup/img/repo.png)
 
 ### Example
 
@@ -67,12 +69,9 @@ In the top left, "Branch: master" declares the name of the subfolder. The four i
 
 Repos automatically create this subfolder (branch) called master in order to disallow from posting files without a subfolder.
 
-![Repo depiction](workspace_setup/img/repo.png)
-
-
 ### Practice Exercise
 
-*Warning: Complete this practice exercise after creating a GitHub Account. If you have yet to do this, please return to the [Workspace Setup guide](https://github.com/projetcipher/cipher/guides/workspace_setup/README.md).*
+*Warning: It is recommended that you complete this practice exercise after completing the Git + Github Guide. This guide is coming soon.*
 
 1. Create a repository on [Github](https://github.com).
 
@@ -139,7 +138,7 @@ Git has tools that allows the merging of changes, even if they occupy the same f
 
 ### Practice Exercise
 
-*Warning: Complete this practice exercise after creating a GitHub Account. If you have yet to do this, please return to the [Workspace Setup guide](https://github.com/projetcipher/cipher/guides/workspace_setup/README.md).*
+*Warning: It is recommended that you complete this practice exercise after completing the Git + Github Guide. This guide is coming soon.*
 
 1. Using the repository created in our last practice exercise, create a new branch.
 
