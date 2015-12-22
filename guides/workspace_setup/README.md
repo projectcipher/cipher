@@ -13,11 +13,11 @@ All of the guides will require the use of a workspace! The workspace consists of
 
 These two work in conjunction to allow our content to be posted online. This will enable the creation of custom web addresses/URLs for our projects, which will be sharable with friends and family!
 
-#### What is Git?
+### What is Git?
 
 [Git](https://git.com) is a [version control system](../DOCUMENTATION.md#version-control-system-vcs).
 
-#### What is GitHub?
+### What is GitHub?
 
 [GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md#repository) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md#branch) with an organized interface).
 
