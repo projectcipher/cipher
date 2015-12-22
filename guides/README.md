@@ -4,9 +4,9 @@ Welcome to Cipher's collection of guides! The community is constantly building a
 
 ## Playlists
 
-**Getting Started** *get everything ready to roll*
+**Getting Started** - *get everything ready to roll*
 
-1. [Workspace Setup](workspace_setup/README.md) *setting up your coding enviroment*
+1. [Workspace Setup](workspace_setup/README.md) - *setting up your coding enviroment*
 
 Many more coming soon.
 
