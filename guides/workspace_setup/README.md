@@ -2,28 +2,24 @@
 
 This guide will take us through the setup process of our workspace!
 
-The workspace consists of two tools: Github and Cloud 9. These crucial tools are required to take advantage of the rest of Cipher's guides.
+The workspace consists of two tools: GitHub and Cloud 9. These crucial tools are required to take advantage of the rest of Cipher's guides.
 
 Note: When you see: **[GIF]**, this means the image below is a GIF -- a looping video!
 
 ## Table of Contents
 
-1. [Git + GitHub](#git--github)
+1. [GitHub](#github)
 2. [Cloud 9](#cloud-9)
 
-## Git + GitHub
+## GitHub
 
-These two work in conjunction to allow our content to be posted online. This will enable the creation of custom web addresses/URLs for our projects, which will be sharable with friends and family!
-
-### What is Git?
-
-[Git](https://git.com) is a [version control system](../DOCUMENTATION.md#version-control-system-vcs).
+GitHub leverages [Git](https://git.com), a [version control system](../DOCUMENTATION.md#version-control-system-vcs), to post our content online. This enables the creation of custom web addresses/URLs for our projects, which are sharable with friends and family!
 
 ### What is GitHub?
 
 [GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md#repository) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md#branch) with an organized interface).
 
-### How to Sign Up for a Github Account
+### How to Sign Up for a GitHub Account
 
 Good news! This is a super easy process that wouldn't take too long.
 
