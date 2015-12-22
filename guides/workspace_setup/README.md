@@ -97,7 +97,7 @@ We don’t need this file, so let's delete it:
 
 ## Closing
 
-Congrats! You're set-up with the tools and knowledge to tackle our upcoming guides.
+Congrats! You're setup with the tools and knowledge to tackle our upcoming guides.
 
 Be sure to check out [`DOCUMENTATION`](../DOCUMENTATION.md)for extended explanations, examples and practice on the content covered here.
 
