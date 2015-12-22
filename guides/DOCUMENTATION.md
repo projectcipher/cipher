@@ -4,13 +4,22 @@ This is a documentation of key words used throughout Cipher's guides. It contain
 
 Practice exercises are meant to test your newfound power after completing a guide. Run through them after completing one to nail concepts.
 
-## [Workspace Setup](workspace_setup/README.md)
+## Table of Contents
 
-### Version Control System (VCS)
+1. [Workspace Setup](#workspace-setup)
+  - [Version Control System (VSC)](#version-control-system-vcs)
+  - [Repository](#repository)
+  - [Branch](#branch)
+  - [Integrated Development Environment](#integrated-development-environment-ide)
+  - [Markdown](#markdown)
+
+# [Workspace Setup](workspace_setup/README.md)
+
+## Version Control System (VCS)
 
 There are many _VSCs, short for Version Control System._ However, [Git](https://git.com) is one that is mostly widely used. [GitHub](https://github.com) plays a role in why Git is so popular in programming culture.
 
-#### Explanation
+## Explanation
 
 A VCS tracks and manages changes to our code.
 
@@ -22,7 +31,7 @@ Git also allows us to save the same files at different points in time. This enab
 
 If we make a mistake and it seems irreversible, we are capable of selecting a version of the file from back in time.
 
-#### Example
+### Example
 
 Let's say we are using Git with a Microsoft Word document.
 
@@ -36,17 +45,17 @@ With Git, it would instead create another version of the file in that point of t
   - Git treats every version of code as a "snapshot" that we can look back/
   revert to at anytime.
 
-### Repository
+## Repository
 
 The short form is _"repo"_.
 
-#### Explanation
+### Explanation
 
 A repo is where project folders are stored. It can be compared to a master folder.
 
 It marks the beginning of the hierarchy. The repo never has a file within the first step -- files are always enclosed within a subfolder, sometimes multiple, called a branch.
 
-#### Example
+### Example
 
 [Cipher's collection of content](https://github.com/projectcipher/cipher) is a repo. It acts as a master folder containing the subfolder (branch), master.
 
@@ -61,7 +70,7 @@ Repos automatically create this subfolder (branch) called master in order to dis
 ![Repo depiction](workspace_setup/img/repo.png)
 
 
-#### Practice Exercise
+### Practice Exercise
 
 *Warning: Complete this practice exercise after creating a GitHub Account. If you have yet to do this, please return to the [Workspace Setup guide](https://github.com/projetcipher/cipher/guides/workspace_setup/README.md).*
 
@@ -75,11 +84,11 @@ Repos automatically create this subfolder (branch) called master in order to dis
 
 5. Tweet [@projectcipher](https://twitter.com/projectcipher) with your success!
 
-### Branch
+## Branch
 
 We've already mentioned branches and that they are comparable to subfolders! Let's take a closer took.
 
-#### Explanation
+### Explanation
 
 It's similar to a folder inside of a repo where files are stored.
 
@@ -93,7 +102,7 @@ Working on different branches is [the key](http://www.theydontwantyouto.win) to 
 
 ![Repo depiction](workspace_setup/img/branch.png)
 
-###### The Master Branch
+##### The Master Branch
 
 This is considered the  main branch. It's so important, Git creates this branch automatically!
 
@@ -103,7 +112,7 @@ This is only for final drafts of files, or where coders (you!) merge their final
 
 Think of "master" as the tree trunk and "feature" as a literal branch
 
-#### Example - Why Branches
+### Example - Why Branches
 
 Bob & John are working on one repo and the same files at the same time:
 
@@ -118,7 +127,7 @@ An better alternative:
 
 - Work on their own work and bring them together when they are done.
 
-#### Example - Branch Merging
+### Example - Branch Merging
 
 Bob is working on the main.css file for the tool bar
 
@@ -128,7 +137,7 @@ We don't want them overlapping each other's code. Rather they should make change
 
 Git has tools that allows the merging of changes, even if they occupy the same file and lines.
 
-#### Practice Exercise
+### Practice Exercise
 
 *Warning: Complete this practice exercise after creating a GitHub Account. If you have yet to do this, please return to the [Workspace Setup guide](https://github.com/projetcipher/cipher/guides/workspace_setup/README.md).*
 
@@ -138,15 +147,15 @@ Git has tools that allows the merging of changes, even if they occupy the same f
 
 3. Tweet [@projectcipher](https://twitter.com/projectcipher) with your success!
 
-### Integrated Development Environment (IDE)
+## Integrated Development Environment (IDE)
 
 This is a powerful tool that will aid us in writing code.
 
-#### Explanation
+### Explanation
 
 An IDE is an application that facilitates application development (coding). It is a workspace designed to aid a coder (you!) in building applications in an environment with useful tools to aid/quicken the process.
 
-#### Example
+### Example
 
 We can compare C9, our IDE for writing code, to Microsoft Word.
 
@@ -164,15 +173,15 @@ Some tools are:
 - Syntax highlighting
 - Debugging software
 
-#### Side Note
+### Side Note
 
 Believe it or not, we can actually write some code inside of Word, but this is not advised. C9 is a much better alternative because of the tools it provides in its IDE.
 
-### Markdown
+## Markdown
 
 Markdown files are often seen as README.md, just like the one C9 automatically generates for us when we create a workspace.
 
-#### Explanation
+### Explanation
 
 Markdown is used to style text on the web. It allows us to control the display of a document. Bolding, italicizing, adding images, and creating lists are just a few of the things that are capable with Markdown.
 
@@ -182,7 +191,7 @@ Markdown files end in the extension *.md*. An example of an extension that is li
 
 README.md is the conventional name for files that detail a item's contents or the most important information.
 
-#### Example
+### Example
 
 The file you are reading right now is a Markdown file!
 
@@ -192,13 +201,13 @@ Take a look at the extension:
 
 Markdown is the standard on GitHub when conveying bodies of informative text.
 
-#### Practice Exercise
+### Practice Exercise
 
 1. Look at a few files in this repo that contains explanatory text.
 
 2. Figure out whether or not they are Markdown files.
 
-#### Side Note
+### Side Note
 
 If you'd like to learn more about Markdown, [request a workshop](https://github.com/projectcipher/cipher/issues/new) on it! We'll get working on it asap.
 
