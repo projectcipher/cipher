@@ -15,11 +15,11 @@ These two work in conjunction to allow our content to be posted online. This wil
 
 #### What is Git?
 
-[Git](https://git.com) is a [version control system](../DOCUMENTATION.md).
+[Git](https://git.com) is a [version control system](../DOCUMENTATION.md#version-control-system-vcs).
 
 #### What is GitHub?
 
-[GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md#version-control-system-vcs) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md#branch) with an organized interface).
+[GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md#repository) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md#branch) with an organized interface).
 
 ### How to Sign Up for a Github Account
 
@@ -103,6 +103,6 @@ Be sure to check out [`DOCUMENTATION`](../DOCUMENTATION.md)for extended explanat
 
 Tweet us [@projectcipher](https://twitter.com/projectcipher) telling us how awesome you are for completing this!
 
-Constantly making this guide better is our priority, and you can help! If you found any problems or think something can be done better, [open an issue](https://github.com/projectcipher/cipher/issues/new). You could even read [`CONTRIBUTING`](../cipher/CONTRIBUTING.md) if you want to add something yourself!
+Constantly making this guide better is our priority, and you can help! If you found any problems or think something can be done better, [open an issue](https://github.com/projectcipher/cipher/issues/new). You could even read [`CONTRIBUTING`](../../CONTRIBUTING.md) if you want to add something yourself!
 
 ![Kanye clapping](img/kanye_clapping.gif)
