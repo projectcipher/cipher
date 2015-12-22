@@ -7,7 +7,7 @@ Practice exercises are meant to test your newfound power after completing a guid
 ## Table of Contents
 
 1. [Workspace Setup](#workspace-setup)
-  - [Version Control System (VSC)](#version-control-system-vcs)
+  - [Version Control System (VCS)](#version-control-system-vcs)
   - [Repository](#repository)
   - [Branch](#branch)
   - [Integrated Development Environment](#integrated-development-environment-ide)
