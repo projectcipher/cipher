@@ -149,7 +149,6 @@ If you've already made your C9 account & setup your workspace, skip to [Part Fou
 
 `<h1> Jevin Sidhu </h1>` 
 
-
 - __`<h1>`__ is the __opening__ h1 tag
 - __`</h1>`__ is the __closing__ h1 tag → The difference is the forward slash before the name __( / )__
 
@@ -264,7 +263,7 @@ __Create a CSS file by:__
 
 - Play around with the value → The lower it is, the smaller the image will become!
 
-![](changing_image_size2.gif)
+![](img/changing_image_size2.gif)
 
 ## Part Fourteen: The Breakdown
 
@@ -275,42 +274,42 @@ Let’s break this down into an English sentence:
 
 - This is called __pseudo-code__ → Code that wouldn’t run on the computer, but we’re making sense of it
 
-![](breakdown2.png)
+![](img/breakdown2.png)
 
  For every __img tag__ on the web page
 
-![](breakdown3.png)
+![](img/breakdown3.png)
 
 
  I want all the style properties __inside the curly brackets__ to apply:
 
-![](breakdown4.png)
+![](img/breakdown4.png)
 
 
  specifically, I want __the width__
 
-![](breakdown5.png)
+![](img/breakdown5.png)
 
 
  to be __50% of the width of the page.__
  
 ## Part Fifteen: Vocabulary
 
-![](breakdown6.png)
+![](img/breakdown6.png)
 
 img is called the selector, it "selects" all of the img tags and applies all of the settings inside of the curly braces
 
-![](breakdown7.png)
+![](img/breakdown7.png)
 
 
 { } are called __curly braces__
 
-![](breakdown8.png)
+![](img/breakdown8.png)
 
 
 The name on the __left side of the colon__ is called the __"property"__, in this case it is __width.__
 
-![](breakdown9.png)
+![](img/breakdown9.png)
 
 __50%__ is what's known as the __"value" → End the property + value declaration with semicolon (;)__. This acts like a period.
 
@@ -319,14 +318,14 @@ __50%__ is what's known as the __"value" → End the property + value declaratio
 - If you resize the page, the image will adjust to be 25% of the total view.
   - If we want the image to stay a constant size → We need to use a different __value type__ named __pixels__ 
 
-![](percentage_scaling.png)
+![](img/percentage_scaling.png)
 
 1. Set the __width (property)__ to __200px (value)__ instead of __25% (value)__
 - Use __pixels: [number] px__ instead of __[number] %__ → A pixel is a single point in an image and thousands make up one
   - This specifies how big the image should be __no matter the size of the page__
 - Remember to __end the value (200px)__ with a __semicolon__ (;) and __close the curly braces ( } )__
 
-![](pixel_scaling.png)
+![](img/pixel_scaling.png)
 
 ## Part Seventeen: Making the Image a Circle
 
@@ -334,12 +333,12 @@ __50%__ is what's known as the __"value" → End the property + value declaratio
   - I googled: make image circular in css 
 - This was the first one I found, but if yours wasn’t this one -- don’t stress, it’s probably still right!        
 
-![](rounded_image.png)
-![](rounded_images2.png)
+![](img/rounded_image.png)
+![](img/rounded_images2.png)
 
 1. Add: __border-radius: 50%;__ → have a __line-break between each property and value with the “enter” key__
 
-![](rounded_images3.png)
+![](img/rounded_images3.png)
 
 ## Part Eighteen: Making the Image a Circle
 
@@ -355,7 +354,7 @@ __50%__ is what's known as the __"value" → End the property + value declaratio
 - Click the __“tab”__ key on your keyboard
 - __Ensure you indent future lines of code inside of the `<body>` tag__
 
-![](adding_body.gif)
+![](img/adding_body.gif)
 
 4. __Now try indenting the code inside the `<head>` tag!__
 
@@ -371,7 +370,7 @@ __50%__ is what's known as the __"value" → End the property + value declaratio
 
 Unformatted Code: body { text-align: center; } ← __DO NOT COPY & PASTE, YOU WILL FORGET IT QUICKLY__ 
 
-![](aligning_text.gif)
+![](img/aligning_text.gif)
 
 ## Part Twenty: Change your Background Colour
 
@@ -387,7 +386,7 @@ Unformatted Code: body { text-align: center; } ← __DO NOT COPY & PASTE, YOU WI
 
 Code: background-color: #HEXCODE;
 
-![](background_color.gif)
+![](img/background_color.gif)
 
 - Check out some beautiful __colours here: http://colorhunt.co/__
 
@@ -401,7 +400,7 @@ Code: background-color: #HEXCODE;
 
 Unformatted code: h1 { color: #fff; }
 
-![](color.gif)
+![](img/color.gif)
 
 ## Part Twenty-Two: Intro to Margin & Padding 
 Let’s take a second to introduce two new concepts: margin and padding 
@@ -413,7 +412,7 @@ Let’s take a second to introduce two new concepts: margin and padding
   - It’s affected by the background color of the element.
   - __Top, right, bottom, and left padding__ can be changed independently using separate properties.
 
-![](margin_padding.png)
+![](img/margin_padding.png)
 
 Example: You have a ring  and you’re putting it in a gift bag. The __area around the ring in the bag is padding__, the __area between the bag and your hand is margin.__ 
 
@@ -424,7 +423,7 @@ Example: You have a ring  and you’re putting it in a gift bag. The __area arou
 - If we move that, the text under it will move as well 
 3. We are using the __margin__ but want to use specifically the __top as the property → margin-top: 250px;__
 
-![](margin_padding.gif)
+![](img/margin_padding.gif)
 
 ## Part Twenty-Three: Intro to Divs and Classes
 
@@ -443,7 +442,7 @@ Example: You have a ring  and you’re putting it in a gift bag. The __area arou
 
 `<div class=”landing”> |ALL CONTENT| </div>` 
 
-![](divs_classes.gif)
+![](img/divs_classes.gif)
 
 ## Part Twenty-Four: Starting the Project Section
 
@@ -456,7 +455,7 @@ Example: You have a ring  and you’re putting it in a gift bag. The __area arou
     - __`<h1 class=”project-title”>  Projects </h1>`__ 
       - I named the class “project-title” → descriptive and short, but __spaces must be dashes (-)__
 
-![](project_section.gif)
+![](img/project_section.gif)
 
 ## Part [Twenty-Fiveeeee](https://www.youtube.com/watch?v=nX6N2tgLmaQ): h1 Class Styling
 
@@ -467,14 +466,14 @@ Example: You have a ring  and you’re putting it in a gift bag. The __area arou
 - Look at your previous code written to center your body → use the same but replace “center” with “left”
 - This code overwrites the center aligning from the __CSS body selector__  because it is lower on the document remember the computer reads __HTML and CSS run top to bottom__ 
 
-![](h1_stylin_proflin.gif)
+![](img/h1_stylin_proflin.gif)
 
 - Kind of like our photo with the top of the webpage, __“Projects” is too close to the left side of the webpage__
   - We __fixed that with margin-top last time__ → This time let's use __margin-left__
 - __Look at your past code with margin-top → Copy & Change -top to -left and a value of 250px is solid__
   - Feel free to play around with the value to see what look good to you
 
-![](h1_stylin_proflin2.gif)
+![](img/h1_stylin_proflin2.gif)
 
 ## Part Twenty-Six: Creating the Projects / Items 
 
@@ -485,7 +484,7 @@ Example: You have a ring  and you’re putting it in a gift bag. The __area arou
 3. Let’s put the text down as __Dodge__ because that’s a future project you will build
   - There is no need for quotes around the words inside the tags
 
-![](creating_project.gif)
+![](img/creating_project.gif)
 
 ## Part Twenty-Seven: Styling the h2 Tags/Items 
 
@@ -507,7 +506,7 @@ __Head to your main.css file:__
 - Even shorter is __padding: 100px 150px;__
   - The x and y axis will repeat -- __100px is the x axis__ and __150px is the y axis__
 
-![](styling_items.gif)
+![](img/styling_items.gif)
 
 ## Part Twenty-Eight: Linking the Items
 
@@ -519,7 +518,7 @@ __Head to your main.css file:__
   - This simply links to the same page we are on --  since we haven’t created these projects this is kind of like a __variable in math__
 - `<a href=”#”>  <h1 class=”item”> Dodge </h2> </a>` 
 
-![](linking_items.gif)
+![](img/linking_items.gif)
 
 ## Part Twenty-Nine: Adding Font Awesome
 
@@ -531,7 +530,7 @@ __Head to your main.css file:__
 - Copy and paste the code from the first step into your head 
   - This is exactly like linking your main.css file, but instead of a local file, it is online
 
-![](font_awesome.gif)
+![](img/font_awesome.gif)
 
 ## Part Thirty: Adding the Icon
 
@@ -553,7 +552,7 @@ __Head to your main.css file:__
   - Remember: HTML reads from top to bottom
     - This means that if you put objects above or below one another in the code, this is who it will show up when you open the web page
 
-![](adding_icons.gif)
+![](img/adding_icons.gif)
 
 ## Part Thirty-One: Linking the Icon to Another Web Page
 
@@ -562,7 +561,7 @@ __Head to your main.css file:__
 
 `<a href=“https://twitter.com/JevinSidhu”> <i class=”fa fa-twitter fa-2x> </i> </a>` 
 
-![](linking_icons.gif)
+![](img/linking_icons.gif)
 
 ## Part Thirty-Two: Icon Styling
 
@@ -574,7 +573,7 @@ __Head to your main.css file:__
 - __color: #fff;__
   - Since this icon pack acts a font, changing the colour just like text will change its color
 
-![](icon_styling.gif)
+![](img/icon_styling.gif)
 
 ## Part Thirty-Three: Adding a Google Font
 
@@ -591,7 +590,7 @@ Let’s add some custom fonts because default ones are fairly standard
 - You’ll notice it looks exactly like a CSS file -- that’s because it is!
 5. Since it’s a CSS file, you know what that means! Copy the code & paste in your head
 
-![](google_font.gif)
+![](img/google_font.gif)
 
 ## Part Thirty-Four: Changing Fonts
 
@@ -603,7 +602,7 @@ Let’s add some custom fonts because default ones are fairly standard
 - The value should be the __name of the font in quotation marks__
   - My font’s name was __Open Sans → font-family: “Open Sans”;__
 
-![](changing_fonts.gif)
+![](img/changing_fonts.gif)
 
 ## Part Thirty-Five: The End
 
@@ -611,7 +610,7 @@ Congrats you’ve finished building your website! __This is huge.__
 
 Get it online using this workshop: https://hackpad.com/Basic-Git-and-Github-gOQpi30cvG8
 
-![](yes.gif)
+![](img/yes.gif)
 
 Bonus Challenges
 
