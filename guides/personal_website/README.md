@@ -45,7 +45,7 @@ Google even gives us the answer for our question without having to click anythin
 
 ## Part Two: C9.io (Mircosoft Word for Code)
 
-If you've already made your C9 account & setup your workspace, skip to [Part Four: Creating Your HTML File](4)
+If you've already made your C9 account & setup your workspace, skip to [Part Four: Creating Your HTML File](#part-four-creating-your-html-file)
 
 1. Log on to https://c9.io
 
