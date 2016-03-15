@@ -115,7 +115,6 @@ If you've already made your C9 account & setup your workspace, skip to [Part Fou
 ![](img/previewing_html.gif)
 
 ## Part Six: Writing Some Code!
-[//]: <> (From this point unordered lists are using - cause I didn't know that worked)
 1. Back to the index.html file! __Let’s write your name and a description!__ 
     - I.e. Jevin Sidhu
       - My name is Jevin
@@ -306,14 +305,14 @@ __50%__ is what's known as the __"value" → End the property + value declaratio
 - If you resize the page, the image will adjust to be 25% of the total view.
   - If we want the image to stay a constant size → We need to use a different __value type__ named __pixels__ 
 
-![](img/percentage_scaling.png)
+![](img/percentage_scaling.gif)
 
 1. Set the __width (property)__ to __200px (value)__ instead of __25% (value)__
 - Use __pixels: [number] px__ instead of __[number] %__ → A pixel is a single point in an image and thousands make up one
   - This specifies how big the image should be __no matter the size of the page__
 - Remember to __end the value (200px)__ with a __semicolon__ (;) and __close the curly braces ( } )__
 
-![](img/pixel_scaling.png)
+![](img/pixel_scaling.gif)
 
 ## Part Seventeen: Making the Image a Circle
 
@@ -321,7 +320,7 @@ __50%__ is what's known as the __"value" → End the property + value declaratio
   - I googled: make image circular in css 
 - This was the first one I found, but if yours wasn’t this one -- don’t stress, it’s probably still right!        
 
-![](img/rounded_image.png)
+![](img/rounded_images.png)
 ![](img/rounded_images2.png)
 
 1. Add: __border-radius: 50%;__ → have a __line-break between each property and value with the “enter” key__
