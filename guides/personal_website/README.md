@@ -330,8 +330,9 @@ __50%__ is what's known as the __"value" → End the property + value declaratio
 ## Part Eighteen: Making the Image a Circle
 
 1. We need to centre all the objects now → We could use multiple CSS selectors to pick each tag in the HTML
-- The effective way: Enclose everything in one tag and then use ONE CSS selector to center everything
-- 
+
+The effective way: Enclose everything in one tag and then use ONE CSS selector to center everything
+
 2. The tag that usually encloses the main document is: __`<body> </body>`__ 
 - The `<body>` tag contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc → __Does not include the `<head>` tag__
 
@@ -377,15 +378,15 @@ Code: background-color: #HEXCODE;
 
 - Check out some beautiful __colours here: http://colorhunt.co/__
 
-## Part Twenty-One: Color the <h1> Tag
+## Part Twenty-One: Color the `<h1>` Tag
 
 1. Let’s change the __color__ of our __`<h1>` heading__ as well
-2. Create a __CSS selector__ in your __main.css__ file for __<h1>__
+2. Create a __CSS selector__ in your __main.css__ file for `__<h1>__`
 - __`h1 { }`__ 
 3. Use the __CSS property, color:__ and __CSS value (hex-color) #fff or white;__ to make it white
 - This isn’t the __background-color__ of the text, it is simply the __color__
 
-Unformatted code: h1 { color: #fff; }
+Unformatted code: `h1 { color: #fff; }`
 
 ![](img/color.gif)
 
@@ -465,7 +466,7 @@ Example: You have a ring  and you’re putting it in a gift bag. The __area arou
 ## Part Twenty-Six: Creating the Projects / Items 
 
 1. Let’s add some content below the title!
-  - Create a __`<h2>`__ header, which are just smaller <h1> headers --  __Step Nine for more info on headers__
+  - Create a __`<h2>`__ header, which are just smaller `<h1>` headers --  __Step Nine for more info on headers__
 2. We’ll give them a __class__ name using __class=”item”__ just before the closing of `<h2>` 
   - Feel free to name this whatever you want, but __“item”__ just makes sense for me + future-me
 3. Let’s put the text down as __Dodge__ because that’s a future project you will build
@@ -484,7 +485,7 @@ __Head to your main.css file:__
 - We want to make a row of these “items” and continue to add to it as time goes on 
   - __display__ is a property that specifies how the area around the object is effected
   - __inline-block_ is a value that will allow us to put the objects beside each out, but when we get smaller displays (resizing the window), the objects will stack on-top of each other
-    - An example of an __block element is a <h1>__ header
+    - An example of an __block element is a `<h1>`__ header
     - __Inline elements are beside each other__
 4. Use __padding,__ which we discussed has background-color unlike margin, to create a button-look
 - _Padding adds space inside the border of the text, but margin adds space outside of it
@@ -532,10 +533,10 @@ __Head to your main.css file:__
   - __fa-[SIZE] is where you would put your sizing option__
     - __fa-2x__ is two times bigger than the original icon
     - __fa-3x__ is three times bigger
-- E.g. <i class=”fa fa-twitter fa-2x”> </i>
 
+E.g. `<i class=”fa fa-twitter fa-2x”> </i>`
 
-1. Put this __`<i>` tag right under your name__ for it to appear under your name
+3. Put this __`<i>` tag right under your name__ for it to appear under your name
   - Remember: HTML reads from top to bottom
     - This means that if you put objects above or below one another in the code, this is who it will show up when you open the web page
 
