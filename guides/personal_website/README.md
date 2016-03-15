@@ -7,12 +7,6 @@ Notes:
 
 2. When you see: **[GIF]**, this means the image below is a GIF – a looping video!
 
-## Table of Contents
-
-1. [Part One: Importance of Googling](#)
-2. [Part Two: Name of Topic](#)
-3. [Part Three: Name of Topic](#)
-
 ## Our Goal
 
 By the end of this guide, you will have created a personal website! Though, it doesn't have to be for you. For example, this is [John Cena’s](http://nguyenbrian.github.io/john-cenas-personal-website/) (Turn your sound down!)
