@@ -439,7 +439,7 @@ Example: You have a ring  and you’re putting it in a gift bag. The __area arou
 1. Create the `<h1> Projects </h1>` header tag 
   - Remember that the text inside the tags will be displayed to the page
 2. Let’s __add a class__ to the tag, so we can do some special things in __CSS with its selector__
-  - Remember: __class=”class-name”__ just after you open the <h1> tag
+  - Remember: __class=”class-name”__ just after you open the `<h1>` tag
     - __`<h1 class=”project-title”>  Projects </h1>`__ 
       - I named the class “project-title” → descriptive and short, but __spaces must be dashes (-)__
 
