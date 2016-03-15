@@ -15,9 +15,6 @@ Your final design may look similiar to this, but we want you to apply as many ch
 
 ![Example Site](img/website_example.png)
 
-[//]: <> (Images work on Github, just not on C9 so don't worry about it.)
-
-
 Link to example: http://jevinsidhu.github.io/workshop-website/
 
 Link to final code: https://ide.c9.io/jevinsidhu/workshop-website
@@ -166,9 +163,6 @@ __`<img src=“http://website.com/file-name.png ”>`__
  - __src__ is an attribute that specifies the URL of the image
    - Think of it like a setting 
  - Add the URL (redirected to image) between the quotes
- - ``<oven temperature=”350”>``
-   - temperature is the name of the attribute
-   - 350 is the value of the temperature attribute
 - http://imgur.com/ is a website where you can upload and then get a link to the image
 
 ![](img/img_tag.gif)
@@ -213,7 +207,7 @@ __Create a CSS file by:__
 
 1. Write the tag __`<head>`__ and make sure you have the closing tag __`</head>`__
 
-![](adding_head.gif)
+![](img/adding_head.gif)
 
 - __Computers are dumb; they are powerful because humans program them.__
   - We have these two files, the HTML file and the CSS file 
@@ -235,13 +229,13 @@ __Create a CSS file by:__
 1. Add the name of the CSS file between the quotes → `<link rel= “stylesheet” href=“main.css”>` 
 - Ensure you include the extension: __.css → “main.css”__ NOT “main”
 
-![](linking_css.gif)
+![](img/linking_css.gif)
 
 ## Part Thirteen: Change the Image Size
 
 1. Let’s hop onto the CSS file → Double click the CSS file on the right directory
 
-![](changing_image_size.gif)
+![](img/changing_image_size.gif)
 
 
 2. Before we got side-tracked, we were trying to change the size of our image -- it’s way too big right now 
@@ -249,11 +243,11 @@ __Create a CSS file by:__
 
 - Let’s write some code to change that in the “main.css” file:
 
-
+````
     img {
       width: 25%;
     }
-
+````
 
 - Play around with the value → The lower it is, the smaller the image will become!
 
@@ -263,7 +257,7 @@ __Create a CSS file by:__
 
 Let’s break this down into an English sentence:
 
-![](breakdown1.png)
+![](img/breakdown1.png)
 
 
 - This is called __pseudo-code__ → Code that wouldn’t run on the computer, but we’re making sense of it
@@ -606,7 +600,7 @@ Get it online using this workshop: https://hackpad.com/Basic-Git-and-Github-gOQp
 
 ![](img/yes.gif)
 
-Bonus Challenges
+## Bonus Challenges
 
 - Add __more social media icons__ (Facebook, Instagram, etc)
   - Put some __margin-right__ on the __`<a>` tag__ so they each icon has some space to the right of it
@@ -619,4 +613,3 @@ Bonus Challenges
 - Add some __music__ up-in-here
   - Googling pros, let’s get it.
     - Hint: `<audio>` tag
-
