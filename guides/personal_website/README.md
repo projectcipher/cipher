@@ -1,6 +1,6 @@
 # Personal Website
 
-*Time Estimate: 1 hour*
+*Time Estimate: 1 hour and 30 Minutes*
 
 Notes: If you have not set up your workspace, please visit the the [Workspace Setup guide](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup).
 
