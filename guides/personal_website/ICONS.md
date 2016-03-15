@@ -2,6 +2,8 @@
 
 *Time Estimate: 15 minutes*
 
+Note: This is an extension to the [Personal Website](README.md) guide -- please complete that first before reading through this.
+
 ## Our Goal
 
 This adds social media icons to your website!

@@ -1,4 +1,4 @@
-# Bonus Challenges
+# Bonus Ideas
 
 - Add __more social media icons__ (Facebook, Instagram, etc)
   - Put some __margin-right__ on the __`<a>` tag__ so they each icon has some space to the right of it

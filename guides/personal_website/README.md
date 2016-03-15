@@ -2,7 +2,7 @@
 
 *Time Estimate: 1 hour*
 
-Notes: If you have not set up your workspace, please visit the the [Workspace Setup](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup) guide.
+Note: If you have not set up your workspace, please visit the the [Workspace Setup](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup) guide.
 
 ## Our Goal
 
