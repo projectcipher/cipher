@@ -21,7 +21,7 @@ Link to final code: https://ide.c9.io/jevinsidhu/workshop-website
 
 ## What You Will Learn
 
-The basics of two programming languages: [HTML](https://github.com/JevinSidhu/cipher/blob/personal-site/guides/DOCUMENTATION.md#html) and [CSS](#).
+The basics of two programming languages: [HTML](https://github.com/JevinSidhu/cipher/blob/personal-site/guides/DOCUMENTATION.md#html) and [CSS](https://github.com/JevinSidhu/cipher/blob/personal-site/guides/DOCUMENTATION.md#css).
 
 ## Part One: Importance of Googling
 
