@@ -2,10 +2,9 @@
 
 *Time Estimate: 1 hour*
 
-Notes: 
-1. If you have not set up your workspace, please visit the the [Workspace Setup guide](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup).
+Notes: If you have not set up your workspace, please visit the the [Workspace Setup guide](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup).
 
-2. When you see: **[GIF]**, this means the image below is a GIF – a looping video!
+When you see: **[GIF]**, this means the image below is a GIF – a looping video!
 
 ## Our Goal
 
