@@ -277,7 +277,7 @@ If we want the image to stay a constant size → We need to use a different **va
 1. Set the `width` (property) to `200px` (value) instead of `25%` (value)
 
     Use `pixels: [number]px` instead of `[number]%` → A pixel is a single point in an image and thousands make up one
-    - This specifies how big the image should be __no matter the size of the page__
+    - This specifies how big the image should be no matter the size of the page
     - Remember to end the value `(200px)` with a semicolon `(;)` and close the curly braces `( } )`
 
 ![](img/pixel_scaling.gif)
