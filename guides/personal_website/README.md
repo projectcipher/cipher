@@ -252,7 +252,7 @@ to be `50%` of the `width` of the page.
 
 ![](img/breakdown6.png)
 
-`img` is called the selector, it "selects" all of the img tags and applies all of the settings inside of the curly braces `({ })`
+`img` is called the **selector**, it "selects" all of the img tags and applies all of the settings inside of the curly braces `({ })`
 
 ![](img/breakdown7.png)
 
@@ -260,17 +260,17 @@ to be `50%` of the `width` of the page.
 
 ![](img/breakdown8.png)
 
-The name on the __left side of the colon__ is called the `property`, in this case it is `width`.
+The name on the __left side of the colon__ is called the **property**, in this case it is `width`.
 
 ![](img/breakdown9.png)
 
-`50%` is what's known as the `value` → End the property + value declaration with semicolon `(;)`. This acts like a period.
+`50%` is what's known as the **value** → End the property + value declaration with semicolon `(;)`. This acts like a period.
 
 ## Part Fifteen: Pixels versus Percentage
 
 If you resize the page, the image will adjust to be `25%` of the total view.
  
-If we want the image to stay a constant size → We need to use a different `value type` named `pixels`
+If we want the image to stay a constant size → We need to use a different **value type** named `pixels`
 
 ![](img/percentage_scaling.gif)
 
