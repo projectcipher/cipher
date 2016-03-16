@@ -2,7 +2,7 @@
 
 This is a documentation of keywords used throughout Cipher's guides. It contains explanations, examples, and practice exercises.
 
-Practice exercises are meant to test your newfound power after completing a guide. Run through them to nail concepts.
+Practice exercises are meant to test your new found power after completing a guide. Run through them to nail concepts.
 
 ## Table of Contents
 
