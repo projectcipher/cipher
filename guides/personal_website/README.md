@@ -214,9 +214,9 @@ __Create a CSS file by:__
     Let’s write some code to change that in the `main.css` file:
     
     ````
-        img {
-          width: 25%;
-        }
+    img {
+      width: 25%;
+    }
     ````
     
     Play around with the value → The lower it is, the smaller the image will become!
