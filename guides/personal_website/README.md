@@ -200,7 +200,7 @@ __Create a CSS file by:__
 
 2. Add the name of the `CSS` file between the quotes → `<link rel= “stylesheet” href=“main.css”>` 
 
-    Ensure you include the extension: __.css → `main.css` NOT just `main`
+    Ensure you include the extension: `.css` → `main.css` NOT just `main`
 
     ![](img/linking_css.gif)
 
