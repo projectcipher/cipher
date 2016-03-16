@@ -92,13 +92,13 @@ Note: You should have a Cloud 9 account after following the [Workspace Setup](ht
     My name is Jevin
     ```
 
-2. Save the file by clicking `File` on the top-bar and then `Save` OR using the shortcut `CTRL + S/Command + S`
+2. Save the file by clicking `File` on the top-bar and then `Save` **OR** using the shortcut `CTRL + S/Command + S`
 
 3. Switch to the tab with your `Live Preview` to see your changes!
 
     You may need to refresh your page because C9 sometimes doesn't auto-refresh in time
     
-    Note: Notice how adding blank lines between your sentences in HTML does not change what it looks like. We need to style elements by using `HTML Tags`.
+Note: Notice how adding blank lines between your sentences in HTML does not change what it looks like. We need to style elements by using `HTML Tags`.
 
 ![](img/writing_html.gif)
 
@@ -156,14 +156,15 @@ Therefore, if we want to change the size of the image → Use `CSS`!
 __Create a CSS file by:__
 
 1. Right clicking the area to the directory (left-most section)
-2. Click `New File`
-3. Name it by typing: `main.css`
 
-    The extension acts as an identifier for the computer (just like .doc or .html). `main.css` is the common name for the main CSS file.
+2. Click `New File`
+
+3. Name it by typing: `main.css`
+    The extension acts as an identifier for the computer (just like `.doc` or `.html`). `main.css` is the common name for the main CSS file.
 
 4. Double click to open the file
 
-![](img/introducing_css.gif)
+    ![](img/introducing_css.gif)
 
 ## Part Ten: Adding the Head Tag 
 
@@ -269,13 +270,14 @@ The name on the __left side of the colon__ is called the `property`, in this cas
 
 If you resize the page, the image will adjust to be `25%` of the total view.
  
-If we want the image to stay a constant size → We need to use a different __value type__ named __pixels__ 
+If we want the image to stay a constant size → We need to use a different `value type` named `pixels`
 
 ![](img/percentage_scaling.gif)
 
 1. Set the `width` (property) to `200px` (value) instead of `25%` (value)
-    - Use `pixels: [number]px` instead of `[number]%` → A pixel is a single point in an image and thousands make up one
-      - This specifies how big the image should be __no matter the size of the page__
+
+    Use `pixels: [number]px` instead of `[number]%` → A pixel is a single point in an image and thousands make up one
+    - This specifies how big the image should be __no matter the size of the page__
     - Remember to end the value `(200px)` with a semicolon `(;)` and close the curly braces `( } )`
 
 ![](img/pixel_scaling.gif)
