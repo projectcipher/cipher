@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Documentation
+* [Documentation](guides/DOCUMENTATION.md)
 
