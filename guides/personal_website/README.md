@@ -192,14 +192,14 @@ __Create a CSS file by:__
 
 1. Let’s link the HTML and CSS file! You have to add another tag for this.
 
-The code is: `<link rel= “stylesheet” href=“FILENAME” >` 
-
-`link` is a tag → it’s self-closing, like the `img` tag, so there is no closing tag ( `</link>` )
-  - This lets the webpage know you are linking something
-
-`href` is an `attribute`, like the src one for the img tag__, that specifies the location of a file
-
-`rel` is also an `attribute` that tells the HTML what sort of file it is linking to
+    The code is: `<link rel= “stylesheet” href=“FILENAME” >` 
+    
+    `link` is a tag → it’s self-closing, like the `img` tag, so there is no closing tag ( `</link>` )
+      - This lets the webpage know you are linking something
+    
+    `href` is an `attribute`, like the src one for the img tag__, that specifies the location of a file
+    
+    `rel` is also an `attribute` that tells the HTML what sort of file it is linking to
 
 2. Add the name of the `CSS` file between the quotes → `<link rel= “stylesheet” href=“main.css”>` 
 
