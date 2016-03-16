@@ -285,9 +285,9 @@ If we want the image to stay a constant size → We need to use a different `val
 ## Part 6teen: Making the Image a Circle
 
 Let’s __Google__ how to make our image a circle! → Remember: Be __specific, clear and concise:__
-  - I googled: make image circular in css 
+  - I Googled: "make image circular in CSS"
 
-This was the first one I found, but if yours wasn’t this one -- don’t stress, it’s probably still right!        
+This was the first one I found, but if yours wasn’t this one -- don’t stress, it’s most likely still fine!        
 
 ![](img/rounded_images.png)
 
@@ -299,9 +299,9 @@ This was the first one I found, but if yours wasn’t this one -- don’t stress
 
 ## Part Seventeen: Making the Image a Circle
 
-1. We need to centre all the objects now → We could use multiple `CSS` selectors to pick each tag in the HTML
+1. We need to centre all the objects now → We could use multiple `CSS` selectors to pick each tag in the HTML, but this would require a lot of copying and pasting!
 
-    The effective way: Enclose everything in one tag and then use ONE `CSS` selector to center everything
+    **The effective way: Enclose everything in ONE `<tag>` and then use ONE `CSS` selector to center everything.**
 
 2. The tag that usually encloses the main document is: `<body> </body>` 
     - The `<body>` tag contains all the contents of an `HTML` document, such as text, hyperlinks, images, tables, lists, etc → __Does not include the `<head>` tag
