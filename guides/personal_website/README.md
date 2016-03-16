@@ -8,7 +8,7 @@ Note: If you have not set up your workspace, please visit the the [Workspace Set
 
 By the end of this guide, you will have created a personal website! Though, it doesn't have to be for you. For example, this is [John Cena’s](http://nguyenbrian.github.io/john-cenas-personal-website/) _(Turn your sound down!)_.
 
-Your final product will look similiar to this, but we want you to apply as many changes you as wish:
+Your final product will look similar to this, but we want you to apply as many changes you as wish:
 
 ![Example Site](img/website_example.png)
 
