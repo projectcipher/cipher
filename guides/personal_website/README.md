@@ -45,7 +45,7 @@ You should have a Cloud 9 account after following the [Workspace Setup](https://
 
 1. Head to https://c9.io
 
-2. Open the workspace titled "cipher-projects".
+2. Open the workspace titled `"cipher-projects"`.
 
 3. It will take a few seconds to load. After it does, you should get a page that looks similiar to this: 
 
@@ -53,107 +53,116 @@ You should have a Cloud 9 account after following the [Workspace Setup](https://
 
 ## Part Three: Creating Your HTML File
 
-1. Right click the area on the __directory__ (area on the left if you forgot)
+1. Right click the left section where the folder icon is
 
-2. Click __“New File”__ and name this file __“index.html”__ 
-  * Word files end in .doc → HTML files end in .html
-    * This ending tells the computer that the document is written in HTML
-  * __index.html__ is the usual __name__ for the __main HTML file__
-    * In larger projects you may have several files
+This area is called the directory!
 
-3. Double click the file to open it
+2. Click __“New File”__ and name this file `index.html` 
 
-![](img/creating_html.gif)
+Word files end in .doc → HTML files end in .html. This ending tells the computer that the document is written in HTML
+
+_index.html_ is the usual name for the main HTML file. In larger projects you may have several files -- for this project we will only have one.
+
+3. Double click the file, `index.html`, to open it
+
+![Creating the HTML file](img/creating_html.gif)
 
 ## Part Four: Opening the Preview
 
-1. On the bar on the top, right below my bookmark tab or URL area, navigate to the 2nd last tab, __“Preview”__
-  * You want to be able to see the changes you make 
-    * With Word, as you type you can see your changes instantly
-    * With HTML, you need to:
-      * Type
-      * Save the document
-      * View changes on the web
-        * You may need to refresh the tab with other IDEs → c9 supports auto-refreshing 
-2. Click “Live Preview File”
-3. A window on the right side, called a __pane__, will pop up
+1. On the bar on the top, right below my bookmark tab or URL area, navigate to the 2nd last tab, `Preview`
+ 
+You want to be able to see the changes you make. With Word, as you type you can see your changes instantly
+
+With HTML, you need to:
+- Type
+- Save the document
+- View changes on the web
+- You may need to refresh the tab with other IDEs → c9 supports auto-refreshing 
+
+2. Click `Live Preview File`
+3. A window on the right side, called a `pane`, will pop up
 4. Click the boxed arrow icon on the right of the pane to open the webpage fullscreen
 
-![](img/previewing_html.gif)
+![Previewing the HTML file](img/previewing_html.gif)
 
 ## Part Five: Writing Some Code!
-1. Back to the index.html file! __Let’s write your name and a description!__ 
-    - I.e. Jevin Sidhu
-      - My name is Jevin
-    - Your name and description is HTML code!
 
-2. Save the file by clicking __“File”__ on the top-bar and then __Save__ OR using the shortcut __CTRL + S/Command + S__ 
+1. Back to the index.html file! Let’s write your name and a description!
+ 
+For example: 
+```
+Jevin Sidhu. 
+My name is Jevin
+```
 
-3. Switch to the tab with your “Live Preview” to see your changes!
-- You may need to refresh your page because c9 sometimes doesn't auto-refresh in time
-- Note: Notice how adding blank lines between your sentences in HTML does not change what it looks like
-  - You need to style elements by using __HTML Tags__
+2. Save the file by clicking `File` on the top-bar and then `Save` OR using the shortcut `CTRL + S/Command + S`
+
+3. Switch to the tab with your `Live Preview` to see your changes!
+
+You may need to refresh your page because C9 sometimes doesn't auto-refresh in time
+
+Note: Notice how adding blank lines between your sentences in HTML does not change what it looks like. We need to style elements by using `HTML Tags`.
 
 ![](img/writing_html.gif)
 
 ## Part Six: Introducing HTML Tags!
 
-- __HTML tags are used to organize the content of a web page__
+`HTML tags` are used to organize the content of a web page
 
-1. Put your name as a big “header” by putting it inside a heading tag
-- `<h1> Your Name </h1>` 
-- This styles your name with bigger, bolder font and puts it on a separate line
+1. Put your name as a big `header` by putting it between an opening and closing heading tag
+
+Heading Tag: `<h1> name here </h1>` 
+
+This styles your name with bigger, bolder font and puts it on a separate line
 
 `<h1> Jevin Sidhu </h1>` 
 
-- __`<h1>`__ is the __opening__ h1 tag
-- __`</h1>`__ is the __closing__ h1 tag → The difference is the forward slash before the name __( / )__
+- `<h1>` is the __opening__ h1 tag
+- `</h1>` is the __closing__ h1 tag → The difference is the _forward slash_ before the name `( / )`
 
-- Almost all HTML tags have both an opening and closing tag → the ones that don’t we will discuss
+_Almost_ all HTML tags have both an opening and closing tag → the ones that don’t we will discuss
 
 ![](img/introducing_tags_html.gif)
 
 ## Part Seven: More about Headings
 
-- There are __six different tags, h1 through h6__
-  - __`<h1>`__ tag indicates that its text is the __most important__ and __`<h6>`__ is the __least important__ 
-  - The closer the tag is to __h1 numerically, the larger the text__
+- There are six different tags, h1 through h6
+ 
+`<h1>` tag indicates that its text is the __most important__ and `<h6>`is the __least important__. The closer the tag is to h1 numerically, the larger the text!
 
 ## Part Eight: Adding an Image
 
-
 1. To add an image, use the image tag: 
+`<img src=“http://website.com/file-name.png ”>`
 
-__`<img src=“http://website.com/file-name.png ”>`__ 
- - __img__ is the tag name → This is self-closing, meaning there is no __closing tag like `</img>`__ 
- - __src__ is an attribute that specifies the URL of the image
-   - Think of it like a setting 
- - Add the URL (redirected to image) between the quotes
+`img` is the `tag name` → This is self-closing, meaning there is no __closing tag, like `</img>`
+`src` is an `attribute` that specifies the URL of the image
+ - Add the URL of our image between the quotes
 - http://imgur.com/ is a website where you can upload and then get a link to the image
 
 ![](img/img_tag.gif)
 
-2. The webpage __reads HTML top to bottom__, so if you put the __tag above the text, it will show up above__
-
-- If you put the __tag below the text, it will show up below__
+2. The webpage reads HTML top to bottom, so if you put the tag above the text, it will show up above the text. If you put the tag below the text, it will show up below.
 
 ![](img/top_to_bottom.gif)
 
 ## Part Nine: Introducing CSS
 
-- __HTML__ is used for __content__ 
-  - Like the __skeleton (sp00ky)__ of a body
-- __CSS__ is used to change the way things __look and feel__
-  - Like the __colour, width, height__ of your face/skin
-- Therefore, if we want to __change the size of the image → Use CSS!__
+`HTML` is used for content 
+  - Like the skeleton (sp00ky) of a body
+`CSS` is used to change the way things look and feel
+  - Like the colour, width, height of your face/skin
+
+Therefore, if we want to change the size of the image → Use `CSS`!
 
 __Create a CSS file by:__
 
-1. Right clicking the area to the __directory__
-2. Click __“New File”__
-3. Name it by typing: __main.css__
-- The __extension__ acts as an __identifier__ for the computer (just like .doc or .html)
-- __main.css__ is __common name__ for the main CSS file
+1. Right clicking the area to the directory (left-most section)
+2. Click `New File`
+3. Name it by typing: `main.css`
+
+The extension acts as an identifier for the computer (just like .doc or .html). `main.css` is the common name for the main CSS file.
+
 4. Double click to open the file
 
 ![](img/introducing_css.gif)
@@ -161,39 +170,38 @@ __Create a CSS file by:__
 ## Part Ten: Adding the Head Tag 
 
 1. Let’s hop back to our index.html file by double clicking it
-- We need to __tell the web page some information__ about our HTML file!
-  - None of this information should show up on the webpage itself
-    - I.e. Show up like your name on the page
 
+We need to __tell the web page some information__ about our HTML file! None of this information should show up on the webpage itself. I.e. Show up like your name on the page
 
-- To do this: we need to enclose the information in a __`<head>`__ tag
-  - Remember to close the tag with closing `</head>` tag → this is __not like the img tag__
-    - __c9 closes tags automatically for you__, but you may delete it by accident sometimes
+To do this: we need to enclose the information in a `<head>` tag
+  - Remember to close the tag with closing `</head>` tag → This is __not like the `img` tag__
+  - C9 closes tags automatically for you, but you may delete it by accident sometimes
 
-
-1. Write the tag __`<head>`__ and make sure you have the closing tag __`</head>`__
+1. Write the tag `<head>` and make sure you have the closing tag `</head>`
 
 ![](img/adding_head.gif)
 
-- __Computers are dumb; they are powerful because humans program them.__
-  - We have these two files, the HTML file and the CSS file 
-  - The computer draws __no__ association between the two
-    - We need to specifically tell them → link these two together so they are connected
+Computers are dumb; they are powerful because humans program them.
+
+We have these two files, the HTML file and the CSS file. The computer draws __no__ association between the two:
+- We need to specifically tell them → Link these two together so they are connected
 
 ## Part Eleven: Linking the CSS file to the HTML
 
 1. Let’s link the HTML and CSS file! You have to add another tag for this.
 
+The code is: `<link rel= “stylesheet” href=“FILENAME” >` 
 
-- The code is: __`<link rel= “stylesheet” href=“FILENAME” >`__ 
-  - __link__ is a tag → it’s self-closing, like the __img tag__, so there is no closing tag ( </link> )
-    - This lets the webpage know you are linking something
-  - __href__ is an attribute, __like the src one for the img tag__, that specifies the location of a file
-    - Think of it like a setting 
-  - __rel is also an attribute that tells the HTML what sort of file it is linking to__
+`link` is a tag → it’s self-closing, like the `img` tag, so there is no closing tag ( `</link>` )
+  - This lets the webpage know you are linking something
 
-1. Add the name of the CSS file between the quotes → `<link rel= “stylesheet” href=“main.css”>` 
-- Ensure you include the extension: __.css → “main.css”__ NOT “main”
+`href` is an `attribute`, like the src one for the img tag__, that specifies the location of a file
+
+`rel` is also an `attribute` that tells the HTML what sort of file it is linking to
+
+2. Add the name of the `CSS` file between the quotes → `<link rel= “stylesheet” href=“main.css”>` 
+
+Ensure you include the extension: __.css → `main.css` NOT just `main`
 
 ![](img/linking_css.gif)
 
@@ -206,8 +214,7 @@ __Create a CSS file by:__
 
 2. Before we got side-tracked, we were trying to change the size of our image -- it’s way too big right now 
 
-
-- Let’s write some code to change that in the “main.css” file:
+Let’s write some code to change that in the “main.css” file:
 
 ````
     img {
@@ -215,7 +222,7 @@ __Create a CSS file by:__
     }
 ````
 
-- Play around with the value → The lower it is, the smaller the image will become!
+Play around with the value → The lower it is, the smaller the image will become!
 
 ![](img/changing_image_size2.gif)
 
@@ -225,17 +232,16 @@ Let’s break this down into an English sentence:
 
 ![](img/breakdown1.png)
 
-
-- This is called __pseudo-code__ → Code that wouldn’t run on the computer, but we’re making sense of it
+This is called __pseudo-code__ → Code that wouldn’t run on the computer, but we’re making sense of it
 
 ![](img/breakdown2.png)
 
- For every __img tag__ on the web page
+For every __img tag__ on the web page
 
 ![](img/breakdown3.png)
 
 
- I want all the style properties __inside the curly brackets__ to apply:
+I want all the style properties __inside the curly brackets__ to apply:
 
 ![](img/breakdown4.png)
 
@@ -245,7 +251,7 @@ Let’s break this down into an English sentence:
 ![](img/breakdown5.png)
 
 
- to be __50% of the width of the page.__
+to be __50% of the width of the page.__
  
 ## Part Fourteen: Vocabulary
 
@@ -274,10 +280,10 @@ __50%__ is what's known as the __"value" → End the property + value declaratio
 
 ![](img/percentage_scaling.gif)
 
-1. Set the __width (property)__ to __200px (value)__ instead of __25% (value)__
-- Use __pixels: [number] px__ instead of __[number] %__ → A pixel is a single point in an image and thousands make up one
+1. Set the `width` (property) to `200px` (value) instead of `25%` (value)
+- Use `pixels: [number]px` instead of `[number]%` → A pixel is a single point in an image and thousands make up one
   - This specifies how big the image should be __no matter the size of the page__
-- Remember to __end the value (200px)__ with a __semicolon__ (;) and __close the curly braces ( } )__
+- Remember to __end the value__ `(200px)` with a semicolon `(;)` and __close the curly braces `( } )`
 
 ![](img/pixel_scaling.gif)
 
@@ -290,68 +296,85 @@ __50%__ is what's known as the __"value" → End the property + value declaratio
 ![](img/rounded_images.png)
 ![](img/rounded_images2.png)
 
-1. Add: __border-radius: 50%;__ → have a __line-break between each property and value with the “enter” key__
+1. Add: `border-radius: 50%;` → have a __line-break between each property and value with the “enter” key__
 
 ![](img/rounded_images3.png)
 
 ## Part Seventeen: Making the Image a Circle
 
-1. We need to centre all the objects now → We could use multiple CSS selectors to pick each tag in the HTML
+1. We need to centre all the objects now → We could use multiple `CSS` selectors to pick each tag in the HTML
 
-The effective way: Enclose everything in one tag and then use ONE CSS selector to center everything
+The effective way: Enclose everything in one tag and then use ONE `CSS` selector to center everything
 
-2. The tag that usually encloses the main document is: __`<body> </body>`__ 
-- The `<body>` tag contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc → __Does not include the `<head>` tag__
+2. The tag that usually encloses the main document is: `<body> </body>` 
+- The `<body>` tag contains all the contents of an `HTML` document, such as text, hyperlinks, images, tables, lists, etc → __Does not include the `<head>` tag__
 
 3. Let’s make the code more readable
-- Indent everything enclosed in the __`<body>` tag:__
-  - Highlight by left-clicking and then drag across the text __inside__ of the tag (do not highlight <body>).
+- Indent everything enclosed in the `<body>` tag:
+  - Highlight by left-clicking and then drag across the text __inside__ of the tag (do not highlight `<body>`).
 - Click the __“tab”__ key on your keyboard
-- __Ensure you indent future lines of code inside of the `<body>` tag__
+- _Ensure you indent future lines of code inside of the `<body>` tag__
 
 ![](img/adding_body.gif)
 
-4. __Now try indenting the code inside the `<head>` tag!__
+4. Now try indenting the code inside the `<head>` tag!
 
 ## Part Eighteen: Centre your Image + Text
 
-1. Let’s center your picture and name inside the __`<body>`__ tag
-- Open the __main.css__ file 
-- Using the previously learned __CSS selector__, select the__`<body>`__ tag
-2. __CSS property: text-align__ to control whether our objects are left, center, or right-aligned 
-- Kind of like Word again!
-- Images are considered “text” in this sense and so the property affects images as well
-3. __CSS value: center__ to center the text → there is also __left__ and __right__ to align each way
+1. Let’s center our picture and name inside the `<body>` tag
 
-Unformatted Code: body { text-align: center; } ← __DO NOT COPY & PASTE, YOU WILL FORGET IT QUICKLY__ 
+Open the `main.css` file and using the previously learned `CSS selector`, select the `<body>` tag
+
+2. CSS property: `text-align` to control whether our objects are `left`, `center`, or `right-aligned`
+
+Images are considered “text" in this sense and so the property affects images as well.
+
+3. CSS value: `center` -- to center the text → There is also __left__ and __right__ to align each way
+
+Code:
+```
+body { 
+ text-align: center; 
+} 
+```
 
 ![](img/aligning_text.gif)
 
 ## Part Nineteen: Change your Background Colour
 
-1. Let’s __change that white to another colour!__
-2. Within the __CSS body selector__ let’s declare another __CSS property named background-color__
-- This does exactly what is sounds like: allows you to change the background color
-3. The __CSS value__ for this property __will be a colour__
-- __Colours can be the name of the colour__ 
-  - I.e. grey, white, black
-- __Colour have codes__, known as __hex codes__ → more shades and you need __# before the number__
-  - I.e. #808080 = Grey + #000 = Black + #ffff = White 
-  - __b&w have only 3 digits, but most are 6 digits long__
+1. Let’s change that white to another colour!
+2. Within the __CSS body selector__ let’s declare another CSS property named `background-color`
 
-Code: background-color: #HEXCODE;
+This does exactly what is sounds like: allows us to change the background color.
+
+3. The CSS value for this property will be a colour
+
+Colours can be the name of the colour. I.e. grey, white, black.
+
+Colours also have codes, known as hex codes → You need # before the number. I.e. #808080 = Grey + #000 = Black + #ffff = White.
+
+Black and white have only 3 digits, but most hex codes are 6 digits long.
+
+Code: `background-color: #HEXCODE;`
 
 ![](img/background_color.gif)
 
-- Check out some beautiful __colours here: http://colorhunt.co/__
+Check out some beautiful colours here: http://colorhunt.co/
 
 ## Part Twenty: Color the `<h1>` Tag
 
 1. Let’s change the __color__ of our __`<h1>` heading__ as well
-2. Create a __CSS selector__ in your __main.css__ file for `__<h1>__`
-- __`h1 { }`__ 
-3. Use the __CSS property, color:__ and __CSS value (hex-color) #fff or white;__ to make it white
-- This isn’t the __background-color__ of the text, it is simply the __color__ of the font
+2. Create a __CSS selector__ in our `main.css` file for `<h1>`
+
+```
+h1 { 
+ 
+}
+```
+
+3. Use the CSS property, `color:` and CSS value (hex-color) `#fff` or `white`; to make it white
+
+This isn’t the `background-color`of the text, it is simply the `color` of the font
 
 It should look something like this:
 
@@ -364,12 +387,13 @@ h1 {
 ![](img/color.gif)
 
 ## Part Twenty-One: Intro to Margin & Padding 
-Let’s take a second to introduce two new concepts: margin and padding 
+Let’s take a second to introduce two new concepts: margin and padding.
 
-- __Margin__ clears an area around an element
+__Margin__ clears an area around an element
   - It’s completely transparent
   - __Top, right, bottom, and left margin__ can be changed independently using separate properties.
-- __Padding__ clears an area around the content of an element inside the border
+
+__Padding__ clears an area around the content of an element inside the border
   - It’s affected by the background color of the element.
   - __Top, right, bottom, and left padding__ can be changed independently using separate properties.
 
@@ -378,11 +402,14 @@ Let’s take a second to introduce two new concepts: margin and padding
 Example: You have a ring  and you’re putting it in a gift bag. The __area around the ring in the bag is padding__, the __area between the bag and your hand is margin.__ 
 
 1. The picture and text are too close to the top of the webpage -- Let’s fix this.
-- We need another __CSS property__ called __margin__ and __CSS value: a numerical value (percent or pixels)__
-2. Let’s use the img tag → Therefore we must use the __CSS img selector__
-- We use the img tag because that is the closest thing to the top
+
+We need another __CSS property__ called `margin` and __CSS value__: a `numerical value (percent or pixels)`
+
+2. Let’s use the img tag → Therefore we must use the CSS `img selector`
+We use the `img` tag because that is the closest thing to the top
+
 - If we move that, the text under it will move as well 
-3. We are using the __margin__ but want to use specifically the __top as the property → margin-top: 250px;__
+3. We are using the `margin` but want to use specifically the top as the property → `margin-top: 250px;`
 
 ![](img/margin_padding.gif)
 
