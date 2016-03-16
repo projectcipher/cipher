@@ -194,12 +194,12 @@ __Create a CSS file by:__
 
     The code is: `<link rel= “stylesheet” href=“FILENAME” >` 
     
-    `link` is a tag → it’s self-closing, like the `img` tag, so there is no closing tag ( `</link>` )
+    - `link` is a tag → it’s self-closing, like the `img` tag, so there is no closing tag ( `</link>` )
       - This lets the webpage know you are linking something
     
-    `href` is an `attribute`, like the src one for the img tag__, that specifies the location of a file
+    - `href` is an `attribute`, like the src one for the img tag__, that specifies the location of a file
     
-    `rel` is also an `attribute` that tells the HTML what sort of file it is linking to
+    - `rel` is also an `attribute` that tells the HTML what sort of file it is linking to
 
 2. Add the name of the `CSS` file between the quotes → `<link rel= “stylesheet” href=“main.css”>` 
 
@@ -209,13 +209,13 @@ __Create a CSS file by:__
 
 ## Part Twelve: Change the Image Size
 
-1. Let’s hop onto the CSS file → Double click the CSS file on the right directory
+1. Let’s hop onto the CSS file → Double click the `main.css` file on the right directory
 
     ![](img/changing_image_size.gif)
 
 2. Before we got side-tracked, we were trying to change the size of our image -- it’s way too big right now 
 
-    Let’s write some code to change that in the “main.css” file:
+    Let’s write some code to change that in the `main.css` file:
     
     ````
         img {
