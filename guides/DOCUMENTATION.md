@@ -45,7 +45,7 @@ Just like how [Google Drive](https://drive.google.com) allows us to write and or
 
 GitHub leverages [Git](https://git.com), a [version control system](../DOCUMENTATION.md#version-control-system-vcs), to post our content online. 
 
-With our content online, GitHub uses a service called "GitHub Pages" to  allow the creation of custom web addresses/URLs for our projects. These will be sharable with friends and family!
+With our content online, GitHub uses a service called "GitHub Pages" to  enable the creation of custom web addresses/URLs for our projects. These will be sharable with friends and family!
 
 Example: https://nguyenbrian.github.io
 
