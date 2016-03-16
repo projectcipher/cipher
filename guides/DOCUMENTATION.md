@@ -7,15 +7,51 @@ Practice exercises are meant to test your newfound power after completing a guid
 ## Table of Contents
 
 1. [Workspace Setup](#workspace-setup)
+  - [Cloud 9](#)
+  - [GitHub](#)
   - [Version Control System (VCS)](#version-control-system-vcs)
   - [Repository](#repository)
   - [Branch](#branch)
   - [Integrated Development Environment](#integrated-development-environment-ide)
   - [Markdown](#markdown)
 
+2. [Personal Website](#personal-website)
+  - [HTML](#html)
+  - [CSS](#css)
+
 # Workspace Setup
 
-This [guide](workspace_setup/README.md) takes us through the setup process of our workspace!
+By the end of this [guide](workspace_setup/README.md), we will have be taken through the setup process of our workspace!
+
+## Cloud 9 (C9)
+
+[Cloud 9](https://c9.io) is a website; the short form of Cloud 9 is C9. 
+
+### Explanation
+
+C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment (IDE)](../DOCUMENTATION.md#integrated-development-environment-ide).
+
+What makes C9 great is that it enables you to start programming with just the internet and a browser. No installing software required!
+
+### Analogy
+
+Just like how [Google Drive](https://drive.google.com) allows us to write and organize documents written in English, we can use C9 to write, save, and organize code.
+
+## GitHub
+
+[GitHub](https://github.com) is an Internet company (website) that was founded on February 8, 2008.
+
+### Explanation
+
+GitHub leverages [Git](https://git.com), a [version control system](../DOCUMENTATION.md#version-control-system-vcs), to post our content online. 
+
+With our content online, GitHub uses a service called "GitHub Pages" to  allow the creation of custom web addresses/URLs for our projects. These will be sharable with friends and family!
+
+Example: https://nguyenbrian.github.io
+
+### More Technial Explanation:
+
+[GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md#repository) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md#branch) with an organized interface.
 
 ## Version Control System (VCS)
 
@@ -213,3 +249,83 @@ Markdown is the standard on GitHub when conveying bodies of informative text.
 If you'd like to learn more about Markdown, [request a workshop](https://github.com/projectcipher/cipher/issues/new) on it! We'll get working on it asap.
 
 There are also resources GitHub provides, such as [this](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
+
+# Personal Website
+
+By the end of this [guide](personal_website/README.md), we will have created a personal website!
+
+## HTML
+
+HTML stands for Hypertext Markup Language. 
+
+### Explanation
+
+It is a markup language designed for the structuring of text on a webpage.
+
+The language specifics formatting with *tags*, written within angle brackets (`<tag>`). There many tags and each have their own uses.
+
+### Analogy
+
+A website is like a building -- it needs a basic structure first! HTML is the structure. Think of it as the 'bricks' to a building.
+
+There are different types of 'bricks' called *tags*:
+- Tags are written within angle brackets:
+    - On your keyboard: *shift + comma* and *shift + period* for `< >` 
+    - Example: `<tag>`
+- Most tags open and then close
+    - Closing tags are the same as the regular tag, but with a forward slash right after the first bracket:
+     - Example: `<body> ← Opening`  
+     - Example: `</body> ← Closing`
+
+### Example
+
+`<html>` is the opening tag that tells the web browser that this is an HTML file.
+
+`</html>` is the corresponding closing tag.
+
+```
+<html>
+    some content here
+</html>
+```
+
+## CSS
+
+CSS stands for Cascading Style Sheets and is sometimes referred to just as a style sheet because it's a "sheet" that specifies all of a site's "styles".
+
+
+### Explanation
+
+Referring to the building analogy from the HTML explanation, CSS is the building's design: colour, decoration, art.
+
+CSS uses *‘selectors’*. Selectors correspond to a specific `<tag>`. 
+
+A selector applies *rules* to whatever is inside the `<tag>` referenced.
+
+### Example: 
+
+**HTML:**
+``` 
+<body>
+    content is here.
+</body>
+```
+
+**CSS:** 
+```
+body {
+    text-align:left;
+}
+```
+
+`body` in the CSS is the *selector*. It references the `<body>` *tag* in the HTML.
+
+`text-align: left;` in the CSS is a rule. Rules are made up of two parts:
+1. Property: `text-align:`
+2. Value: `left;`
+
+There is always: 
+- Colon `(:)` between the property and value 
+- Semi-colon `(;)` after the value.
+
+All of the rules in CSS are within *curly brackets* `( { } )`.

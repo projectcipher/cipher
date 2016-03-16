@@ -1,8 +1,10 @@
 # Workspace Setup
 
+*Time Estimate: 10-15 minutes*
+
 This guide will take us through the setup process of our workspace!
 
-The workspace consists of two tools: GitHub and Cloud 9. These crucial tools are required to take advantage of the rest of Cipher's guides.
+The workspace consists of two tools: [GitHub](#) and [Cloud 9](#). These crucial tools are required to take advantage of the rest of Cipher's guides.
 
 Note: When you see: **[GIF]**, this means the image below is a GIF -- a looping video!
 
@@ -11,15 +13,11 @@ Note: When you see: **[GIF]**, this means the image below is a GIF -- a looping 
 1. [GitHub](#github)
 2. [Cloud 9](#cloud-9)
 
-## GitHub
+## Part I: Creating Accounts
 
-GitHub leverages [Git](https://git.com), a [version control system](../DOCUMENTATION.md#version-control-system-vcs), to post our content online. This enables the creation of custom web addresses/URLs for our projects, which are sharable with friends and family!
+Let's create a [GitHub](#) and [Cloud 9](#) account!
 
-### What is GitHub?
-
-[GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md#repository) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md#branch) with an organized interface.
-
-### How to Sign Up for a GitHub Account
+### 1) Signing Up for a GitHub Account
 
 Good news! This is a super easy process that wouldn't take too long.
 
@@ -27,7 +25,7 @@ Good news! This is a super easy process that wouldn't take too long.
 
   ![Github page](img/github.png)
 
-#### 2. Sign up via the form
+#### 2. Sign up through the form
 
   ![Github form](img/github_form.png)
 
@@ -35,7 +33,7 @@ Good news! This is a super easy process that wouldn't take too long.
 
   ![Github settings](img/github_settings.png)
 
-#### 4. Fill in relevant information and click "Update profile"
+#### 4. Add your name and a picture, then click "Update profile"
 
   ![Github profile](img/github_profile.png)
 
@@ -43,64 +41,113 @@ Good news! This is a super easy process that wouldn't take too long.
 
   ![Github email](img/github_email.png)
 
-## Cloud 9
+### 2) Signing Up for a Cloud 9 Account
 
-This tool will enable us to write code in an appropriate enviroment. The short form for Cloud 9 is _C9_.
-
-### What is Cloud 9?
-
-C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment](../DOCUMENTATION.md#integrated-development-environment-ide).
-
-Part of what makes C9 great is that it enables you to start programming with simply the internet and a browser. No installing software required!
-
-### How to Sign Up for a Cloud 9 Account
-
-This process is even faster than GitHub's because C9 allows you to sign in via your GitHub account!
+This process is even faster than GitHub's because C9 allows you to sign in with your GitHub account!
 
 #### 1. Navigate to http://c9.io
 
   ![C9 page](img/c9.png)
 
-#### 2. Log in using your GitHub account [GIF]
+#### 2. Log in using your GitHub account
 
-![C9 logging in](img/c9_logging_in.gif)
+Click the GitHub button at the top-right of the page. It looks like this: ![GitHub icon](img/c9_gh_icon.png).
 
-#### 3. Get familiar with creating workspaces
+Then enter your GitHub email address and password to sign in!
 
-Workspaces are where we will write our code! It is important to know how to create these workspaces. Don't worry though, it's very straight-forward!
+![C9 loggin in](img/signing_into_c9.png)
 
-1. Simply click "Create a new workspace"
+![C9 logging in](img/c9_logging_in.png)
 
-2. Fill in "Workspace name" and "Description". The rest of the settings are fine!
 
-3. Click the green "Create Workspace" button at the bottom of the page.
+#### 3. You should be taken to a screen that looks like this:
+
+![C9 landing page](img/c9_landing_page.png)
+
+**Keep this tab open!**
+
+> If you receive some sort of error, ask the person next to you for some help! If that doesn't help, ask the facilitator for help.
+
+### 3) Celebrate!
+
+We made it! We just have a few more steps to finish our set-up.
+
+![Kendrick happy](img/1.1_kendrick_happy.gif)
+
+## Part II: Creating a C9 Workspace
+
+### 1) Create a GitHub Repository
+
+We've already created a [GitHub](#) account, so let's put it to use!
+
+1. Go to https://github.com -- make sure you're signed in
+
+![GitHub site landing](img/1.1_github_site.png)
+
+2. Click the green **"+ New repository"** button on the right side of the page
+
+![New repo button](img/2_new_repo.png)
+
+3. Under "Repository name" write your USERNAME.github.io
+
+Note: instead of writing USERNAME, write your GitHub username. This is stated under "Owner".
+
+![Naming repo](img/2.2_naming_repo.png)
+
+- For example, my username is jevinsidhu, so I would write jevinsidhu.github.io.
+
+4. Click the green "Create repository" button at the bottom.
+
+![Create repo button](img/3_create_repo.png)
+
+5. You will be taken to a new page. There, copy the "HTTPS link" at the top. You will need this for the next step!
+
+Note: it should look like this: `https://github.com/username/username.github.io.git`.
+
+![https link](img/4_https_link.png)
+
+### 2) Create a C9 Workspace
+
+We've also already created a [C9](#) account, so let's put that to use.
+
+Head back to the tab you left open -- if you closed it, just go to https://c9.io.
+
+We will need to create a "workspace" to have a place to write our code!
+
+1. Click "Create a new workspace"
 
 ![C9 creation](img/c9_workspace_creation.png)
 
+2. Fill in "Workspace name" with the name "cipher-projects"
+
 ![C9 creation 2](img/c9_workspace_creation_2.png)
 
-#### 4. Delete default files [GIF]
+3. Under "Clone from Git or Mercurial URL", paste the HTTPS link that you copied from the GitHub page.
 
-C9 generates one file by default when we create a workspace. This file is a [markdown file](../DOCUMENTATION.md#markdown).
+![C9 adding https URL](img/c9_https_url.png)
 
-We don’t need this file, so let's delete it:
+4. Without changing anything else, scroll to the bottom and click the green "Create Workspace" button
 
-  1. Right click the file, “README.md”, from the left bar
-    - The left bar is called the "directory"
-  2. Click “Delete” on the pop-up menu
-  3. Click “Yes” on the dialog box to confirm your deletion
-  4. Near the top of the page, click the "x" on the tab named "README.md" to close the document
+![C9 creation 3](img/c9_workspace_creation_3.png)
 
-![C9 deletion](img/c9_deleting.gif)
+5. You should be welcome by a screen similar to this!
+
+![C9 creation 3](img/c9_landing_workspace.png)
+
+> If are having some trouble, ask the person closest to you for help! If they cannot offer some help, ask your facilitators.
+
+### 3) Celebrate!
+
+![Outkast happy](img/5_outkast_happy.gif)
 
 ## Closing
 
-Congrats! You're setup with the tools and knowledge to tackle our upcoming guides.
+Congrats! You're setup with the tools to tackle our upcoming guides.
 
 Be sure to check out [`DOCUMENTATION`](../DOCUMENTATION.md)for extended explanations, examples, and practice on the content covered here.
 
 Tweet us [@projectcipher](https://twitter.com/projectcipher) telling us how awesome you are for completing this!
 
-Constantly making this guide better is our priority, and you can help! If you found any problems or think something can be done better, [open an issue](https://github.com/projectcipher/cipher/issues/new). You could even read [`CONTRIBUTING`](../../CONTRIBUTING.md) if you want to add something yourself!
+Constantly making this guide better is our priority, and you can help! If you found any problems or think something can be done better, [open an issue](https://github.com/projectcipher/cipher/issues/new). You could also read [`CONTRIBUTING`](../../CONTRIBUTING.md) if you want to add something yourself!
 
 ![Kanye clapping](img/kanye_clapping.gif)
