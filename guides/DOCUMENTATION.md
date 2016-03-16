@@ -49,7 +49,7 @@ With our content online, GitHub uses a service called "GitHub Pages" to  enable 
 
 Example: https://nguyenbrian.github.io
 
-### More Technial Explanation:
+### More Technical Explanation:
 
 [GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md#repository) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md#branch) with an organized interface.
 
