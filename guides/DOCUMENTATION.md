@@ -252,7 +252,7 @@ There are also resources GitHub provides, such as [this](https://guides.github.c
 
 # Personal Website
 
-By the end of this [guide](#), we will have created a personal website!
+By the end of this [guide](personal_website/README.md), we will have created a personal website!
 
 ## HTML
 

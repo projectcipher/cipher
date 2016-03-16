@@ -6,9 +6,7 @@ Note: If you have not set up your workspace, please visit the the [Workspace Set
 
 ## Our Goal
 
-By the end of this guide, you will have created a personal website! 
-
-Though, it doesn't have to be for you. For example, this is [John Cena’s](http://nguyenbrian.github.io/john-cenas-personal-website/) _(Turn your sound down!)_.
+By the end of this guide, you will have created a personal website! Though, it doesn't have to be for you. For example, this is [John Cena’s](http://nguyenbrian.github.io/john-cenas-personal-website/) _(Turn your sound down!)_.
 
 Your final product will look similiar to this, but we want you to apply as many changes you as wish:
 
@@ -24,9 +22,7 @@ The basics of two programming languages: [HTML](https://github.com/JevinSidhu/ci
 
 ## Part One: Importance of Googling
 
-What happens when you don’t have a step-by-step tutorial and you need to figure something out?
-
-__Google it!__
+What happens when you don’t have a step-by-step tutorial and you need to figure something out: __Google it!__
 
 Professional programmers Google while on the job. The largest Q&A website for programming (https://stackoverflow.com) __has hundreds of questions submitted by programmers everyday__ who work at giant tech companies like Apple, Facebook and Google.
 
@@ -40,7 +36,7 @@ In the case above, Google even gives us the answer for our question without havi
 
 ## Part Two: Log onto Cloud 9
 
-You should have a Cloud 9 account after following the [Workspace Setup](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup) guide!
+Note: You should have a Cloud 9 account after following the [Workspace Setup](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup) guide!
 
 1. Head to https://c9.io
 
@@ -90,7 +86,7 @@ You should have a Cloud 9 account after following the [Workspace Setup](https://
 
 1. Back to the index.html file! Let’s write your name and a description!
  
-    For example: 
+    **For example:**
     ```
     Jevin Sidhu. 
     My name is Jevin
@@ -306,13 +302,13 @@ This was the first one I found, but if yours wasn’t this one -- don’t stress
     The effective way: Enclose everything in one tag and then use ONE `CSS` selector to center everything
 
 2. The tag that usually encloses the main document is: `<body> </body>` 
-    - The `<body>` tag contains all the contents of an `HTML` document, such as text, hyperlinks, images, tables, lists, etc → __Does not include the `<head>` tag__
+    - The `<body>` tag contains all the contents of an `HTML` document, such as text, hyperlinks, images, tables, lists, etc → __Does not include the `<head>` tag
 
 3. Let’s make the code more readable
     - Indent everything enclosed in the `<body>` tag:
       - Highlight by left-clicking and then drag across the text __inside__ of the tag (do not highlight `<body>`).
     - Click the __“tab”__ key on your keyboard
-    - _Ensure you indent future lines of code inside of the `<body>` tag__
+    - Ensure you indent future lines of code inside of the `<body>` tag
     
     ![](img/adding_body.gif)
 
