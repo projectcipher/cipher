@@ -2,7 +2,7 @@
 
 *Time Estimate: 1 hour*
 
-Note: If you have not set up your workspace, please visit the the [Workspace Setup](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup) guide.
+Note: If you have not set up your workspace, please visit the [Workspace Setup](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup) guide.
 
 ## Our Goal
 
@@ -22,7 +22,7 @@ The basics of two programming languages: [HTML](https://github.com/JevinSidhu/ci
 
 ## Part One: Importance of Googling
 
-What happens when you don’t have a step-by-step tutorial and you need to figure something out: __Google it!__
+What happens when don't know how to do something? __Google it!__
 
 Professional programmers Google while on the job. The largest Q&A website for programming (https://stackoverflow.com) __has hundreds of questions submitted by programmers everyday__ who work at giant tech companies like Apple, Facebook and Google.
 
@@ -32,11 +32,13 @@ Try the first 3 links that appear → Then seek help from friends/co-workers
 
 ![](img/googling.gif)
 
-In the case above, Google even gives us the answer for our question without having to click anything-- neat! __Try the same for CSS.__
+In the case above, Google even gives us the answer for our question, _"What does HTML stand for"_, without having to click anything-- neat! 
+
+__Try the same for CSS!__
 
 ## Part Two: Log onto Cloud 9
 
-Note: You should have a Cloud 9 account after following the [Workspace Setup](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup) guide!
+_Note: You should have a Cloud 9 account after following the [Workspace Setup](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup) guide!_
 
 1. Head to https://c9.io
 
@@ -48,9 +50,7 @@ Note: You should have a Cloud 9 account after following the [Workspace Setup](ht
 
 ## Part Three: Creating Your HTML File
 
-1. Right click the left section where the folder icon is
-
-    This area is called the directory!
+1. __Right click the left section__ where the folder icon is. This area is the directory!
 
 2. Click __“New File”__ and name this file `index.html` 
 
@@ -58,13 +58,13 @@ Note: You should have a Cloud 9 account after following the [Workspace Setup](ht
 
     _index.html_ is the usual name for the main HTML file. In larger projects you may have several files -- for this project we will only have one.
 
-3. Double click the file, `index.html`, to open it
+3. __Double click the file, `index.html`__, to open it
 
 ![Creating the HTML file](img/creating_html.gif)
 
 ## Part Four: Opening the Preview
 
-1. On the bar on the top, right below my bookmark tab or URL area, navigate to the 2nd last tab, `Preview`
+1. On the bar on the top, right below my bookmark tab or URL area, __click  the 2nd last tab, `Preview`.__
  
     You want to be able to see the changes you make. With Word, as you type you can see your changes instantly
     
@@ -72,19 +72,18 @@ Note: You should have a Cloud 9 account after following the [Workspace Setup](ht
     - Type
     - Save the document
     - View changes on the web
-    - You may need to refresh the tab with other IDEs → c9 supports auto-refreshing 
 
 2. Click `Live Preview File`
 
-3. A window on the right side, called a `pane`, will pop up
+3. A window on the right side, called the `pane`, will pop up
 
-4. Click the boxed arrow icon on the right of the pane to open the webpage fullscreen
+4. Click the `boxed arrow icon` on the right of the pane to open the web page full screen
 
 ![Previewing the HTML file](img/previewing_html.gif)
 
 ## Part Five: Writing Some Code!
 
-1. Back to the index.html file! Let’s write your name and a description!
+1. Back to the `index.html` file! Let’s write your name and a description!
  
     **For example:**
     ```
@@ -96,59 +95,59 @@ Note: You should have a Cloud 9 account after following the [Workspace Setup](ht
 
 3. Switch to the tab with your `Live Preview` to see your changes!
 
-    You may need to refresh your page because C9 sometimes doesn't auto-refresh in time
+    You may need to refresh your page because C9 sometimes doesn't auto-refresh in time.
     
-Note: Notice how adding blank lines between your sentences in HTML does not change what it looks like. We need to style elements by using `HTML Tags`.
+_Note: Notice how adding blank lines between your sentences in HTML does not change what it looks like. We need to style elements by using `HTML Tags`._
 
 ![](img/writing_html.gif)
 
 ## Part Six: Introducing HTML Tags!
 
-`HTML tags` are used to organize the content of a web page
+`HTML tags` organize information on a web page.
 
-1. Put your name as a big `header` by putting it between an opening and closing heading tag
+1. Make your name a `header` by putting it between an __opening and closing heading tag__.
 
-    Heading Tag: `<h1> name here </h1>`
-    
-    This styles your name with bigger, bolder font and puts it on a separate line.
-    
-    `<h1> Jevin Sidhu </h1>` 
+    `<h1> [Your Name] </h1>` 
     
     - `<h1>` is the __opening__ `h1 tag`
     - `</h1>` is the __closing__ `h1 tag` → The difference is the _forward slash_ before the name `( / )`
     
-    _Almost_ all HTML tags have both an opening and closing tag → The ones that don’t we will discuss
+  Putting your name between the `h1` tags styles your name with a bigger, bolder font and puts it on a separate line.
+      
+  _Almost_ all HTML tags have both an opening and closing tag → The ones that don’t we will discuss.
     
-    ![](img/introducing_tags_html.gif)
+   ![](img/introducing_tags_html.gif)
 
 ## Part Seven: More about Headings
 
-There are six different tags, `<h1>` through `<h6>`
+There are six different headers: `<h1>` through `<h6>`
  
 `<h1>` tag indicates that the text between the opening and closing tags is the __most important__. `<h6>`is the __least important__. 
-The closer the tag is to h1 numerically, the larger the text!
+Therefore, the closer the tag is to h1 numerically, the larger the text!
 
 ## Part Eight: Adding an Image
 
 1. To add an image, use the image tag: 
+
     `<img src=“http://website.com/file-name.png ”>`
     
-    `img` is the `tag name` → This is self-closing, meaning there is no __closing tag, like `</img>`
-    `src` is an `attribute` that specifies the URL of the image
+   __`img`__ is the `tag name` → This is self-closing, meaning there is no closing tag, like `</img>`
+   
+    __`src`__ is an `attribute` that specifies the URL of the image
      - Add the URL of our image between the quotes
-    - http://imgur.com/ is a website where you can upload and then get a link to the image
+    - Upload an image to [Imgur](http://imgur.com/) or get one from [Google Images](https://images.google.com).
     
     ![](img/img_tag.gif)
 
-2. The webpage reads HTML top to bottom, so if you put the tag above the text, it will show up above the text. If you put the tag below the text, it will show up below.
+_Note: The web page reads HTML top to bottom. If you put the tag above the text, it will show up above the text. If you put the tag below the text, it will show up below._
 
-    ![](img/top_to_bottom.gif)
+   ![](img/top_to_bottom.gif)
 
 ## Part Nine: Introducing CSS
 
-`HTML` is used for content 
+`HTML` is for content 
   - Like the skeleton (sp00ky) of a body
-`CSS` is used to change the way things look and feel
+`CSS` is to change the way things look and feel
   - Like the colour, width, height of your face/skin
 
 Therefore, if we want to change the size of the image → Use `CSS`!
