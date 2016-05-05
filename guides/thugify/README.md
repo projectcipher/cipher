@@ -88,6 +88,56 @@ Using the same ```<script>``` tag we need to link the **content-delivery network
 
 ##Creating the HTML Structure
 Our focus for this workship is the basics of **JavaScript + jQuery.** Let's finish up our HTML first!
+![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fd2mxuefqeaa7sj.cloudfront.net%2Fs_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449367351294_giphy.gif&hmac=1IhuTT125HusbBGoBdgbggzj8q5reMqtRDFA%2F0uISFo%3D)
+**Note: All of this must be enclosed by the `<body>` tag. The closing tag, `</body>`, should be after your script tags.**
+
+###[Let's go](https://www.youtube.com/watch?v=AYD4dZqCpdU&feature=youtu.be&t=17)
+[Please ~~don't~~ turn up that hard to our workshop]
+
+**1. To enclose our content, we'll create a `<div>` tag**
+
+This is a container to:
+* Organize our content
+* Apply styling from our **style.css** file to everything enclosed
+
+```
+<div class="thugin">
+
+</div>
+```
+
+**2. To add the name of the workshop, let's create a `<h1> </h1>` header tag**
+
+Give the header tag an id of "title"
+* Type `id="title"` before the `<h1` is closed
+
+It should look like this: `<h1 id="title"> Thugify </h1>`
+
+* I.e. there may be multiple `<h1>` tags in your code
+* To select one it needs to have its custom name, thus the id
+
+Indent your code!
+* Indenting items that are enclosed within another tag is important for your own readability
+  * In this case `<h1>` is enclosed in `<div>`
+```
+<div class="thugin"> 
+  <h1 id="title"> Thugify</h1>     
+</div>
+```
+
+**3. Let's create a place to input our text with the `<input>` self-enclosed tag**
+
+`<input>` is a **self-enclosed tag** for creating an **input box.**
+
+We'll be able to type in this box! ![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fd2mxuefqeaa7sj.cloudfront.net%2Fs_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449368504615_Screen%2BShot%2B2015-12-05%2Bat%2B9.21.34%2BPM.png&hmac=5cgxe%2FdXpjqTSlOwbuuYVcml%2Fd4%2FGBitHdDnVr6wbKk%3D)
+
+Give this input box an **id of "texter"**
+`<input id="texter">`
+
+We can give the box **"placeholder text"** as well~
+* Placeholder text is the greyed out text
+
+
 
 
 
