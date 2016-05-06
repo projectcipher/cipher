@@ -90,6 +90,7 @@ Using the same ```<script>``` tag we need to link the **content-delivery network
 ##Creating the HTML Structure
 Our focus for this workship is the basics of **JavaScript + jQuery.** Let's finish up our HTML first!
 ![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fd2mxuefqeaa7sj.cloudfront.net%2Fs_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449367351294_giphy.gif&hmac=1IhuTT125HusbBGoBdgbggzj8q5reMqtRDFA%2F0uISFo%3D)
+
 **Note: All of this must be enclosed by the `<body>` tag. The closing tag, `</body>`, should be after your script tags.**
 
 ###[Let's go](https://www.youtube.com/watch?v=AYD4dZqCpdU&feature=youtu.be&t=17)
@@ -130,7 +131,9 @@ Indent your code!
 
 `<input>` is a **self-enclosed tag** for creating an **input box.**
 
-We'll be able to type in this box! ![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fd2mxuefqeaa7sj.cloudfront.net%2Fs_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449368504615_Screen%2BShot%2B2015-12-05%2Bat%2B9.21.34%2BPM.png&hmac=5cgxe%2FdXpjqTSlOwbuuYVcml%2Fd4%2FGBitHdDnVr6wbKk%3D)
+We'll be able to type in this box!
+
+![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fd2mxuefqeaa7sj.cloudfront.net%2Fs_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449368504615_Screen%2BShot%2B2015-12-05%2Bat%2B9.21.34%2BPM.png&hmac=5cgxe%2FdXpjqTSlOwbuuYVcml%2Fd4%2FGBitHdDnVr6wbKk%3D)
 
 Give this input box an **id of "texter"**
 `<input id="texter">`
@@ -247,7 +250,9 @@ To review, so far our code is
 `document.getElementById('go').onclick = function() {}`
 which simply says: Find the element 'go' and listen for a click on this element. ?If there is a registered click, run this function.
 
-If you've followed along this far, awesome! You're doing great, we're almost done. If you're stuck, turn to a peer! We a team and we the best.![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fd2mxuefqeaa7sj.cloudfront.net%2Fs_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449382445802_5833673d42c72dd12cb4078eb757c92f.500x274x12.gif&hmac=RqlhmIMsskPjEnsdsv%2BMqENM7Td%2B2KipbvPU5JxQc28%3D)
+If you've followed along this far, awesome! You're doing great, we're almost done. If you're stuck, turn to a peer! We a team and we the best
+
+.![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fd2mxuefqeaa7sj.cloudfront.net%2Fs_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449382445802_5833673d42c72dd12cb4078eb757c92f.500x274x12.gif&hmac=RqlhmIMsskPjEnsdsv%2BMqENM7Td%2B2KipbvPU5JxQc28%3D)
 
 Now that we've gotten Javascript to listen for a click on the button, we need to tell it to do something when it gets a click.
 
@@ -324,7 +329,9 @@ We need to store the variable with the words from the input box and then **add**
 This line takes the tsring we got in the last section (variable div) from the input box, and adds `", dawg"` to the end of it, and then stores it into a new variable named `add`
 
 Adding the two strings together is called `Concatenation.` Ya fancy, huh?
+
 ![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fl41lKJsfOHPaVmh7G%2Fgiphy.gif&hmac=QluTN02OinT2U3zH%2BTmgn7y%2FfmDxLw4Pr5vjdf6ia1k%3D)
+
 Alrighty, now that we're **thugin'** it's time to display our up text on the page — fo'shizzle.
 
 ###Displaying the Text
@@ -369,6 +376,7 @@ Final Code (**do not copy-pasta you bumface**):
 ##You are now a JavaScript Legend.
 
 ![](https://paper.dropbox.com/ep/redirect/image?url=http%3A%2F%2Fi.imgur.com%2FXWOuu8G.gif&hmac=TtOmcl45l0o2RAJS5azF1YOGoiKuHgA5wB3WqUgYW4U%3D)
+
 Unless you copy*-pasted then ehhhh. Maybe a half-legend or something.
 
 Your mom thinks you're special, that's all that really matters*
