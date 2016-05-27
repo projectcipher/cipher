@@ -235,7 +235,7 @@ The **x-intercepts will be found** using the values submitted in the input boxes
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <script src="script.js"> 
     </body>
-    ```
+```
     
 
 #CSS
