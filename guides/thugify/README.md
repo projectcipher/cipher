@@ -1,6 +1,6 @@
 # Guide Three: Thugify
 
-
+![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449360069524_giphy.gif)
 ##Introduction
 ###What is Thugify?
 **Thugify** is an introduction to the **basics of Javascript + jQuery.**
@@ -89,7 +89,7 @@ Using the same ```<script>``` tag we need to link the **content-delivery network
 
 ##Creating the HTML Structure
 Our focus for this workship is the basics of **JavaScript + jQuery.** Let's finish up our HTML first!
-![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fd2mxuefqeaa7sj.cloudfront.net%2Fs_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449367351294_giphy.gif&hmac=1IhuTT125HusbBGoBdgbggzj8q5reMqtRDFA%2F0uISFo%3D)
+![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449367351294_giphy.gif)
 
 **Note: All of this must be enclosed by the `<body>` tag. The closing tag, `</body>`, should be after your script tags.**
 
@@ -133,7 +133,7 @@ Indent your code!
 
 We'll be able to type in this box!
 
-![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fd2mxuefqeaa7sj.cloudfront.net%2Fs_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449368504615_Screen%2BShot%2B2015-12-05%2Bat%2B9.21.34%2BPM.png&hmac=5cgxe%2FdXpjqTSlOwbuuYVcml%2Fd4%2FGBitHdDnVr6wbKk%3D)
+![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449368504615_Screen+Shot+2015-12-05+at+9.21.34+PM.png)
 
 Give this input box an **id of "texter"**
 `<input id="texter">`
@@ -182,7 +182,7 @@ Another one (**attribute**);
 ```
 
 ###*Look at that beautiful indenting. Is yours indented?*
-![](https://paper.dropbox.com/ep/redirect/image?url=http%3A%2F%2Fi.imgur.com%2FqHEIc0k.gif&hmac=%2B3PRBUaGfExy1s%2BCKqhBhfqd1fAbdb0GUftBU%2BMwQqA%3D)
+![](http---i.imgur.com-qHEIc0k.gif)
 
 **4. To create a space for our thugified content, let's create a `<p>` tag with an id of `output`**
 
@@ -252,7 +252,7 @@ which simply says: Find the element 'go' and listen for a click on this element.
 
 If you've followed along this far, awesome! You're doing great, we're almost done. If you're stuck, turn to a peer! We a team and we the best
 
-.![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fd2mxuefqeaa7sj.cloudfront.net%2Fs_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449382445802_5833673d42c72dd12cb4078eb757c92f.500x274x12.gif&hmac=RqlhmIMsskPjEnsdsv%2BMqENM7Td%2B2KipbvPU5JxQc28%3D)
+.![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449382445802_5833673d42c72dd12cb4078eb757c92f.500x274x12.gif)
 
 Now that we've gotten Javascript to listen for a click on the button, we need to tell it to do something when it gets a click.
 
@@ -276,7 +276,7 @@ To do that we need to use:
 WOAH HOLD UP DID YOU SEE THAT?????
 LOOK AGAIN.
 
-![](https://paper.dropbox.com/ep/redirect/image?url=http%3A%2F%2Fi.imgur.com%2FEQiLdKF.png&hmac=cnWqzDbUgNYMewVdsyR9UkBK1alnokYnpMgwx3SycJY%3D)
+![](http---i.imgur.com-EQiLdKF.png)
 
 You're probably wondering what the heck that `$` is doing here. Remember the libraries section in the [Slidedeck](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit#slide=id.gd76540ddf_0_22)?
 
@@ -290,7 +290,7 @@ And shortened it to:
 
 Of course `document.getelementById('')` would still work if you'd prefer that.
 
-![](https://paper.dropbox.com/ep/redirect/image?url=http%3A%2F%2Fi.imgur.com%2FOVaD6aC.gif&hmac=vhTAnmeFFPoYA%2Fb%2BeVtVHuTLTjU4RlhcYZm3pLseCZk%3D)
+![](office.gif)
 
 Note: It finds HTML elements exactly like a CSS selector would:
 * ids would be: `#[id]`
@@ -318,7 +318,8 @@ We're gonna use this ***string*** value to thugify later on.
   * This is also mentioned in the [Slidedeck](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit#slide=id.gd76540ddf_0_22)
 
 So, we've debunked that msyery!
-![](https://paper.dropbox.com/ep/redirect/image?url=http%3A%2F%2Fi.imgur.com%2FUDsp9eh.gif&hmac=lSXZt0M2ZFuNZ2kSGu6K7%2FJfx7fEuy45qwWCpbMDJzk%3D)
+
+![](mystery.gif)
 
 Let's move on to performing the actual **thugifying** part of the string we got in the last part. 🏀
 
@@ -330,7 +331,8 @@ This line takes the tsring we got in the last section (variable div) from the in
 
 Adding the two strings together is called `Concatenation.` Ya fancy, huh?
 
-![](https://paper.dropbox.com/ep/redirect/image?url=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fl41lKJsfOHPaVmh7G%2Fgiphy.gif&hmac=QluTN02OinT2U3zH%2BTmgn7y%2FfmDxLw4Pr5vjdf6ia1k%3D)
+![](steveharvey.gif)
+
 
 Alrighty, now that we're **thugin'** it's time to display our up text on the page — fo'shizzle.
 
@@ -375,9 +377,9 @@ Final Code (**do not copy-pasta you bumface**):
 
 ##You are now a JavaScript Legend.
 
-![](https://paper.dropbox.com/ep/redirect/image?url=http%3A%2F%2Fi.imgur.com%2FXWOuu8G.gif&hmac=TtOmcl45l0o2RAJS5azF1YOGoiKuHgA5wB3WqUgYW4U%3D)
+![](http://i.imgur.com/BJiD03Q.gif)
 
-Unless you copy*-pasted then ehhhh. Maybe a half-legend or something.
+Unless you copy-pasted then ehhhh. Maybe a half-legend or something.
 
 Your mom thinks you're special, that's all that really matters*
 
