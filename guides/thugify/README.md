@@ -5,22 +5,12 @@
 ###What is Thugify?
 **Thugify** is an introduction to the **basics of Javascript + jQuery.**
 
-We'll be adding **",dawg"** to the end of whatever you type into **an input box** — simple, but sweet.
+We'll be adding **", dawg"** to the end of whatever you type into **an input box** — simple, but sweet.
 * You'll be able to change the word added at your own will
 *
 You can customize this to make it Politify, adding **",please"** instead
 
 This **slide deck** created by Amy Sorto and modified by [Cipher](http://projectcipher.io) is a great introduction to key concepts. Please take a look through it [here](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit)!
-
-###Playlists
-We are creating **playlists, recommended pathways** for our content -- this isn't the start of the content!
-
-Try [this](https://docs.google.com/document/d/1jCkOlEbgu_mCJDYCEdBk-rUSqTicHQy8YutEJ5MM6mY/edit) first
-
-Get it online using:
-https://hackpad.com/Basic-Git-and-Github-gOQpi30cvG8
-
-Try +Cringe 101 Workshop afterwards!
 
 ###Resources
  Code: https://ide.c9.io/jevinsidhu/thugify 
@@ -123,7 +113,7 @@ Indent your code!
   * In this case `<h1>` is enclosed in `<div>`
 ```
 <div class="thugin"> 
-  <h1 id="title"> Thugify</h1>     
+  <h1 id="title">Thugify</h1>     
 </div>
 ```
 
@@ -384,7 +374,6 @@ Unless you copy-pasted then ehhhh. Maybe a half-legend or something.
 Your mom thinks you're special, that's all that really matters*
 
 ##Thanks for completing our workshop <3
-**(Ya, we're dysfunctional as f--k)**
 
 
 
