@@ -60,7 +60,16 @@ Then enter your GitHub email address and password to sign in!
 ![C9 logging in](img/c9_logging_in.png)
 
 
-#### 3. You should be taken to a screen that looks like this:
+#### 3. If C9 asks you for payment info
+Use these credientials:
+
+| Cardholder Name | Card Number | Expiry Date | CVV |
+| -- | -- | -- | -- |
+| Project Cipher | 5113 4026 7731 5930 | 08/20 | 555 |
+
+It's a empty prepaid credit card, so dont try nothin fancy.
+
+#### 4. You should be taken to a screen that looks like this:
 
 ![C9 landing page](img/c9_landing_page.png)
 
@@ -68,7 +77,7 @@ Then enter your GitHub email address and password to sign in!
 
 > If you receive some sort of error, ask the person next to you for some help! If that doesn't help, ask the facilitator for help.
 
-### 3) Celebrate!
+### 5) Celebrate!
 
 We made it! We just have a few more steps to finish our set-up.
 
