@@ -1,7 +1,7 @@
 [![Slack Status](https://join-cipher.herokuapp.com/badge.svg)](http://join-cipher.herokuapp.com)
 
 ------------------------------------------------------------------------------
-
+d
 <p align="center">
   <img src="https://cdn.rawgit.com/projectcipher/meta/master/images/logos/logo.svg" alt="Project Cipher">
 </p>
