@@ -270,7 +270,7 @@ We'll be grabbing the value from the input box, since the id `"texter"` is assig
 * Whatever someone types into the input box will be retrieved with this line of JavaScript
 
 To do that we need to use:
-`var div = $('texter').val();
+```var div = $('texter').val();```
 
 WOAH HOLD UP DID YOU SEE THAT?????
 LOOK AGAIN.
@@ -282,25 +282,25 @@ You're probably wondering what the heck that `$` is doing here. Remember the lib
 That's the **power** of **jQuery** at work. 
 
 It took something we would normally use like
-`document.getelementById('texter')`
+`document.getElementById('texter')`
 
 And shortened it to:
 `$('#texter')`
 
-Of course `document.getelementById('')` would still work if you'd prefer that.
+Of course `document.getElementById('')` would still work if you'd prefer that.
 
 ![](office.gif)
 
 Note: It finds HTML elements exactly like a CSS selector would:
-* ids would be: `#[id]`
-* Classes would be: `.[classname]`
-* Regular tags would work too: `$('h1')`
+* ids would be: `$(#[id here])`
+* Classes would be: `$(.[classname here])`
+* Regular tag names would work too: `$('h1')`
 
 Therefore:
 `var div = $('#texter')`
 
 Means the same thing as:
-`var div = document.getElementById('#texter')
+```var div = document.getElementById('#texter')```
 
 Place `.val();` at the end of the line
 * Takes the value of whatever's behind the `.`
@@ -310,7 +310,7 @@ So to clarify everything:
 Means to take the **value of** the element **`texter`** and **store it into a new variable** called **`div`**
 
 We're grabbing the value from the input box, since the id `"texter" is assigned to the box
-* Whatever someone types into the input box will be retrieved with this line of JavaScript.
+* Whatever someone types into the input box the text will be retrieved with this line of JavaScript.
 
 We're gonna use this ***string*** value to thugify later on.
 * A string is a series of characters (text and numbers!)
@@ -323,10 +323,11 @@ So, we've debunked that msyery!
 Let's move on to performing the actual **thugifying** part of the string we got in the last part. 🏀
 
 ###Adding the `", dawg"` to the `add` Variable
-We need to store the variable with the words from the input box and then **add** the word `", dawg"` to it
+We need to store the variable with the words from the input box and then **add** the word `", dawg"` to it.
 
 `var add = div + ", dawg";`
-This line takes the tsring we got in the last section (variable div) from the input box, and adds `", dawg"` to the end of it, and then stores it into a new variable named `add`
+
+This line takes the string we got in the last section (the variable div) from the input box, and adds `", dawg"` to the end of it, and then stores it into a new variable named `add`
 
 Adding the two strings together is called `Concatenation.` Ya fancy, huh?
 
@@ -336,9 +337,10 @@ Adding the two strings together is called `Concatenation.` Ya fancy, huh?
 Alrighty, now that we're **thugin'** it's time to display our up text on the page — fo'shizzle.
 
 ###Displaying the Text
-We're going to use `document.getelementById()` to find an element on the HTML page by it's id
+We're going to use `document.getElementById()` to find an element on the HTML page by it's id
 
-` document.getelementById('output')
+`document.getElementById('output')`
+
 This will take care of that job for us
 * We're finding the element with the id `output`
 
@@ -346,28 +348,27 @@ This will take care of that job for us
 * Try changing this line to use the jQuery syntax
   * Syntax means the grammar, spelling and set of rules of a language
 
-Now then, we will attack `.innerHTML = add;` to the end of the line
+Now then, we will stick `.innerHTML = add;` to the end of the line
 
 `document.getElementById('output').innerHTML`
 
 It's just like `$('#texter').val();` that we used before;
 * Except this time we're setting the `innerHTML` value (the text inside the pairs of `<p>` tags) of an HTML element instead of getting a value from it.
 
-Now we will assign the value of add to the `<p>` tag with the **id** `output`
+Now we will assign the value of add to the `<p>` tag with the **id** of `output`
 
-`= add;`
+`document.getelementById('output').innerHTML = add;`
 
-In plain English, `document.getelementById('output').innerHTML = add;` means:
+In plain English, this means:
 * set the `innerHTML` of `"#output"` to the value of the **variable**, `add` (our th*ugified string variable → the variable that holds our text*)
 
-`document.getElementById('output').innerHTML = add;`
+Close your curly brackets of the function **(`}`)**, slap a semicolon **(`;`)** on the end of it and BAM you're done!
 
-Close your curly brackets **(`}`)**, slap a semicolon **(`;`)** on the end of it and BAM you're done!
 
-`};`
 
 Final Code (**do not copy-pasta you bumface**):
-```document.getElementById('go').onclick = function() {
+```
+document.getElementById('go').onclick = function() {
     var div = $('#texter').val();
     var add = div + ", dawg";
     document.getElementById('output').innerHTML = add; 
