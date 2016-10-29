@@ -153,7 +153,7 @@ We've made the place holder simply say "insert text"
 `<button>` is the tag for creating a button
 * Just like the `<h1>` tag, this is another tag where we place text between the opening and closing tags to display on the webpage
 
-Give this button the **text "thugin'"**
+Give this button the **text " thugin' "**
 
 ```<button> thugin' </button>```
 
@@ -226,8 +226,7 @@ We want **you** to style the page!
 
 If you feel completely lost, no worries! Go back to our older workshops and skim through those (linked at the top of this document).
 
-###We the best; you can put the hinges in the hands.
-https://www.youtube.com/watch?v=skY-FKgOIew
+###[We the best; you can put the hinges in the hands.](https://www.youtube.com/watch?v=skY-FKgOIew)
 
 ##Javascript + jQuery, dawg
 Remember that the variable names in the examples below can be **anything** you want, but we recommend sticking with ours in order to make the workshop easier to follow!
@@ -249,20 +248,21 @@ To review, so far our code is
 `document.getElementById('go').onclick = function() {}`
 which simply says: Find the element 'go' and listen for a click on this element. If there is a registered click, run this function.
 
-If you've followed along this far, awesome! You're doing great, we're almost done. If you're stuck, turn to a peer! We a team and we the best
+If you've followed along this far, awesome! You're doing great, we're almost done. If you're stuck, turn to a peer! We a team and we the best.
 
 .![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449382445802_5833673d42c72dd12cb4078eb757c92f.500x274x12.gif)
 
-Now that we've gotten Javascript to listen for a click on the button, we need to tell it to do something when it gets a click.
+Now that we've gotten Javascript to listen for a click on the button, we need to tell it what to do when it gets a click.
 
-###Creating a variable and Assigning a Value
+###Creating a variable and assigning a value
 Every line that we want to execute **needs** to be inside the curly brackets `function()`**`{}`**
 Don't forget to indent it either! Remember, it'll make it easier to read.
 
 So let's start with first finding what we need to **thugify.**
 
-**Remember from [Slidedeck](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit#slide=id.gd76540ddf_0_22): When creating variables (var), whatever is on the right side, is always being assigned to the left side.**
-* I.e. the content on the right is going to be assigned to the variable `div` on the left
+**Remember from the [Slidedeck](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit#slide=id.gd76540ddf_0_22): When creating variables (var), whatever is on the right side, is always being assigned to the left side.**
+* I.e. ```var div = content``` 
+* the content on the right is going to be assigned to the variable `div` on the left
 
 **The id `texter` is from the input box!**
 
