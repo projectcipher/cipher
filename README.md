@@ -14,8 +14,8 @@ These guides are built for beginners, so they're perfect if haven't coded before
 | Guide | Technologies | Description |
 | -- | -- | -- |
 | [Good Morning](guides/good_morning/README.md) | N/A | an introduction to code |
-| Workspace Setup | Cloud9 | setting up your tools |
-| Personal Website | HTML & CSS | build your first site |
+| [Workspace Setup ](guides/workspace_setup/README.md)| Cloud9 | setting up your tools |
+| [Personal Website](guides/personal_website/README.md) | HTML & CSS | build your first site |
 
 ## Social Media
 
