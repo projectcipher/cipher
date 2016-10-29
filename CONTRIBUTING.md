@@ -1,4 +1,4 @@
-_This document has been adapted from [Hack Club's Contributing Guide](https://github.com/hackclub/hackclub/blob/master/CONTRIBUTING.md)._
+This document has been adapted from [Hack Club's Contributing Guide](https://github.com/hackclub/hackclub/blob/master/CONTRIBUTING.md).
 
 -------------------------------------------------------------------------------
 
