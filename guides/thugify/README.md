@@ -121,8 +121,7 @@ Give this input box an `id` of `"texter"`
 
 `<input id="texter">`
 
-We can give the box "placeholder text" as well
-- Placeholder text is the greyed out text
+We can give the box "placeholder text" as well. Placeholder text is the greyed out text
 
 Add a **`placeholder` attribute** (like `src` is an attribute);
 * `placeholder="some text"` *right after the id*
@@ -131,7 +130,7 @@ Add a **`placeholder` attribute** (like `src` is an attribute);
 
 *We've made the place holder simply say "insert text"
 
-### Let's Make a Submit Button
+### Creating a Submit Button
 
 `<button>` is the tag for creating a button
 * Just like the `<h1>` tag, this is another tag where we place text between the opening and closing tags to display on the webpage
