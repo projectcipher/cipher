@@ -6,9 +6,8 @@
 **Thugify** is an introduction to the **basics of Javascript + jQuery.**
 
 We'll be adding **", dawg"** to the end of whatever you type into **an input box** — simple, but sweet.
-* You'll be able to change the word added at your own will
-*
-You can customize this to make it Politify, adding **",please"** instead
+* You'll be able to change the word added at your own will.
+* You can customize this to make it Politify, which adds **",please"** instead
 
 This **slide deck** created by Amy Sorto and modified by [Cipher](http://projectcipher.io) is a great introduction to key concepts. Please take a look through it [here](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit)!
 
@@ -111,6 +110,7 @@ It should look like this: `<h1 id="title"> Thugify </h1>`
 Indent your code!
 * Indenting items that are enclosed within another tag is important for your own readability
   * In this case `<h1>` is enclosed in `<div>`
+
 ```
 <div class="thugin"> 
   <h1 id="title">Thugify</h1>     
