@@ -1,5 +1,3 @@
-[![Slack Status](https://join-cipher.herokuapp.com/badge.svg)](http://join-cipher.herokuapp.com)
-
 ------------------------------------------------------------------------------
 
 <p align="center">
