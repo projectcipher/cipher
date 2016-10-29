@@ -6,9 +6,8 @@
 **Thugify** is an introduction to the **basics of Javascript + jQuery.**
 
 We'll be adding **", dawg"** to the end of whatever you type into **an input box** — simple, but sweet.
-* You'll be able to change the word added at your own will
-*
-You can customize this to make it Politify, adding **",please"** instead
+* You'll be able to change the word added at your own will.
+* You can customize this to make it Politify, which adds **",please"** instead
 
 This **slide deck** created by Amy Sorto and modified by [Cipher](http://projectcipher.io) is a great introduction to key concepts. Please take a look through it [here](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit)!
 
@@ -111,11 +110,22 @@ It should look like this: `<h1 id="title"> Thugify </h1>`
 Indent your code!
 * Indenting items that are enclosed within another tag is important for your own readability
   * In this case `<h1>` is enclosed in `<div>`
+
+
+```
+<div class="thugin"> 
+<h1 id="title">Thugify</h1>     
+</div>
+```
+Unidented 
 ```
 <div class="thugin"> 
   <h1 id="title">Thugify</h1>     
 </div>
 ```
+Indented
+
+Isn't that easier to read?
 
 **3. Let's create a place to input our text with the `<input>` self-enclosed tag**
 
@@ -136,14 +146,14 @@ Add a **`placeholder` attribute** (like `src` is an attribute);
 
 `<input id="texter" placeholder="insert text">`
 
-*We've made the place holder simply say "insert text"
+We've made the place holder simply say "insert text"
 
-**4. Let's make as ubmit button with the `<button>` tag**
+**4. Let's make a submit button with the `<button>` tag**
 
 `<button>` is the tag for creating a button
 * Just like the `<h1>` tag, this is another tag where we place text between the opening and closing tags to display on the webpage
 
-Give this button the **text "thugin'"**
+Give this button the **text " thugin' "**
 
 ```<button> thugin' </button>```
 
@@ -154,11 +164,9 @@ Give this button an **id of "go"**
 We're going to tell the webpage that this is of **type-something**
   * In this case, it's a **button**!
 
-*To do this, we're also going to give this a **`type` attribute**
+To do this, we're also going to give this a **`type`** attribute
 
-Another one (**attribute**);
-
-[Broken Youtube Link Here]
+[Another one](https://www.youtube.com/watch?v=Xdh0TeGNsTw) (**attribute**);
 
 * type="button" *right before the id*
   * This is to ensure that the webpage understands we want a button
@@ -218,16 +226,16 @@ We want **you** to style the page!
 
 If you feel completely lost, no worries! Go back to our older workshops and skim through those (linked at the top of this document).
 
-###We the best; you can put the hinges in the hands.
-https://www.youtube.com/watch?v=skY-FKgOIew
+###[We the best; you can put the hinges in the hands.](https://www.youtube.com/watch?v=skY-FKgOIew)
 
 ##Javascript + jQuery, dawg
 Remember that the variable names in the examples below can be **anything** you want, but we recommend sticking with ours in order to make the workshop easier to follow!
 
 ###Adding a Listener
-To begin our JavaScript journey to *Thug Land* we'll need to add a listener to listen for a click on the **Thugify** button.
+To begin our JavaScript journey to [*Thug Land*](https://cloud.githubusercontent.com/assets/9014119/19824102/cb1a4db2-9d3a-11e6-9bcd-deed6783092a.png) we'll need to add a listener to listen for a click on the **Thugify** button.
 `document.getelementById('go')`
-This line simply means: Find the element with the id "go" in the document.
+
+This line simply means: Find the element with the id **"go"** in the document.
 
 Now we haven't done anything with this element yet, we want the button to trigger some code when someone presses it, so we'll add `.onclick = function() {}` to the end of the end of the line.
 
@@ -238,22 +246,23 @@ With that known, we can infer that `.onclick = function() {}` simply means: When
 
 To review, so far our code is
 `document.getElementById('go').onclick = function() {}`
-which simply says: Find the element 'go' and listen for a click on this element. ?If there is a registered click, run this function.
+which simply says: Find the element 'go' and listen for a click on this element. If there is a registered click, run this function.
 
-If you've followed along this far, awesome! You're doing great, we're almost done. If you're stuck, turn to a peer! We a team and we the best
+If you've followed along this far, awesome! You're doing great, we're almost done. If you're stuck, turn to a peer! We a team and we the best.
 
 .![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449382445802_5833673d42c72dd12cb4078eb757c92f.500x274x12.gif)
 
-Now that we've gotten Javascript to listen for a click on the button, we need to tell it to do something when it gets a click.
+Now that we've gotten Javascript to listen for a click on the button, we need to tell it what to do when it gets a click.
 
-###Creating a variable and Assigning a Value
+###Creating a variable and assigning a value
 Every line that we want to execute **needs** to be inside the curly brackets `function()`**`{}`**
 Don't forget to indent it either! Remember, it'll make it easier to read.
 
 So let's start with first finding what we need to **thugify.**
 
-**Remember from [Slidedeck](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit#slide=id.gd76540ddf_0_22): When creating variables (var), whatever is on the right side, is always being assigned to the left side.**
-* I.e. the content on the right is going to be assigned to the variable `div` on the left
+**Remember from the [Slidedeck](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit#slide=id.gd76540ddf_0_22): When creating variables (var), whatever is on the right side, is always being assigned to the left side.**
+* I.e. ```var div = content``` 
+* the content on the right is going to be assigned to the variable `div` on the left
 
 **The id `texter` is from the input box!**
 
@@ -261,7 +270,7 @@ We'll be grabbing the value from the input box, since the id `"texter"` is assig
 * Whatever someone types into the input box will be retrieved with this line of JavaScript
 
 To do that we need to use:
-`var div = $('texter').val();
+```var div = $('texter').val();```
 
 WOAH HOLD UP DID YOU SEE THAT?????
 LOOK AGAIN.
@@ -273,25 +282,25 @@ You're probably wondering what the heck that `$` is doing here. Remember the lib
 That's the **power** of **jQuery** at work. 
 
 It took something we would normally use like
-`document.getelementById('texter')`
+`document.getElementById('texter')`
 
 And shortened it to:
 `$('#texter')`
 
-Of course `document.getelementById('')` would still work if you'd prefer that.
+Of course `document.getElementById('')` would still work if you'd prefer that.
 
 ![](office.gif)
 
 Note: It finds HTML elements exactly like a CSS selector would:
-* ids would be: `#[id]`
-* Classes would be: `.[classname]`
-* Regular tags would work too: `$('h1')`
+* ids would be: `$(#[id here])`
+* Classes would be: `$(.[classname here])`
+* Regular tag names would work too: `$('h1')`
 
 Therefore:
 `var div = $('#texter')`
 
 Means the same thing as:
-`var div = document.getElementById('#texter')
+```var div = document.getElementById('#texter')```
 
 Place `.val();` at the end of the line
 * Takes the value of whatever's behind the `.`
@@ -301,7 +310,7 @@ So to clarify everything:
 Means to take the **value of** the element **`texter`** and **store it into a new variable** called **`div`**
 
 We're grabbing the value from the input box, since the id `"texter" is assigned to the box
-* Whatever someone types into the input box will be retrieved with this line of JavaScript.
+* Whatever someone types into the input box the text will be retrieved with this line of JavaScript.
 
 We're gonna use this ***string*** value to thugify later on.
 * A string is a series of characters (text and numbers!)
@@ -314,10 +323,11 @@ So, we've debunked that msyery!
 Let's move on to performing the actual **thugifying** part of the string we got in the last part. 🏀
 
 ###Adding the `", dawg"` to the `add` Variable
-We need to store the variable with the words from the input box and then **add** the word `", dawg"` to it
+We need to store the variable with the words from the input box and then **add** the word `", dawg"` to it.
 
 `var add = div + ", dawg";`
-This line takes the tsring we got in the last section (variable div) from the input box, and adds `", dawg"` to the end of it, and then stores it into a new variable named `add`
+
+This line takes the string we got in the last section (the variable div) from the input box, and adds `", dawg"` to the end of it, and then stores it into a new variable named `add`
 
 Adding the two strings together is called `Concatenation.` Ya fancy, huh?
 
@@ -327,9 +337,10 @@ Adding the two strings together is called `Concatenation.` Ya fancy, huh?
 Alrighty, now that we're **thugin'** it's time to display our up text on the page — fo'shizzle.
 
 ###Displaying the Text
-We're going to use `document.getelementById()` to find an element on the HTML page by it's id
+We're going to use `document.getElementById()` to find an element on the HTML page by it's id
 
-` document.getelementById('output')
+`document.getElementById('output')`
+
 This will take care of that job for us
 * We're finding the element with the id `output`
 
@@ -337,28 +348,27 @@ This will take care of that job for us
 * Try changing this line to use the jQuery syntax
   * Syntax means the grammar, spelling and set of rules of a language
 
-Now then, we will attack `.innerHTML = add;` to the end of the line
+Now then, we will stick `.innerHTML = add;` to the end of the line
 
 `document.getElementById('output').innerHTML`
 
 It's just like `$('#texter').val();` that we used before;
 * Except this time we're setting the `innerHTML` value (the text inside the pairs of `<p>` tags) of an HTML element instead of getting a value from it.
 
-Now we will assign the value of add to the `<p>` tag with the **id** `output`
+Now we will assign the value of add to the `<p>` tag with the **id** of `output`
 
-`= add;`
+`document.getelementById('output').innerHTML = add;`
 
-In plain English, `document.getelementById('output').innerHTML = add;` means:
+In plain English, this means:
 * set the `innerHTML` of `"#output"` to the value of the **variable**, `add` (our th*ugified string variable → the variable that holds our text*)
 
-`document.getElementById('output').innerHTML = add;`
+Close your curly brackets of the function **(`}`)**, slap a semicolon **(`;`)** on the end of it and BAM you're done!
 
-Close your curly brackets **(`}`)**, slap a semicolon **(`;`)** on the end of it and BAM you're done!
 
-`};`
 
 Final Code (**do not copy-pasta you bumface**):
-```document.getElementById('go').onclick = function() {
+```
+document.getElementById('go').onclick = function() {
     var div = $('#texter').val();
     var add = div + ", dawg";
     document.getElementById('output').innerHTML = add; 
