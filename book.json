@@ -1,5 +1,3 @@
 {
-    "styles": {
-        "website": "styles/website.css"
-    }
+      "styles": { "website": "assets/stylesheets/custom.css" }
 }
