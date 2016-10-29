@@ -146,9 +146,9 @@ Add a **`placeholder` attribute** (like `src` is an attribute);
 
 `<input id="texter" placeholder="insert text">`
 
-*We've made the place holder simply say "insert text"
+We've made the place holder simply say "insert text"
 
-**4. Let's make as ubmit button with the `<button>` tag**
+**4. Let's make a submit button with the `<button>` tag**
 
 `<button>` is the tag for creating a button
 * Just like the `<h1>` tag, this is another tag where we place text between the opening and closing tags to display on the webpage
@@ -164,11 +164,9 @@ Give this button an **id of "go"**
 We're going to tell the webpage that this is of **type-something**
   * In this case, it's a **button**!
 
-*To do this, we're also going to give this a **`type` attribute**
+To do this, we're also going to give this a **`type`** attribute
 
-Another one (**attribute**);
-
-[Broken Youtube Link Here]
+[Another one](https://www.youtube.com/watch?v=Xdh0TeGNsTw) (**attribute**);
 
 * type="button" *right before the id*
   * This is to ensure that the webpage understands we want a button
@@ -235,9 +233,10 @@ https://www.youtube.com/watch?v=skY-FKgOIew
 Remember that the variable names in the examples below can be **anything** you want, but we recommend sticking with ours in order to make the workshop easier to follow!
 
 ###Adding a Listener
-To begin our JavaScript journey to *Thug Land* we'll need to add a listener to listen for a click on the **Thugify** button.
+To begin our JavaScript journey to [*Thug Land*](https://cloud.githubusercontent.com/assets/9014119/19824102/cb1a4db2-9d3a-11e6-9bcd-deed6783092a.png) we'll need to add a listener to listen for a click on the **Thugify** button.
 `document.getelementById('go')`
-This line simply means: Find the element with the id "go" in the document.
+
+This line simply means: Find the element with the id **"go"** in the document.
 
 Now we haven't done anything with this element yet, we want the button to trigger some code when someone presses it, so we'll add `.onclick = function() {}` to the end of the end of the line.
 
@@ -248,7 +247,7 @@ With that known, we can infer that `.onclick = function() {}` simply means: When
 
 To review, so far our code is
 `document.getElementById('go').onclick = function() {}`
-which simply says: Find the element 'go' and listen for a click on this element. ?If there is a registered click, run this function.
+which simply says: Find the element 'go' and listen for a click on this element. If there is a registered click, run this function.
 
 If you've followed along this far, awesome! You're doing great, we're almost done. If you're stuck, turn to a peer! We a team and we the best
 
