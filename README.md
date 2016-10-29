@@ -24,4 +24,3 @@ These guides are built for beginners, so they're perfect if haven't coded before
 | Facebook Page     | https://facebook.com/projectcipher |
 | Twitter       | https://twitter.com/projectcipher |
 | Instagram     | https://www.instagram.com/projectcipher |
-
