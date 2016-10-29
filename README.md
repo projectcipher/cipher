@@ -2,16 +2,19 @@
 
 [Cipher](http://projectcipher.io) is a launchpad into code. This our collection of guides that will introduce you to programming!
 
-Guides are written lessons that help familiarize you with new tools and concepts.
+Guides are lessons that help familiarize you with new coding concepts.
 
 Each of Cipher's guides take about an hour, with a focus on project-based learning. From our experience, the best way to learn to code is to build & ship projects.
 
 Detailed explanations, examples, and practice exercises can be found in [`DOCUMENTATION`](guides/DOCUMENTATION.md), where a focus is put on the fundamental concepts.
 
-
 ## Guide Order
+These guides are built for beginners, so they're perfect if haven't coded before.
 
-
+| Guide | Technologies | Description |
+| -- | -- | -- |
+| Good Morning | N/A | an introduction |
+| Personal Website | HTML & CSS | build your first site |
 
 ## Social Media
 
