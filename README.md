@@ -1,6 +1,6 @@
-# Guides
+# Cipher's Guidebook 🌊
 
-[Cipher](http://projectcipher.io) is a launchpad into code. This our collection of guides that will introduce you to programming!
+[Cipher](http://projectcipher.io) is a launchpad into code. This the guidebook that will introduce you to programming!
 
 Guides are lessons that help familiarize you with new coding concepts.
 
@@ -8,7 +8,7 @@ Each of Cipher's guides take about an hour, with a focus on project-based learni
 
 Detailed explanations, examples, and practice exercises can be found in [`DOCUMENTATION`](guides/DOCUMENTATION.md), where a focus is put on the fundamental concepts.
 
-## Guide Order
+## Guides
 These guides are built for beginners, so they're perfect if haven't coded before.
 
 | Guide | Technologies | Description |
