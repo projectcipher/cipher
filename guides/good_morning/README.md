@@ -22,7 +22,7 @@ Daily/weekly sessions that span a longer period of time will allow you to rememb
 Consistency is crucial. If you start to learn,  make a commitment to continue to work on coding daily or at least weekly, whether it be through this guidebook or other resources! 
 
 ## It Never Works the First Time
-This is taken from this great article.
+This is taken from [this great article](https://medium.freecodecamp.com/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329#.e5e0ujvwq).
 
 When you first start learning to code, you’ll quickly run up against this particular experience: you think you’ve set up everything the way you’re supposed to, you’ve checked and re-checked it, and it still. doesn’t. work. 
 
