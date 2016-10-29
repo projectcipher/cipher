@@ -1,6 +1,5 @@
 # Guide Three: Thugify
 
-![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449360069524_giphy.gif)
 ##Introduction
 ###What is Thugify?
 **Thugify** is an introduction to the **basics of Javascript + jQuery.**
