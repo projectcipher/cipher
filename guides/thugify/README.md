@@ -111,11 +111,21 @@ Indent your code!
 * Indenting items that are enclosed within another tag is important for your own readability
   * In this case `<h1>` is enclosed in `<div>`
 
+
+```
+<div class="thugin"> 
+<h1 id="title">Thugify</h1>     
+</div>
+```
+Unidented 
 ```
 <div class="thugin"> 
   <h1 id="title">Thugify</h1>     
 </div>
 ```
+Indented
+
+Isn't that easier to read?
 
 **3. Let's create a place to input our text with the `<input>` self-enclosed tag**
 
