@@ -84,38 +84,45 @@ This is a container to:
 ```
 ### Creating the Header Tag
 
-To add the name of the workshop, let's create a `<h1> </h1>` header tag.
+To add a title, let's create a `<h1> </h1>` header tag.
 
-Give the header tag an id of "title"
-* Type `id="title"` before the `<h1` is closed
+``` 
+<div class="thugin">
+  <h1> </h1>
+</div>
+```
 
-It should look like this: `<h1 id="title"> Thugify </h1>`
+Then, give the header tag an `id` of `"title"` and put some text in between the opening and closing of the `<h1>` tag
 
-* I.e. there may be multiple `<h1>` tags in your code
-* To select one it needs to have its custom name, thus the id
+```
+<div class="thugin">
+  <h1 id="title"> Thuigf </h1>
+</div>
+```
 
-Indent your code!
-* Indenting items that are enclosed within another tag is important for your own readability
-  * In this case `<h1>` is enclosed in `<div>`
+Why we use `id`:
+- There may be multiple `<h1>` tags in your code
+- To select one it needs to have its custom name, which the `id` acts as
+
+Next, indent your code! Indenting items that are enclosed within another tag is important for your own readability
+ 
+ In this case `<h1>` is enclosed in `<div>`
 ```
 <div class="thugin"> 
   <h1 id="title">Thugify</h1>     
 </div>
 ```
 
-**3. Let's create a place to input our text with the `<input>` self-enclosed tag**
+### Creating an Input For Text
 
-`<input>` is a **self-enclosed tag** for creating an **input box.**
+`<input>` is a self-enclosed tag for creating an input box. We'll be able to type in this box!
 
-We'll be able to type in this box!
+Give this input box an `id` of `"texter"`
 
-![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449368504615_Screen+Shot+2015-12-05+at+9.21.34+PM.png)
-
-Give this input box an **id of "texter"**
 `<input id="texter">`
 
-We can give the box **"placeholder text"** as well~
-* Placeholder text is the greyed out text (see the picture above)
+We can give the box "placeholder text" as well
+- Placeholder text is the greyed out text
 
 Add a **`placeholder` attribute** (like `src` is an attribute);
 * `placeholder="some text"` *right after the id*
@@ -124,7 +131,7 @@ Add a **`placeholder` attribute** (like `src` is an attribute);
 
 *We've made the place holder simply say "insert text"
 
-**4. Let's make as ubmit button with the `<button>` tag**
+### Let's Make a Submit Button
 
 `<button>` is the tag for creating a button
 * Just like the `<h1>` tag, this is another tag where we place text between the opening and closing tags to display on the webpage
@@ -343,8 +350,10 @@ Close your curly brackets **(`}`)**, slap a semicolon **(`;`)** on the end of it
 
 `};`
 
-Final Code (**do not copy-pasta you bumface**):
-```document.getElementById('go').onclick = function() {
+Final Code:
+
+```
+document.getElementById('go').onclick = function() {
     var div = $('#texter').val();
     var add = div + ", dawg";
     document.getElementById('output').innerHTML = add; 
@@ -354,10 +363,6 @@ Final Code (**do not copy-pasta you bumface**):
 ##You are now a JavaScript Legend.
 
 ![](http://i.imgur.com/BJiD03Q.gif)
-
-Unless you copy-pasted then ehhhh. Maybe a half-legend or something.
-
-Your mom thinks you're special, that's all that really matters*
 
 ##Thanks for completing our workshop <3
 
