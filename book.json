@@ -1,5 +1,4 @@
 {
-{
     "styles": {
         "website": "styles/website.css",
         "ebook": "styles/ebook.css",
@@ -7,5 +6,4 @@
         "mobi": "styles/mobi.css",
         "epub": "styles/epub.css"
     }
-}
 }
