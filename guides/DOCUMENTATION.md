@@ -29,7 +29,7 @@ By the end of this [guide](workspace_setup/README.md), we will have be taken thr
 
 ### Explanation
 
-C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment (IDE)](#ide).
+C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment (IDE)](#integrated-development-environment-ide).
 
 What makes C9 great is that it enables you to start programming with just the internet and a browser. No installing software required!
 
