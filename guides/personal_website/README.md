@@ -125,6 +125,8 @@ There are six different headers: `<h1>` through `<h6>`
 `<h1>` tag indicates that the text between the opening and closing tags is the __most important__. `<h6>`is the __least important__. 
 Therefore, the closer the tag is to h1 numerically, the larger the text!
 
+Try it out!
+
 ## Part Eight: Adding an Image
 
 1. To add an image, use the image tag: 
