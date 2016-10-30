@@ -43,7 +43,7 @@ Just like how [Google Drive](https://drive.google.com) allows us to write and or
 
 ### Explanation
 
-GitHub leverages [Git](https://git.com), a [version control system](../DOCUMENTATION.md#version-control-system-vcs), to post our content online. 
+GitHub leverages [Git](https://git-scm.com/), a [version control system](../DOCUMENTATION.md#version-control-system-vcs), to post our content online. 
 
 With our content online, GitHub uses a service called "GitHub Pages" to  enable the creation of custom web addresses/URLs for our projects. These will be sharable with friends and family!
 
@@ -55,7 +55,7 @@ Example: https://nguyenbrian.github.io
 
 ## Version Control System (VCS)
 
-There are many _VCSs_, However, [Git](https://git.com) is the mostly widely used. [GitHub](https://github.com) plays a role in popularity. It has [this very cute mascot](http://spinnakr.com/blog/wp-content/uploads/2013/02/Original-Octocat.jpg).
+There are many _VCSs_, However, [Git](https://git-scm.com/) is the mostly widely used. [GitHub](https://github.com) plays a role in popularity. It has [this very cute mascot](http://spinnakr.com/blog/wp-content/uploads/2013/02/Original-Octocat.jpg).
 
 ### Explanation
 
