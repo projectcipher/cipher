@@ -184,7 +184,7 @@ Git has tools that allows the merging of changes, even if they occupy the same f
 
 3. Tweet [@projectcipher](https://twitter.com/projectcipher) with your success!
 
-##  <a name="ide"></a>Integrated Development Environment (IDE)
+##Integrated Development Environment (IDE)
 
 This is a powerful tool that will aid us in writing code.
 
