@@ -346,7 +346,7 @@ This was the first one I found, but if yours wasn’t this one -- don’t stress
 
 3. The CSS value for this property will be a colour
 
-    Colours can be the name of the colour. I.e. grey, white, black.
+    Colours can be the name of the colour. I.e. grey, white, black, hot pink.
 
     Colours also have codes, known as hex codes → You need # before the number. I.e. #808080 = Grey + #000 = Black + #ffff = White.
 
