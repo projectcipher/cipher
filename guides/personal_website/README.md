@@ -2,7 +2,7 @@
 
 *Time Estimate: 1 hour*
 
-Note: If you have not set up your workspace, please visit the [Workspace Setup](../guides/workspace_setup/README.md) guide.
+Note: If you have not set up your workspace, please visit the [Workspace Setup](../workspace_setup/README.md) guide.
 
 ## Our Goal
 
