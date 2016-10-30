@@ -18,7 +18,7 @@ Link to final code: https://ide.c9.io/jevinsidhu/workshop-website
 
 ## What You Will Learn
 
-The basics of two programming languages: [HTML](..DOCUMENTATION.md#html) and [CSS](../personal_website/DOCUMENTATION.md#css).
+The basics of two programming languages: [HTML](..DOCUMENTATION.md) and [CSS](../personal_website/DOCUMENTATION.md#css).
 
 ## Part One: Importance of Googling
 
