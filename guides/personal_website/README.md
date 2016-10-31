@@ -426,5 +426,5 @@ Congrats you finished building your website! __This is huge.__
 
 1. [Project Section](PROJECT_SECTION.md)
 2. [Custom Fonts with Google Fonts](GOOGLE_FONTS.md)
-3. [Icons](../personal_website/ICONS.md)
+3. [Icons](ICONS.md)
 4. [Bonus Ideas](../personal_website/BONUS_IDEAS.md)
