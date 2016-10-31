@@ -423,7 +423,7 @@ Congrats you finished building your website! __This is huge.__
 ![Mr. Bison, yes](img/yes.gif)
 
 ## Further Sections
-
+[Project Secione](PROJECT_SECTION.md)
 1. [Project Section](PROJECT_SECTION.html)
 2. [Custom Fonts with Google Fonts](GOOGLE_FONTS.md)
 3. [Icons](ICONS.md)
