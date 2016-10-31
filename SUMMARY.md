@@ -4,7 +4,7 @@
 * [Documentation](guides/DOCUMENTATION.md)
 * [Guide One: Workspace Setup](guides/workspace_setup/README.md)
 * [Guide Two: Personal Website](guides/personal_website/README.md)
-  * [Bonus Ideas](BONUS_IDEAS.MD)
+  * [Bonus Ideas](guides/personal_website/BONUS_IDEAS.MD)
 * [Guide Three: Thugify](guides/thugify/README.md)
 * [Guide Four: Quadratic Calculator](guides/quadratic/README.md)
 
