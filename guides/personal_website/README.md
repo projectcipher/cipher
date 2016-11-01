@@ -198,7 +198,7 @@ __Create a CSS file by:__
     - `link` is a tag → it’s self-closing, like the `img` tag, so there is no closing tag ( `</link>` )
       - This lets the webpage know you are linking something
     
-    - `href` is an `attribute`, like the src one for the img tag__, that specifies the location of a file
+    - `href` is an `attribute`, like the src one for the img tag, that specifies the location of a file
     
     - `rel` is also an `attribute` that tells the HTML what sort of file it is linking to
 
