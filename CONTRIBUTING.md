@@ -20,13 +20,10 @@ However, if you do not know where to begin you can always search through the [op
 
 If you are absolutely lost, but still want to help, no worries! Go onto the next step. :)
 
-## Talk About It On Slack
+## Talk To Us About It
 
 If you want to help us build Cipher's content,
-[join our Slack](https://join-cipher.herokuapp.com) and talk
-about your ideas/thoughts in the [`#content channel`](https://ciphercommunity.slack.com/messages/content/).
-
-Mention `@brian`, `@jevin`, `@vaibhav`, or `@udit` and you'll be in touch with the team!
+Message us either on [Facebook](https://www.facebook.com/projectcipher/), tweet at us on [Twitter](https://twitter.com/projectcipher), or email us: team@projectcipher.io
 
 ## Create An Issue
 
