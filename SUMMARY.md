@@ -7,5 +7,4 @@
 * [Bonus Ideas](guides/personal_website/BONUS_IDEAS.md)
 * [Guide Three: Thugify](guides/thugify/README.md)
 * [Guide Four: Quadratic Calculator](guides/quadratic/README.md)
-* test
 
