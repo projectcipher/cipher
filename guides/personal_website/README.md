@@ -2,7 +2,7 @@
 
 *Time Estimate: 1 hour*
 
-Note: If you have not set up your workspace, please visit the [Workspace Setup](https://github.com/JevinSidhu/cipher/tree/master/guides/workspace_setup) guide.
+Note: If you have not set up your workspace, please visit the [Workspace Setup](../workspace_setup/README.md) guide.
 
 ## Our Goal
 
@@ -18,7 +18,7 @@ Link to final code: https://ide.c9.io/jevinsidhu/workshop-website
 
 ## What You Will Learn
 
-The basics of two programming languages: [HTML](https://github.com/JevinSidhu/cipher/blob/personal-site/guides/DOCUMENTATION.md#html) and [CSS](https://github.com/JevinSidhu/cipher/blob/personal-site/guides/DOCUMENTATION.md#css).
+The basics of two programming languages: [HTML](../DOCUMENTATION.md) and [CSS](../DOCUMENTATION.md).
 
 ## Part One: Importance of Googling
 
@@ -124,6 +124,8 @@ There are six different headers: `<h1>` through `<h6>`
  
 `<h1>` tag indicates that the text between the opening and closing tags is the __most important__. `<h6>`is the __least important__. 
 Therefore, the closer the tag is to h1 numerically, the larger the text!
+
+Try it out!
 
 ## Part Eight: Adding an Image
 
@@ -346,7 +348,7 @@ This was the first one I found, but if yours wasn’t this one -- don’t stress
 
 3. The CSS value for this property will be a colour
 
-    Colours can be the name of the colour. I.e. grey, white, black.
+    Colours can be the name of the colour. I.e. grey, white, black, hot pink.
 
     Colours also have codes, known as hex codes → You need # before the number. I.e. #808080 = Grey + #000 = Black + #ffff = White.
 
@@ -416,13 +418,13 @@ Example: You have a ring  and you’re putting it in a gift bag. The __area arou
 
 ## Part Twenty-Two: The End
 
-Congrats you’ve finished building your website! __This is huge.__
+Congrats you finished building your website! __This is huge.__
 
 ![Mr. Bison, yes](img/yes.gif)
 
 ## Further Sections
 
-1. [Project Section](PROJECT_SECTION.md)
-2. [Custom Fonts with Google Fonts](GOOGLE_FONTS.md)
-3. [Icons](ICONS.md)
-4. [Bonus Ideas](BONUS_IDEAS.md)
+1. [Project Section](../personal_website/PROJECT_SECTION.md)
+2. [Custom Fonts with Google Fonts](../personal_website/GOOGLE_FONTS.md)
+3. [Icons](../personal_website/ICONS.md)
+4. [Bonus Ideas](../personal_website/BONUS_IDEAS.md)
