@@ -46,10 +46,6 @@ For example, if you're fixing grammatical mistakes and proposing new sections to
 Before your code is merged into the repository, it must be reviewed by one
 of the core contributors.
 
-It will be assessed on how well it follows the
-[contribution guidelines](GUIDELINES.md) and, if it is intended to solve an
-issue, how well it does so.
-
 If all goes well, your changes should be merged quickly. If not, then we'll be sure to fix whatever the problem is asap!
 
 ## Celebrate
