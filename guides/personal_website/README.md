@@ -138,6 +138,8 @@ Try it out!
     __`src`__ is an `attribute` that specifies the URL of the image
      - Add the URL of our image between the quotes
     - Upload an image to [Imgur](http://imgur.com/) or get one from [Google Images](https://images.google.com).
+      - To get the URL, right click the image and hit _copy image adress_
+    
     
     ![](img/img_tag.gif)
 
@@ -423,7 +425,7 @@ Congrats you finished building your website! __This is huge.__
 ![Mr. Bison, yes](img/yes.gif)
 
 ## Further Sections
-[Project Secione](PROJECT_SECTION.md)
+
 1. [Project Section](PROJECT_SECTION.html)
 2. [Custom Fonts with Google Fonts](GOOGLE_FONTS.md)
 3. [Icons](ICONS.md)
