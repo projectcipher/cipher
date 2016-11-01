@@ -138,9 +138,9 @@ Try it out!
     __`src`__ is an `attribute` that specifies the URL of the image
      - Add the URL of our image between the quotes
     - Upload an image to [Imgur](http://imgur.com/) or get one from [Google Images](https://images.google.com).
-      - To get the URL, right click the image and hit _copy image adress_
-    
-    
+        - To get the URL, right click the image and hit **copy image address**
+  
+  ![](img/get image address.png)
     ![](img/img_tag.gif)
 
 _Note: The web page reads HTML top to bottom. If you put the tag above the text, it will show up above the text. If you put the tag below the text, it will show up below._
