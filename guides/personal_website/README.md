@@ -301,16 +301,12 @@ This was the first one I found, but if yours wasn’t this one -- don’t stress
 
     ![](img/rounded_images3.png)
 
-## Part Seventeen: Making the Image a Circle
+## Part Seventeen: The Body Tag
 
-1. We need to centre all the objects now → We could use multiple `CSS` selectors to pick each tag in the HTML, but this would require a lot of copying and pasting!
-
-    **The effective way: Enclose everything in ONE `<tag>` and then use ONE `CSS` selector to center everything.**
-
-2. The tag that usually encloses the main document is: `<body> </body>` 
+1. The tag that usually encloses the main document is: `<body> </body>` 
     - The `<body>` tag contains all the contents of an `HTML` document, such as text, hyperlinks, images, tables, lists, etc → __Does not include the `<head>` tag
 
-3. Let’s make the code more readable
+2. Let’s make the code more readable
     - Indent everything enclosed in the `<body>` tag:
       - Highlight by left-clicking and then drag across the text __inside__ of the tag (do not highlight `<body>`).
     - Click the __“tab”__ key on your keyboard
