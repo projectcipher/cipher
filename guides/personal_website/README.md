@@ -140,7 +140,7 @@ Try it out!
     - Upload an image to [Imgur](http://imgur.com/) or get one from [Google Images](https://images.google.com).
         - To get the URL, right click the image and hit **copy image address**
  
-  ![](img/get_image_address.png)
+  ![](img/getimage.png)
   
     ![](img/img_tag.gif)
 
