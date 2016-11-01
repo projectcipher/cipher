@@ -47,3 +47,33 @@ h2, h3 {
 .book .book-summary ul.summary li.active > a {
   color: #fff;
 }
+
+.btn.pull-right,
+.dropdown.pull-right {
+  display: none !important;
+}
+
+.dropdown-menu .buttons:nth-child(1) .button,
+.dropdown-menu .buttons:last-child .button {
+  display: none;
+}
+
+.book > .book-summary > #book-search-input {
+  margin-bottom: 0;
+}
+
+.book > .book-summary > #book-search-input > input,
+.book > .book-summary > #book-search-input > input:focus,
+.book > .book-summary > #book-search-input > input:hover {
+  color: #353535;
+  text-align: center;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a {
+  color: #35BAA4;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a:focus,
+.book .book-body .page-wrapper .page-inner section.normal a:hover {
+  color: #2AB27B;
+}
