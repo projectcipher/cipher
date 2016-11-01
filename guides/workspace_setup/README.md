@@ -63,9 +63,9 @@ Then enter your GitHub email address and password to sign in!
 #### 3. If C9 asks you for payment info
 Use these credientials:
 
-| Cardholder Name | Card Number | Expiry Date | CVV |
+| Cardholder Name | Card Number | Expiry Date | CVV | Postal Code |
 | -- | -- | -- | -- |
-| Project Cipher | 5113 4026 7731 5930 | 08/20 | 555 |
+| Project Cipher | 5113 4026 7731 5930 | 08/20 | 555 | Anything! |
 
 It's a empty prepaid credit card, so dont try nothin fancy.
 
