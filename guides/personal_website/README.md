@@ -418,6 +418,7 @@ Example: You have a ring  and you’re putting it in a gift bag. The __area arou
 
 Congrats you’ve finished building your website! __This is huge.__
 
+[test](extra/PROJECT_SECTION.md)
 ![Mr. Bison, yes](img/yes.gif)
 
 ## Further Sections
