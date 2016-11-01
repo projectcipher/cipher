@@ -304,7 +304,8 @@ This was the first one I found, but if yours wasn’t this one -- don’t stress
 ## Part Seventeen: The Body Tag
 
 1. The tag that usually encloses the main document is: `<body> </body>` 
-    - The `<body>` tag contains all the contents of an `HTML` document, such as text, hyperlinks, images, tables, lists, etc → __Does not include the `<head>` tag
+    - The `<body>` tag contains all the contents of an `HTML` document, such as text, hyperlinks, images, tables, lists, etc → Does not include the `<head>` tag
+    - Create a body section by putting the opening `<body>` tag before your website's visible content begins, and a closing `</body` tag after your website's content ends.
 
 2. Let’s make the code more readable
     - Indent everything enclosed in the `<body>` tag:
