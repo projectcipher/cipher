@@ -11,3 +11,8 @@
 * [Guide Three: Thugify](guides/thugify/README.md)
 * [Guide Four: Quadratic Calculator](guides/quadratic/README.md)
 
+
+---
+
+* [Contributing to Cipher](CONTRIBUTING.md)
+

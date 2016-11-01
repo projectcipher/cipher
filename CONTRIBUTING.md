@@ -20,13 +20,10 @@ However, if you do not know where to begin you can always search through the [op
 
 If you are absolutely lost, but still want to help, no worries! Go onto the next step. :)
 
-## Talk About It On Slack
+## Talk To Us About It
 
 If you want to help us build Cipher's content,
-[join our Slack](https://join-cipher.herokuapp.com) and talk
-about your ideas/thoughts in the [`#content channel`](https://ciphercommunity.slack.com/messages/content/).
-
-Mention `@brian`, `@jevin`, `@vaibhav`, or `@udit` and you'll be in touch with the team!
+Message us either on [Facebook](https://www.facebook.com/projectcipher/), tweet at us on [Twitter](https://twitter.com/projectcipher), or email us: team@projectcipher.io
 
 ## Create An Issue
 
@@ -48,10 +45,6 @@ For example, if you're fixing grammatical mistakes and proposing new sections to
 
 Before your code is merged into the repository, it must be reviewed by one
 of the core contributors.
-
-It will be assessed on how well it follows the
-[contribution guidelines](GUIDELINES.md) and, if it is intended to solve an
-issue, how well it does so.
 
 If all goes well, your changes should be merged quickly. If not, then we'll be sure to fix whatever the problem is asap!
 
