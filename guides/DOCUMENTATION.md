@@ -7,7 +7,7 @@ Practice exercises are meant to test your new found power after completing a gui
 ## Table of Contents
 
 1. [Workspace Setup](#workspace-setup)
-  - [Cloud 9](#Cloud-9)
+  - [Cloud 9](#Cloud-9-c9)
   - [GitHub](#github)
   - [Version Control System (VCS)](#version-control-system-vcs)
   - [Repository](#repository)
