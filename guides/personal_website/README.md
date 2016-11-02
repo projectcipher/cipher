@@ -18,7 +18,7 @@ Link to final code: https://ide.c9.io/jevinsidhu/workshop-website
 
 ## What You Will Learn
 
-The basics of two programming languages: [HTML](../DOCUMENTATION.md) and [CSS](../DOCUMENTATION.md).
+The basics of two programming languages: [HTML](../DOCUMENTATION.md#HTML) and [CSS](../DOCUMENTATION.md#CSS).
 
 ## Part One: Importance of Googling
 
@@ -138,7 +138,10 @@ Try it out!
     __`src`__ is an `attribute` that specifies the URL of the image
      - Add the URL of our image between the quotes
     - Upload an image to [Imgur](http://imgur.com/) or get one from [Google Images](https://images.google.com).
-    
+        - To get the URL, right click the image and hit **copy image address**
+ 
+  ![](img/getimage.png)
+  
     ![](img/img_tag.gif)
 
 _Note: The web page reads HTML top to bottom. If you put the tag above the text, it will show up above the text. If you put the tag below the text, it will show up below._
@@ -195,7 +198,7 @@ __Create a CSS file by:__
     - `link` is a tag → it’s self-closing, like the `img` tag, so there is no closing tag ( `</link>` )
       - This lets the webpage know you are linking something
     
-    - `href` is an `attribute`, like the src one for the img tag__, that specifies the location of a file
+    - `href` is an `attribute`, like the `src` one for the `img` tag, that specifies the location of a file
     
     - `rel` is also an `attribute` that tells the HTML what sort of file it is linking to
 
@@ -298,16 +301,15 @@ This was the first one I found, but if yours wasn’t this one -- don’t stress
 
     ![](img/rounded_images3.png)
 
-## Part Seventeen: Making the Image a Circle
+## Part Seventeen: The Body Tag
 
-1. We need to centre all the objects now → We could use multiple `CSS` selectors to pick each tag in the HTML, but this would require a lot of copying and pasting!
+The tag that usually encloses the main document is: `<body> </body>`
 
-    **The effective way: Enclose everything in ONE `<tag>` and then use ONE `CSS` selector to center everything.**
+The `<body>` tag contains all the contents of an `HTML` document, such as text, hyperlinks, images, tables, lists, etc → Does not include the `<head>` tag.
 
-2. The tag that usually encloses the main document is: `<body> </body>` 
-    - The `<body>` tag contains all the contents of an `HTML` document, such as text, hyperlinks, images, tables, lists, etc → __Does not include the `<head>` tag
+1. Create a body section by putting the opening `<body>` tag before your website's visible content begins, and a closing `</body` tag after your website's content ends.
 
-3. Let’s make the code more readable
+2. Let’s make the code more readable
     - Indent everything enclosed in the `<body>` tag:
       - Highlight by left-clicking and then drag across the text __inside__ of the tag (do not highlight `<body>`).
     - Click the __“tab”__ key on your keyboard
@@ -424,7 +426,7 @@ Congrats you finished building your website! __This is huge.__
 
 ## Further Sections
 
-1. [Project Section](../personal_website/PROJECT_SECTION.md)
-2. [Custom Fonts with Google Fonts](../personal_website/GOOGLE_FONTS.md)
-3. [Icons](../personal_website/ICONS.md)
-4. [Bonus Ideas](../personal_website/BONUS_IDEAS.md)
+1. [Project Section](PROJECT_SECTION.md)
+2. [Custom Fonts with Google Fonts](GOOGLE_FONTS.md)
+3. [Icons](ICONS.md)
+4. [Bonus Ideas](BONUS_IDEAS.md)
