@@ -29,7 +29,7 @@ By the end of this [guide](workspace_setup/README.md), we will have be taken thr
 
 ### Explanation
 
-C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment (IDE)](../DOCUMENTATION.md#integrated-development-environment-ide).
+C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment (IDE)](#integrated-development-environment-ide).
 
 What makes C9 great is that it enables you to start programming with just the internet and a browser. No installing software required!
 
@@ -43,7 +43,7 @@ Just like how [Google Drive](https://drive.google.com) allows us to write and or
 
 ### Explanation
 
-GitHub leverages [Git](https://git.com), a [version control system](../DOCUMENTATION.md#version-control-system-vcs), to post our content online. 
+GitHub leverages [Git](https://git-scm.com/), a [version control system](../DOCUMENTATION.md#version-control-system-vcs), to post our content online. 
 
 With our content online, GitHub uses a service called "GitHub Pages" to  enable the creation of custom web addresses/URLs for our projects. These will be sharable with friends and family!
 
@@ -55,7 +55,7 @@ Example: https://nguyenbrian.github.io
 
 ## Version Control System (VCS)
 
-There are many _VCSs_, However, [Git](https://git.com) is the mostly widely used. [GitHub](https://github.com) plays a role in popularity. It has [this very cute mascot](http://spinnakr.com/blog/wp-content/uploads/2013/02/Original-Octocat.jpg).
+There are many _VCSs_, However, [Git](https://git-scm.com/) is the mostly widely used. [GitHub](https://github.com) plays a role in popularity. It has [this very cute mascot](http://spinnakr.com/blog/wp-content/uploads/2013/02/Original-Octocat.jpg).
 
 ### Explanation
 
@@ -184,7 +184,7 @@ Git has tools that allows the merging of changes, even if they occupy the same f
 
 3. Tweet [@projectcipher](https://twitter.com/projectcipher) with your success!
 
-## Integrated Development Environment (IDE)
+##Integrated Development Environment (IDE)
 
 This is a powerful tool that will aid us in writing code.
 
@@ -254,7 +254,7 @@ There are also resources GitHub provides, such as [this](https://guides.github.c
 
 By the end of this [guide](personal_website/README.md), we will have created a personal website!
 
-## HTML
+## HTML {#html}
 
 HTML stands for Hypertext Markup Language. 
 
