@@ -39,7 +39,7 @@ This isn’t 100% necessary for the code to run, but it tells the webpage some *
 <script src="script.js"> 
 ```
 
-**`<script src="script.js">`** **is linking the HTML file to the JS file**
+**`<script src="script.js">`** **is linking the JS file to our HTML file**
 
 - Webpages + browsers are really dumb, humans just make them smart
   
