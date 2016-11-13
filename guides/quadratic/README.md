@@ -58,7 +58,7 @@ As mentioned in the [slide deck](https://docs.google.com/presentation/d/1N2l9FTY
 
 - It adds functionality to the language, JavaScript.
 
-Refer back to the [Thugify Workshop](https://paper.dropbox.com/doc/Thugify-Workshop-0IPrFN8Cfyr8kmgPTcOkg) for a **quick recap on jQuery!**
+
 
 
 ###Remember to always close your tags!
