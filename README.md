@@ -1,4 +1,4 @@
-# Cipher's Guidebook 🌊
+# Cipher's Guidebook 💻🔨
 
 [Cipher](http://projectcipher.io) is a launchpad into code. This is our guidebook that will introduce you to programming!
 
