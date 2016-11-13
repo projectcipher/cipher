@@ -1,83 +1,46 @@
 # Guide Three: Thugify
 
-![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449360069524_giphy.gif)
 ##Introduction
 ###What is Thugify?
-**Thugify** is an introduction to the **basics of Javascript + jQuery.**
+Thugify is an introduction to the basics of Javascript
 
-We'll be adding **", dawg"** to the end of whatever you type into **an input box** — simple, but sweet.
+We'll be adding ", dawg" to the end of whatever you type into an input box — simple, but sweet.
 * You'll be able to change the word added at your own will.
-* You can customize this to make it Politify, which adds **",please"** instead
+* You can customize this to make it Politify, which adds ",please" instead
 
-This **slide deck** created by Amy Sorto and modified by [Cipher](http://projectcipher.io) is a great introduction to key concepts. Please take a look through it [here](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit)!
+This slide deck created by Amy Sorto and modified by [Cipher](http://projectcipher.io) is a great introduction to key concepts. Please take a look through it [here](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit)!
 
 ###Resources
- Code: https://ide.c9.io/jevinsidhu/thugify 
- Final Webpage: http://jevinsidhu.github.io/thugify
+Code: https://ide.c9.io/jevinsidhu/thugify 
 
-##HTML
-###Setting Up Your Files and HTML Document
-1. Create a **index.html** file
-2. Create a **style.css** file
-3. Create a **script.js** file
+Final Webpage: http://jevinsidhu.github.io/thugify
 
-If setting up your document is not familiar, please look at ++Cringe 101 Workshop.
+##Workspace Setup
+###Creating Your Documents
 
+1. create a `index.html` file
+2. create a `style.css` file
+3. create a `script.js` file
 
-
-This isn't 100% necessary for the code to run (it will still totally do so), but it tells the wbpage some key facts that make it **run without any hitches**
-
-This should be placed in your *index.html* file
-
-###Please do not copy and paste, you bumface:
+### Setting Up Your HTML File
+This should be placed in your `index.html` file:
 
 ```
-<!DOCTYPE html>
-<html>
-  <head> 
-    <link href="style.css" rel="stylesheet">
-  </head>
+<link href="style.css" rel="stylesheet">
 
-  <body> 
-  
-    <script src="script.js"> </script>
-  </body>
+<script src="script.js"> </script>
 
-</html>```
+```
+
 ```<script src="script.js">``` is **linking the HTML file to the JS file**
 * Webpages + browsers are really dumb, humans just make them smart
 * ```<script>``` is a tag that links the HTML file to the JavaScript file
- * ```src``` is called an **attribute**
-   * It **specifies the location** — in this case it was simply the file name, *“script.js”* 
-
-###NOTE: MAKE SURE YOU HAVE CLOSING TAGS
-```<h1> </h1>```
-
-##Adding jQuery
-As mentioned in the [slide deck](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit#slide=id.p), **jQuery is a JavaScript library.**
-* It adds functionality to the language, Javascript
-
-Javascript was created in 1995 — that was 20 years ago (from 2015). We need libraries to keep the language **powerful and current.**
-
-Using the same ```<script>``` tag we need to link the **content-delivery network (CDN)** for jQuery
-*A **CDN** allows us to import a file that contains the jQuery library.
- *If you open https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js, it is a bunch of lines of code! 
- 
-* You could download this, include it alongside your files, and link the file name instead of the CDN URL. It would be same as using a CDN.
- * CDNs simply allow us to have the same functionality quickly. 
-
-**Include the linking of jQuery above your ```script.js``` file**
-
-* HTML runs top-to-bottom
-* The jQuery should come before the script.js file, so it can leverage its power
- * Remember, HTML runs top to bottom. We need the jQuery to be read first.
-
-
-```<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>```<br/>
-```<script src="script.js">```
+ * ```src``` is called an `attribute`
+   * It specifies the location — in this case it was simply the file name, `script.js`
 
 ##Creating the HTML Structure
 Our focus for this workship is the basics of **JavaScript + jQuery.** Let's finish up our HTML first!
+
 ![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449367351294_giphy.gif)
 
 **Note: All of this must be enclosed by the `<body>` tag. The closing tag, `</body>`, should be after your script tags.**
