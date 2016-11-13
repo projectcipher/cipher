@@ -53,29 +53,6 @@ This should be placed in your *index.html* file
 ###NOTE: MAKE SURE YOU HAVE CLOSING TAGS
 ```<h1> </h1>```
 
-##Adding jQuery
-As mentioned in the [slide deck](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit#slide=id.p), **jQuery is a JavaScript library.**
-* It adds functionality to the language, Javascript
-
-Javascript was created in 1995 — that was 20 years ago (from 2015). We need libraries to keep the language **powerful and current.**
-
-Using the same ```<script>``` tag we need to link the **content-delivery network (CDN)** for jQuery
-*A **CDN** allows us to import a file that contains the jQuery library.
- *If you open https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js, it is a bunch of lines of code! 
- 
-* You could download this, include it alongside your files, and link the file name instead of the CDN URL. It would be same as using a CDN.
- * CDNs simply allow us to have the same functionality quickly. 
-
-**Include the linking of jQuery above your ```script.js``` file**
-
-* HTML runs top-to-bottom
-* The jQuery should come before the script.js file, so it can leverage its power
- * Remember, HTML runs top to bottom. We need the jQuery to be read first.
-
-
-```<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>```<br/>
-```<script src="script.js">```
-
 ##Creating the HTML Structure
 Our focus for this workship is the basics of **JavaScript + jQuery.** Let's finish up our HTML first!
 ![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449367351294_giphy.gif)
