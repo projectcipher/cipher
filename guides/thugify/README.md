@@ -16,51 +16,44 @@ Code: https://ide.c9.io/jevinsidhu/thugify
 Final Webpage: http://jevinsidhu.github.io/thugify
 
 ##Workspace Setup
-###Creating Your Documents
+###Create Your Files
 
 1. create a `index.html` file
 2. create a `style.css` file
 3. create a `script.js` file
 
-### Setting Up Your HTML File
-This should be placed in your `index.html` file:
+## Setting Up Your HTML File
 
-```
-<link href="style.css" rel="stylesheet">
+### Connecting the Files
+We need to connect the HTML file to the CSS and JavaScript files. 
 
-<script src="script.js"> </script>
+Let's connect the CSS file first: `<link href="style.css" rel="stylesheet">`
 
-```
+This line creates a `link` tag that describes:
+- the location of the CSS file with the attribute `href`
+- that we are linking a "stylesheet", or CSS file with the attribute`rel`
 
-```<script src="script.js">``` is **linking the HTML file to the JS file**
-* Webpages + browsers are really dumb, humans just make them smart
-* ```<script>``` is a tag that links the HTML file to the JavaScript file
- * ```src``` is called an `attribute`
-   * It specifies the location — in this case it was simply the file name, `script.js`
+Next, let's connect the JavaScript file: `<script src="script.js"> </script>`
 
-##Creating the HTML Structure
-Our focus for this workship is the basics of **JavaScript + jQuery.** Let's finish up our HTML first!
+```<script>``` is a tag that links the HTML file to the JavaScript file
+ * ```src``` is an attribute that specifies the location
+   * the location is the file name, `script.js`
 
-![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449367351294_giphy.gif)
+### Create the Structure
 
-**Note: All of this must be enclosed by the `<body>` tag. The closing tag, `</body>`, should be after your script tags.**
-
-###[Let's go](https://www.youtube.com/watch?v=AYD4dZqCpdU&feature=youtu.be&t=17)
-[Please ~~don't~~ turn up that hard to our workshop]
-
-**1. To enclose our content, we'll create a `<div>` tag**
+First, create a `<div> </div>` tag.
 
 This is a container to:
-* Organize our content
-* Apply styling from our **style.css** file to everything enclosed
+* organize our content
+* apply styling from our **style.css** file to everything enclosed
 
 ```
-<div class="thugin">
+<div>
 
 </div>
 ```
 
-**2. To add the name of the workshop, let's create a `<h1> </h1>` header tag**
+Next, add the name of the workshop, let's create a `<h1> </h1>` header tag.
 
 Give the header tag an id of "title"
 * Type `id="title"` before the `<h1` is closed
