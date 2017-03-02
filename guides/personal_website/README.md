@@ -422,9 +422,7 @@ Let’s take a second to introduce two new concepts: margin and padding.
 * The green is the padding, it is the space between the content and its border.
 * The orange is the margin, the space between the element and its neighbouring elements.
 
-Heres an example: The
-
-Example: You have a ring  and you’re putting it in a gift bag. The **area around the ring in the bag is padding**, the **area between the bag and your hand is margin.**
+Another Example: You have a ring and you’re putting it in a gift bag. The **area around the ring in the bag is padding**, the **area between the bag and your hand is margin.**
 
 1. The picture and text are too close to the top of the webpage -- Let’s fix this.
 
