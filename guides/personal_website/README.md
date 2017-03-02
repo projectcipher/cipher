@@ -336,9 +336,9 @@ The `<body>` tag contains all the contents of an `HTML` document, such as text, 
 
    Open the `main.css` file and using the previously learned `CSS selector`, select the `<body>` tag
 
-2. CSS property: `text-align` to control whether our objects are `left`, `center`, or `right-aligned`
+2. Use the CSS property: `text-align` to control whether our objects are `left`, `center`, or `right-aligned`
 
-   Images are considered “text" in this sense and so the property affects images as well.
+   Images are considered “text" in this sense by HTML and so the property affects images as well.
 
 3. CSS value: `center` -- to center the text → There is also **left** and **right** to align each way
 
