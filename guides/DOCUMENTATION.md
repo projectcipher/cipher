@@ -7,29 +7,31 @@ Practice exercises are meant to test your new found power after completing a gui
 ## Table of Contents
 
 1. [Workspace Setup](#workspace-setup)
-  - [Cloud 9](#)
-  - [GitHub](#)
-  - [Version Control System (VCS)](#version-control-system-vcs)
-  - [Repository](#repository)
-  - [Branch](#branch)
-  - [Integrated Development Environment](#integrated-development-environment-ide)
-  - [Markdown](#markdown)
+
+   * [Cloud 9](#cloud-9-c9)
+   * [GitHub](#github)
+   * [Version Control System \(VCS\)](#version-control-system-vcs)
+   * [Repository](#repository)
+   * [Branch](#branch)
+   * [Integrated Development Environment](#integrated-development-environment-ide)
+   * [Markdown](#markdown)
 
 2. [Personal Website](#personal-website)
-  - [HTML](#html)
-  - [CSS](#css)
+
+   * [HTML](#html)
+   * [CSS](#css)
 
 # Workspace Setup
 
 By the end of this [guide](workspace_setup/README.md), we will have be taken through the setup process of our workspace!
 
-## Cloud 9 (C9)
+## Cloud 9 \(C9\)
 
-[Cloud 9](https://c9.io) is a website; the short form of Cloud 9 is C9. 
+[Cloud 9](https://c9.io) is a website; the short form of Cloud 9 is C9.
 
 ### Explanation
 
-C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment (IDE)](#integrated-development-environment-ide).
+C9 is an online text editor that has tools to help you code more efficiently. The technical term for this is [integrated development environment \(IDE\)](#integrated-development-environment-ide).
 
 What makes C9 great is that it enables you to start programming with just the internet and a browser. No installing software required!
 
@@ -39,21 +41,21 @@ Just like how [Google Drive](https://drive.google.com) allows us to write and or
 
 ## GitHub
 
-[GitHub](https://github.com) is an Internet company (website) that was founded on February 8, 2008.
+[GitHub](https://github.com) is an Internet company \(website\) that was founded on February 8, 2008.
 
 ### Explanation
 
-GitHub leverages [Git](https://git-scm.com/), a [version control system](../DOCUMENTATION.md#version-control-system-vcs), to post our content online. 
+GitHub leverages [Git](https://git-scm.com/), a [version control system](../DOCUMENTATION.md#version-control-system-vcs), to post our content online.
 
 With our content online, GitHub uses a service called "GitHub Pages" to  enable the creation of custom web addresses/URLs for our projects. These will be sharable with friends and family!
 
-Example: https://nguyenbrian.github.io
+Example: [https://nguyenbrian.github.io](https://nguyenbrian.github.io)
 
 ### More Technical Explanation:
 
 [GitHub](https://github.com/) is a [repository](../DOCUMENTATION.md#repository) hosting service. It provides a friendly way to manage [repositories](../DOCUMENTATION.md#repository) and [branches](../DOCUMENTATION.md#branch) with an organized interface.
 
-## Version Control System (VCS)
+## Version Control System \(VCS\)
 
 There are many _VCSs_, However, [Git](https://git-scm.com/) is the mostly widely used. [GitHub](https://github.com) plays a role in popularity. It has [this very cute mascot](http://spinnakr.com/blog/wp-content/uploads/2013/02/Original-Octocat.jpg).
 
@@ -79,9 +81,9 @@ We write for 5 hours and save each hour.
 
 Typically, each time we save, we would overwrite our document. Though, with Git, it would create another version of the file in that point of time.
 
-- Git hides these other versions so your folder doesn't get messy, but we can call on the others if need be.
-  - Git treats every version of code as a "snapshot" that we can look back/
-  revert to at anytime.
+* Git hides these other versions so your folder doesn't get messy, but we can call on the others if need be.
+  * Git treats every version of code as a "snapshot" that we can look back/
+    revert to at anytime.
 
 ## Repository
 
@@ -97,19 +99,19 @@ It marks the beginning of the hierarchy. The repo never has a file within its fi
 
 ### Example
 
-[Cipher's collection of content](https://github.com/projectcipher/cipher) is a repo. It acts as a master folder containing the subfolder (branch), master.
+[Cipher's collection of content](https://github.com/projectcipher/cipher) is a repo. It acts as a master folder containing the subfolder \(branch\), master.
 
-This subfolder/branch (master) contains files and even other folders to organize content.
+This subfolder/branch \(master\) contains files and even other folders to organize content.
 
 ![Repo depiction](workspace_setup/img/repo-branch.png)
 
 In the top left, "Branch: master" declares the name of the subfolder. The four items ending in ".md" are all files within this folder.
 
-Repos automatically create this subfolder (branch) called master in order to disallow from posting files without a subfolder.
+Repos automatically create this subfolder \(branch\) called master in order to disallow from posting files without a subfolder.
 
 ### Practice Exercise
 
-*Warning: It is recommended that you complete this practice exercise after completing the Git + Github Guide. This guide is coming soon.*
+_Warning: It is recommended that you complete this practice exercise after completing the Git + Github Guide. This guide is coming soon._
 
 1. Create a repository on [Github](https://github.com).
 
@@ -117,7 +119,7 @@ Repos automatically create this subfolder (branch) called master in order to dis
 
 3. Give it a concise description that makes sense.
 
-4. Initialize it (setup it up).
+4. Initialize it \(setup it up\).
 
 5. Tweet [@projectcipher](https://twitter.com/projectcipher) with your success!
 
@@ -143,7 +145,7 @@ Working on different branches is [the key](http://www.theydontwantyouto.win) to 
 
 This is considered the  main branch. It's so important, Git creates this branch automatically!
 
-This is only for final drafts of files, or where coders (you!) merge their final changes.
+This is only for final drafts of files, or where coders \(you!\) merge their final changes.
 
 ![Repo depiction](workspace_setup/img/branch-master.png)
 
@@ -155,14 +157,14 @@ Bob & John are working on one repo and the same files at the same time:
 
 Bob encounters a bug, it will take about an hour to fix
 
-John wants to continue working, but Bob's bug is not allowing him to continue
+John wants to continue working, but Bob's bug is not allowing him to continue  
 In this situation, John would have to wait for Bob to fix the bug, then continue his own work
 
 An better alternative:
 
-- Create two different versions of the same folder and its files of code (different branches).
+* Create two different versions of the same folder and its files of code \(different branches\).
 
-- Work on their own work and bring them together when they are done.
+* Work on their own work and bring them together when they are done.
 
 ### Example - Branch Merging
 
@@ -176,21 +178,21 @@ Git has tools that allows the merging of changes, even if they occupy the same f
 
 ### Practice Exercise
 
-*Warning: It is recommended that you complete this practice exercise after completing the Git + Github Guide. This guide is coming soon.*
+_Warning: It is recommended that you complete this practice exercise after completing the Git + Github Guide. This guide is coming soon._
 
 1. Using the repository created in our last practice exercise, create a new branch.
 
-2. Give it the name "feature_new_branch".
+2. Give it the name "feature\_new\_branch".
 
 3. Tweet [@projectcipher](https://twitter.com/projectcipher) with your success!
 
-##Integrated Development Environment (IDE)
+## Integrated Development Environment \(IDE\)
 
 This is a powerful tool that will aid us in writing code.
 
 ### Explanation
 
-An IDE is an application that facilitates application development (coding). It is a workspace designed to aid a coder (you!) in building applications in an environment with useful tools to aid/quicken the process.
+An IDE is an application that facilitates application development \(coding\). It is a workspace designed to aid a coder \(you!\) in building applications in an environment with useful tools to aid/quicken the process.
 
 ### Example
 
@@ -200,15 +202,15 @@ Word is a text editor that has tools that help write essays, stories, etc.
 
 Some tools are:
 
-- Bolding
-- Various font sizes
+* Bolding
+* Various font sizes
 
 C9 is a text editor that has tools to help write code.
 
 Some tools are:
 
-- Syntax highlighting
-- Debugging software
+* Syntax highlighting
+* Debugging software
 
 ### Side Note
 
@@ -224,7 +226,7 @@ Markdown is used to style text on the web. It allows us to control the display o
 
 Markdown files will display across most browsers with consistent formatting. Formatting is often important when conveying ideas, which is why consistency is key.
 
-Markdown files end in the extension *.md*. An example of an extension that is likely familiar is *.doc* for Microsoft Word files.
+Markdown files end in the extension _.md_. An example of an extension that is likely familiar is _.doc_ for Microsoft Word files.
 
 README.md is the conventional name for files that detail a item's contents or the most important information.
 
@@ -256,26 +258,27 @@ By the end of this [guide](personal_website/README.md), we will have created a p
 
 ## HTML {#html}
 
-HTML stands for Hypertext Markup Language. 
+HTML stands for Hypertext Markup Language.
 
 ### Explanation
 
 It is a markup language designed for the structuring of text on a webpage.
 
-The language specifics formatting with *tags*, written within angle brackets (`<tag>`). There many tags and each have their own uses.
+The language specifics formatting with _tags_, written within angle brackets \(`<tag>`\). There many tags and each have their own uses.
 
 ### Analogy
 
 A website is like a building -- it needs a basic structure first! HTML is the structure. Think of it as the 'bricks' to a building.
 
-There are different types of 'bricks' called *tags*:
-- Tags are written within angle brackets:
-    - On your keyboard: *shift + comma* and *shift + period* for `< >` 
-    - Example: `<tag>`
-- Most tags open and then close
-    - Closing tags are the same as the regular tag, but with a forward slash right after the first bracket:
-     - Example: `<body> ← Opening`  
-     - Example: `</body> ← Closing`
+There are different types of 'bricks' called _tags_:
+
+* Tags are written within angle brackets:
+  * On your keyboard: _shift + comma_ and _shift + period_ for `< >` 
+  * Example: `<tag>`
+* Most tags open and then close
+  * Closing tags are the same as the regular tag, but with a forward slash right after the first bracket:
+    * Example: `<body> ← Opening`  
+    * Example: `</body> ← Closing`
 
 ### Example
 
@@ -293,39 +296,42 @@ There are different types of 'bricks' called *tags*:
 
 CSS stands for Cascading Style Sheets and is sometimes referred to just as a style sheet because it's a "sheet" that specifies all of a site's "styles".
 
-
 ### Explanation
 
 Referring to the building analogy from the HTML explanation, CSS is the building's design: colour, decoration, art.
 
-CSS uses *‘selectors’*. Selectors correspond to a specific `<tag>`. 
+CSS uses _‘selectors’_. Selectors correspond to a specific `<tag>`.
 
-A selector applies *rules* to whatever is inside the `<tag>` referenced.
+A selector applies _rules_ to whatever is inside the `<tag>` referenced.
 
-### Example: 
+### Example:
 
 **HTML:**
-``` 
+
+```
 <body>
     content is here.
 </body>
 ```
 
-**CSS:** 
+**CSS:**
+
 ```
 body {
     text-align:left;
 }
 ```
 
-`body` in the CSS is the *selector*. It references the `<body>` *tag* in the HTML.
+`body` in the CSS is the _selector_. It references the `<body>` _tag_ in the HTML.
 
-`text-align: left;` in the CSS is a rule. Rules are made up of two parts:
-1. Property: `text-align:`
+`text-align: left;` in the CSS is a rule. Rules are made up of two parts:  
+1. Property: `text-align:`  
 2. Value: `left;`
 
-There is always: 
-- Colon `(:)` between the property and value 
-- Semi-colon `(;)` after the value.
+There is always:
 
-All of the rules in CSS are within *curly brackets* `( { } )`.
+* Colon `(:)` between the property and value 
+* Semi-colon `(;)` after the value.
+
+All of the rules in CSS are within _curly brackets_ `( { } )`.
+

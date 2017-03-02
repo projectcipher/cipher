@@ -27,30 +27,19 @@ Final Webpage: http://uditdesai.github.io/quadratic-calculator
 
 Remember that the files do not have to be called “index” or “main” but these are usually what they are called. Just remember to make sure the file extensions are correct!
 
-If setting up a document does not seem familiar, take a look at the Cringe 101 workshop
+If setting up a document does not seem familiar, take a look at the [Personal Website workshop](../personal_website/README.md)
 
-`<setup>`
 
 This isn’t 100% necessary for the code to run, but it tells the webpage some **key facts** to make it **run smoothly.**
-
 ###Don’t copy and paste fam, put in the work!
 
 ```
-<!DOCTYPE html>
-<html>
-  <head> 
-    <link href="main.css" rel="stylesheet">
-  </head>
-
-  <body> 
-  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="script.js"> 
-  </body>
-</html>
+<link href="main.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="script.js"> 
 ```
 
-**`<script src="script.js">`** **is linking the HTML file to the JS file**
+**`<script src="script.js">`** **is linking the JS file to our HTML file**
 
 - Webpages + browsers are really dumb, humans just make them smart
   
@@ -69,7 +58,7 @@ As mentioned in the [slide deck](https://docs.google.com/presentation/d/1N2l9FTY
 
 - It adds functionality to the language, JavaScript.
 
-Refer back to the [Thugify Workshop](https://paper.dropbox.com/doc/Thugify-Workshop-0IPrFN8Cfyr8kmgPTcOkg) for a **quick recap on jQuery!**
+
 
 
 ###Remember to always close your tags!

@@ -17,6 +17,7 @@ These guides are built for beginners, so they're perfect if haven't coded before
 | [Workspace Setup ](guides/workspace_setup/README.md)| Cloud9 | setting up your tools |
 | [Personal Website](guides/personal_website/README.md) | HTML & CSS | build your first site |
 | [Thugify](guides/thugify/README.md) | HTML, CSS & JavaScript | add interactivity to a page |
+| [Quadratic Calculator](guides/quadratic/README.md) | HTML, CSS, JavaScript, JQuery | Make your very own quadratic calculator!|
 
 
 ## Social Media

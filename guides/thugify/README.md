@@ -33,6 +33,32 @@ This line creates a `link` tag that describes:
 - the location of the CSS file with the attribute `href`
 - that we are linking a "stylesheet", or CSS file with the attribute`rel`
 
+```
+<!DOCTYPE html>
+<html>
+  <head> 
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body> 
+  
+    <script src="script.js"> </script>
+  </body>
+
+</html>```
+```<script src="script.js">``` is **linking the HTML file to the JS file**
+* Webpages + browsers are really dumb, humans just make them smart
+* ```<script>``` is a tag that links the HTML file to the JavaScript file
+ * ```src``` is called an **attribute**
+   * It **specifies the location** — in this case it was simply the file name, *“script.js”* 
+
+###NOTE: MAKE SURE YOU HAVE CLOSING TAGS
+```<h1> </h1>```
+
+##Creating the HTML Structure
+Our focus for this workship is the basics of **JavaScript + jQuery.** Let's finish up our HTML first!
+![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449367351294_giphy.gif)
+
 Next, let's connect the JavaScript file: `<script src="script.js"> </script>`
 
 ```<script>``` is a tag that links the HTML file to the JavaScript file
