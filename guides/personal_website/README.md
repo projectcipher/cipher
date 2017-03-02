@@ -196,6 +196,7 @@ Therefore, if we want to change the size of the image → Use `CSS`!
    We have these two files, the HTML file and the CSS file. The computer draws **no** association between the two:
 
    * We need to specifically tell them → Link these two together so they are connected
+   * One thing to note: The head tag serves no purpose other than to be as an organizational tool for us.
 
 ## Part Eleven: Linking the CSS file to the HTML
 
