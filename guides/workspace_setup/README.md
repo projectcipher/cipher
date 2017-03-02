@@ -8,14 +8,9 @@ The workspace consists of two tools: [GitHub](#) and [Cloud 9](#). These crucial
 
 Note: When you see: **\[GIF\]**, this means the image below is a GIF -- a looping video!
 
-## Table of Contents
-
-1. [GitHub](#github)
-2. [Cloud 9](#cloud-9)
-
 ## Part I: Creating Accounts
 
-Let's create a [GitHub](#) and [Cloud 9](#) account!
+Let's create a [GitHub](/guides/DOCUMENTATION.md#github) and [Cloud 9](/guides/DOCUMENTATION.md#cloud-9) account!
 
 ### 1\) Signing Up for a GitHub Account
 
@@ -61,7 +56,7 @@ Then enter your GitHub email address and password to sign in!
 
 #### 3. If C9 asks you for payment info
 
-Use these credientials:
+Use these credentials:
 
 | Cardholder Name | Card Number | Expiry Date | CVV | Postal Code |
 | :--- | :--- | :--- | :--- | :--- |
