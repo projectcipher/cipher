@@ -155,9 +155,11 @@ _Note: The web page reads HTML top to bottom. If you put the tag above the text,
 
 `HTML` is for content
 
-* Like the skeleton \(sp00ky\) of a body
-  `CSS` is to change the way things look and feel
-* Like the colour, width, height of your face/skin
+* It is like the [skeleton](https://www.youtube.com/watch?v=WWum0VRc6MI) of a body
+
+`CSS` is used to change the way things look and feel
+
+* It is like the colour, width, height of your face/skin
 
 Therefore, if we want to change the size of the image → Use `CSS`!
 
