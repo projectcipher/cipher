@@ -305,9 +305,7 @@ Let’s **Google** how to make our image a circle! → Remember: Be **specific, 
 
 This was the first one I found, but if yours wasn’t this one -- don’t stress, it’s most likely still fine!
 
-![](img/rounded_images.png)
-
-![](img/rounded_images2.png)
+![](/assets/Screen%20Shot%202017-03-02%20at%2010.42.05%20AM.png)
 
 1. Add: `border-radius: 50%;` → have a **line-break between each property and value with the “enter” key**
 
