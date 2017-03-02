@@ -416,6 +416,16 @@ Let’s take a second to introduce two new concepts: margin and padding.
 
 ![](img/margin_padding.png)
 
+![](/assets/Screen%20Shot%202017-03-02%20at%2010.59.01%20AM.png)For example:
+
+* The blue is the actual content of the tag.
+* The green is the padding, it is the space between the content and the border.
+* The orange is the margin, the space between the element and its neighbouring elements.
+
+
+
+Heres an example: The 
+
 Example: You have a ring  and you’re putting it in a gift bag. The **area around the ring in the bag is padding**, the **area between the bag and your hand is margin.**
 
 1. The picture and text are too close to the top of the webpage -- Let’s fix this.
