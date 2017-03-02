@@ -1,35 +1,37 @@
 # Guide Three: Thugify
 
-![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449360069524_giphy.gif)
 ##Introduction
 ###What is Thugify?
-**Thugify** is an introduction to the **basics of Javascript + jQuery.**
+Thugify is an introduction to the basics of Javascript
 
-We'll be adding **", dawg"** to the end of whatever you type into **an input box** — simple, but sweet.
+We'll be adding ", dawg" to the end of whatever you type into an input box — simple, but sweet.
 * You'll be able to change the word added at your own will.
-* You can customize this to make it Politify, which adds **",please"** instead
+* You can customize this to make it Politify, which adds ",please" instead
 
-This **slide deck** created by Amy Sorto and modified by [Cipher](http://projectcipher.io) is a great introduction to key concepts. Please take a look through it [here](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit)!
+This slide deck created by Amy Sorto and modified by [Cipher](http://projectcipher.io) is a great introduction to key concepts. Please take a look through it [here](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit)!
 
 ###Resources
- Code: https://ide.c9.io/jevinsidhu/thugify 
- Final Webpage: http://jevinsidhu.github.io/thugify
+Code: https://ide.c9.io/jevinsidhu/thugify 
 
-##HTML
-###Setting Up Your Files and HTML Document
-1. Create a **index.html** file
-2. Create a **style.css** file
-3. Create a **script.js** file
+Final Webpage: http://jevinsidhu.github.io/thugify
 
-If setting up your document is not familiar, please look at ++Cringe 101 Workshop.
+##Workspace Setup
+###Create Your Files
 
+1. create a `index.html` file
+2. create a `style.css` file
+3. create a `script.js` file
 
+## Setting Up Your HTML File
 
-This isn't 100% necessary for the code to run (it will still totally do so), but it tells the wbpage some key facts that make it **run without any hitches**
+### Connecting the Files
+We need to connect the HTML file to the CSS and JavaScript files. 
 
-This should be placed in your *index.html* file
+Let's connect the CSS file first: `<link href="style.css" rel="stylesheet">`
 
-###Please do not copy and paste, you bumface:
+This line creates a `link` tag that describes:
+- the location of the CSS file with the attribute `href`
+- that we are linking a "stylesheet", or CSS file with the attribute`rel`
 
 ```
 <!DOCTYPE html>
@@ -57,24 +59,27 @@ This should be placed in your *index.html* file
 Our focus for this workship is the basics of **JavaScript + jQuery.** Let's finish up our HTML first!
 ![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449367351294_giphy.gif)
 
-**Note: All of this must be enclosed by the `<body>` tag. The closing tag, `</body>`, should be after your script tags.**
+Next, let's connect the JavaScript file: `<script src="script.js"> </script>`
 
-###[Let's go](https://www.youtube.com/watch?v=AYD4dZqCpdU&feature=youtu.be&t=17)
-[Please ~~don't~~ turn up that hard to our workshop]
+```<script>``` is a tag that links the HTML file to the JavaScript file
+ * ```src``` is an attribute that specifies the location
+   * the location is the file name, `script.js`
 
-**1. To enclose our content, we'll create a `<div>` tag**
+### Create the Structure
+
+First, create a `<div> </div>` tag.
 
 This is a container to:
-* Organize our content
-* Apply styling from our **style.css** file to everything enclosed
+* organize our content
+* apply styling from our **style.css** file to everything enclosed
 
 ```
-<div class="thugin">
+<div>
 
 </div>
 ```
 
-**2. To add the name of the workshop, let's create a `<h1> </h1>` header tag**
+Next, add the name of the workshop, let's create a `<h1> </h1>` header tag.
 
 Give the header tag an id of "title"
 * Type `id="title"` before the `<h1` is closed
