@@ -4,7 +4,7 @@ _Time Estimate: 10-15 minutes_
 
 This guide will take us through the setup process of our workspace!
 
-The workspace consists of two tools: [GitHub](#) and [Cloud 9](#). These crucial tools are required to take advantage of the rest of Cipher's guides.
+The workspace consists of two tools: [GitHub](/guides/DOCUMENTATION.md#github) and [Cloud 9](/guides/DOCUMENTATION.md#cloud-9). These crucial tools are required to take advantage of the rest of Cipher's guides.
 
 Note: When you see: **\[GIF\]**, this means the image below is a GIF -- a looping video!
 
