@@ -340,7 +340,7 @@ The `<body>` tag contains all the contents of an `HTML` document, such as text, 
 
    Images are considered “text" in this sense by HTML and so the property affects images as well.
 
-3. Now use the CSS value: `center` -- to center the text → There is also **left** and **right** to align each way
+3. Now use the CSS value: `center` -- to center the text → There is also the option of using **left** and **right** to align.
 
    Code:
 
