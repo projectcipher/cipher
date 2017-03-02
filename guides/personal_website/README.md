@@ -18,13 +18,13 @@ Link to final code: [https://ide.c9.io/jevinsidhu/workshop-website](https://ide.
 
 ## What You Will Learn
 
-The basics of two programming languages: [HTML](/guides/DOCUMENTATION.md#html) and [CSS](../DOCUMENTATION.md#CSS).
+The basics of two programming languages: [HTML](/guides/DOCUMENTATION.md#html) and [CSS](/guides/DOCUMENTATION.md#css).
 
 ## Part One: Importance of Googling
 
 What happens when don't know how to do something? **Google it!**
 
-Professional programmers Google while on the job. The largest Q&A website for programming \([https://stackoverflow.com](https://stackoverflow.com)\) **has hundreds of questions submitted by programmers everyday** who work at giant tech companies like Apple, Facebook and Google.
+Professional programmers Google while on the job. The largest Q&A website for programming \([https://stackoverflow.com](https://stackoverflow.com\)\) **has hundreds of questions submitted by programmers everyday** who work at giant tech companies like Apple, Facebook and Google.
 
 When searching: Be **specific, clear and concise**.
 
@@ -124,7 +124,7 @@ _Note: Notice how adding blank lines between your sentences in HTML does not cha
 
 There are six different headers: `<h1>` through `<h6>`
 
-`<h1>` tag indicates that the text between the opening and closing tags is the **most important**. `<h6>`is the **least important**.   
+`<h1>` tag indicates that the text between the opening and closing tags is the **most important**. `<h6>`is the **least important**.  
 Therefore, the closer the tag is to h1 numerically, the larger the text!
 
 Try it out!
