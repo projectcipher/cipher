@@ -42,7 +42,7 @@ _Note: You should have a Cloud 9 account after following the _[_Workspace Setup_
 
 1. Head to [https://c9.io](https://c9.io)
 
-2. Open the workspace titled `"cipher-projects"`.
+2. Open the workspace you made in [Guide One](/guides/workspace_setup/README.md).
 
 3. It will take a few seconds to load. After it does, you should get a page that looks similiar to this:
 
