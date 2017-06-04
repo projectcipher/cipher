@@ -6,10 +6,9 @@
 
 Thugify is an introduction to the basics of Javascript
 
-We'll be adding ", dawg" to the end of whatever you type into an input box — simple, but sweet.
+We'll be adding ", dawg" to the end of whatever you type into an input box — simple, but sweet. You'll be able to change the word added at your own will.
 
-* You'll be able to change the word added at your own will.
-* You can customize this to make it Politify, which adds ",please" instead
+For example, you can customize this to make it Politify, which adds ", please" instead
 
 This slide deck created by Amy Sorto and modified by [Cipher](http://projectcipher.io) is a great introduction to key concepts. Please take a look through it [here](https://docs.google.com/presentation/d/1N2l9FTYlGCocr8cqjLaHpp5tgv0hS-WI3US7PiMbRnc/edit)!
 
@@ -29,16 +28,35 @@ Final Webpage: [http://jevinsidhu.github.io/thugify](http://jevinsidhu.github.io
 
 ## Setting Up Your HTML File
 
+If you don't remember the basic structure of an HTML file, take a look at the [Personal Website](https://learn.projectcipher.io/guides/personal_website/) guide!
+
+In this guide, we will cover connecting the CSS and JavaScript file, and nothing else. However, the finished structure is at the end of this "Setting Up Your HTML File" section.
+
 ### Connecting the Files
 
 We need to connect the HTML file to the CSS and JavaScript files.
 
-Let's connect the CSS file first: `<link href="style.css" rel="stylesheet">`
 
-This line creates a `link` tag that describes:
+#### CSS
+Let's connect our CSS file first: `<link href="style.css" rel="stylesheet">`
 
-* the location of the CSS file with the attribute `href`
-* that we are linking a "stylesheet", or CSS file with the attribute`rel`
+This line creates a `link` tag that should be placed in between the `<head>` and `</head>` tag. It describes:
+
+* The location of the CSS file with the attribute `href`
+* That we are linking a "stylesheet", or CSS file with the attribute`rel`
+
+
+#### JavaScript
+Next, connect our JavaScript file: `<script src="script.js">` 
+
+This line is **linking the HTML file to the JS file**, just like we link CSS.
+
+It creates a `script` tag that is placed right before the `</body>` tag.
+
+* Webpages + browsers are really dumb, humans just make them smart
+* `<script>` is a tag that links the HTML file to the JavaScript file
+  * `src` is called an **attribute**
+    * It **specifies the location** — in this case it was simply the file name, _“script.js”_ 
 
 ```
 <!DOCTYPE html>
@@ -55,30 +73,9 @@ This line creates a `link` tag that describes:
 </html>
 ```
 
-`<script src="script.js">` is **linking the HTML file to the JS file**
+### Create the HTML Structure
 
-* Webpages + browsers are really dumb, humans just make them smart
-* `<script>` is a tag that links the HTML file to the JavaScript file
-  * `src` is called an **attribute**
-    * It **specifies the location** — in this case it was simply the file name, _“script.js”_ 
-
-### NOTE: MAKE SURE YOU HAVE CLOSING TAGS
-
-`<h1> </h1>`
-
-## Creating the HTML Structure
-
-Our focus for this workship is the basics of **JavaScript + jQuery.** Let's finish up our HTML first!  
-![](https---d2mxuefqeaa7sj.cloudfront.net-s_E2C9EC3A53C7D3F150F7715638F7F1B7BEFDBDD43B2CBAF8BECDEE9CE6CD10B0_1449367351294_giphy.gif)
-
-Next, let's connect the JavaScript file: `<script src="script.js"> </script>`
-
-`<script>` is a tag that links the HTML file to the JavaScript file
-
-* `src` is an attribute that specifies the location
-  * the location is the file name, `script.js`
-
-### Create the Structure
+Our focus for this workship is the basics of JavaScript. Let's finish up our HTML first!  
 
 First, create a `<div> </div>` tag.
 
@@ -93,16 +90,15 @@ This is a container to:
 </div>
 ```
 
-Next, add the name of the workshop, let's create a `<h1> </h1>` header tag.
+Next, add the name of the workshop; let's create a `<h1> </h1>` header tag.
 
-Give the header tag an id of "title"
+Give the header tag an id of "title".
 
 * Type `id="title"` before the `<h1` is closed
 
 It should look like this: `<h1 id="title"> Thugify </h1>`
 
-* I.e. there may be multiple `<h1>` tags in your code
-* To select one it needs to have its custom name, thus the id
+* I.e. there may be multiple `<h1>` tags in your code. To select one it needs to have its custom name, thus the id
 
 Indent your code!
 
@@ -238,7 +234,6 @@ We want **you** to style the page!
 
 If you feel completely lost, no worries! Go back to our older workshops and skim through those \(linked at the top of this document\).
 
-### [We the best; you can put the hinges in the hands.](https://www.youtube.com/watch?v=skY-FKgOIew)
 
 ## Javascript, dawg
 
@@ -362,12 +357,3 @@ document.getElementById('go').onclick = function() {
 ## You are now a JavaScript Legend.
 
 ![](http://i.imgur.com/BJiD03Q.gif)
-
-Unless you copy-pasted then ehhhh. Maybe a half-legend or something.
-
-Your mom thinks you're special, that's all that really matters\*
-
-## Thanks for completing our workshop &lt;3
-
-
-
